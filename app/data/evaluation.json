@@ -3,34 +3,34 @@
   {
    "season": "2024-25 season",
    "horizon": "24 h",
-   "MAE_model": 28.0,
-   "MAE_persistence": 32.7,
-   "MAE_seasonal": 48.2,
-   "skill_vs_persistence": 0.144
+   "MAE_model": 28.4,
+   "MAE_persistence": 32.8,
+   "MAE_seasonal": 48.3,
+   "skill_vs_persistence": 0.134
   },
   {
    "season": "2024-25 season",
    "horizon": "48 h",
-   "MAE_model": 38.0,
-   "MAE_persistence": 44.1,
-   "MAE_seasonal": 48.0,
-   "skill_vs_persistence": 0.138
+   "MAE_model": 37.9,
+   "MAE_persistence": 44.2,
+   "MAE_seasonal": 48.1,
+   "skill_vs_persistence": 0.143
   },
   {
    "season": "2025-26 season",
    "horizon": "24 h",
    "MAE_model": 25.4,
-   "MAE_persistence": 25.8,
-   "MAE_seasonal": 68.5,
-   "skill_vs_persistence": 0.016
+   "MAE_persistence": 26.1,
+   "MAE_seasonal": 68.4,
+   "skill_vs_persistence": 0.027
   },
   {
    "season": "2025-26 season",
    "horizon": "48 h",
-   "MAE_model": 34.6,
-   "MAE_persistence": 36.1,
-   "MAE_seasonal": 69.6,
-   "skill_vs_persistence": 0.042
+   "MAE_model": 36.0,
+   "MAE_persistence": 36.5,
+   "MAE_seasonal": 69.5,
+   "skill_vs_persistence": 0.014
   }
  ],
  "classifier": [
@@ -38,8 +38,9 @@
    "season": "2024-25 season",
    "method": "SAANS classifier",
    "hazardous_hours": 1332,
-   "hit_rate": 0.919,
-   "false_alarm_ratio": 0.332,
+   "hit_rate": 0.926,
+   "false_alarm_ratio": 0.335,
+   "false_alarm_rate": 0.101,
    "F1": 0.774
   },
   {
@@ -48,23 +49,26 @@
    "hazardous_hours": 1332,
    "hit_rate": 0.755,
    "false_alarm_ratio": 0.244,
+   "false_alarm_rate": 0.053,
    "F1": 0.755
   },
   {
    "season": "2025-26 season",
    "method": "SAANS classifier",
-   "hazardous_hours": 2913,
-   "hit_rate": 0.922,
-   "false_alarm_ratio": 0.331,
-   "F1": 0.775
+   "hazardous_hours": 2959,
+   "hit_rate": 0.925,
+   "false_alarm_ratio": 0.339,
+   "false_alarm_rate": 0.122,
+   "F1": 0.771
   },
   {
    "season": "2025-26 season",
    "method": "Persistence (last 24 h >= 225.5)",
-   "hazardous_hours": 2913,
-   "hit_rate": 0.761,
-   "false_alarm_ratio": 0.233,
-   "F1": 0.764
+   "hazardous_hours": 2959,
+   "hit_rate": 0.758,
+   "false_alarm_ratio": 0.236,
+   "false_alarm_rate": 0.06,
+   "F1": 0.761
   }
  ]
 }

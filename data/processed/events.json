@@ -1,0 +1,4252 @@
+[
+ {
+  "start_date":"2020-01-06",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":6.0,
+  "title":"Winter holidays for Punjab schools extended until Jan 12 - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1526626",
+  "hid":12
+ },
+ {
+  "start_date":"2020-01-06",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Winter vacations extended for schools in Punjab | The Express Tribune",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2131389\/1-winter-vacations-extended-schools-punjab\/",
+  "hid":13
+ },
+ {
+  "start_date":"2020-01-06",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":6.0,
+  "title":"Winter holidays for Punjab schools extended until Jan 12 as cold wave intensifies - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1526626\/winter-holidays-for-punjab-schools-extended-until-jan-12-as-cold-wave-intensifies",
+  "hid":14
+ },
+ {
+  "start_date":"2020-01-21",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Bodies formed to check fuel adulteration",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/601798-bodies-formed-to-check-fuel-adulteration",
+  "hid":37
+ },
+ {
+  "start_date":"2020-10-12",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Zimbabwe ODIs moved to Rawalpindi over smog fears - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1584587\/zimbabwe-odis-moved-to-rawalpindi-over-smog-fears",
+  "hid":60
+ },
+ {
+  "start_date":"2020-10-13",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Pakistan - Zimbabwe Matches to Start Early Due to Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2020\/10\/13\/pakistan-zimbabwe-matches-to-start-early-due-to-smog\/",
+  "hid":63
+ },
+ {
+  "start_date":"2020-10-13",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"PCB tweaks timings for Zimbabwe series due to smog , dew threat",
+  "domain":"geosuper.tv",
+  "url":"https:\/\/www.geosuper.tv\/latest\/6767-pak-vs-zim-match-timings-tweaked-to-pre-empt-smog-dew-dual-threat",
+  "hid":64
+ },
+ {
+  "start_date":"2020-10-15",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Officially Calls Smog a  Disaster  ",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2020\/10\/15\/punjab-officially-calls-smog-a-disaster\/",
+  "hid":67
+ },
+ {
+  "start_date":"2020-10-16",
+  "event_type":"crop_burning_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Bans Crop Burning , Substandard Fuels to Curb Smog",
+  "domain":"newsweekpakistan.com",
+  "url":"https:\/\/www.newsweekpakistan.com\/punjab-bans-crop-burning-substandard-fuels-to-curb-smog\/",
+  "hid":68
+ },
+ {
+  "start_date":"2020-10-16",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Imposes a Ban on Heavy Smoke - Emitting Vehicles to Prevent Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2020\/10\/16\/punjab-imposes-a-ban-on-heavy-smoke-emitting-vehicles-to-prevent-smog\/",
+  "hid":69
+ },
+ {
+  "start_date":"2020-11-07",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Brick kilns to shut down from Nov 7",
+  "domain":"radio.gov.pk",
+  "url":"http:\/\/www.radio.gov.pk\/25-10-2020\/brick-kilns-to-shut-down-from-nov-7",
+  "hid":77
+ },
+ {
+  "start_date":"2020-10-25",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore smog : Commissioner orders crackdown on smoke - emitting vehicles , factories",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/315056-lahore-smog-commissioner-orders-crackdown-on-smoke-emitting-vehicles-factories",
+  "hid":79
+ },
+ {
+  "start_date":"2020-10-28",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":11.0,
+  "title":"Brick kilns in Punjab to remain closed till Nov 7 to control smog",
+  "domain":"dunyanews.tv",
+  "url":"http:\/\/dunyanews.tv\/en\/Pakistan\/570732-Brick-kilns-Punjab-remain-closed-Nov-7-control-smog",
+  "hid":85
+ },
+ {
+  "start_date":"2020-11-07",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Traditional kilns being closed across Punjab from 7th of next month : Buzdar",
+  "domain":"radio.gov.pk",
+  "url":"http:\/\/www.radio.gov.pk\/28-10-2020\/traditional-kilns-being-closed-across-province-from-7th-of-next-month-buzdar",
+  "hid":87
+ },
+ {
+  "start_date":"2020-10-30",
+  "event_type":"crop_burning_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"32 cases lodged against smog law violators | The Express Tribune",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2270426\/32-cases-lodged-against-smog-law-violators",
+  "hid":93
+ },
+ {
+  "start_date":"2020-11-03",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Brick kilns sealed , vehicles fined for smoke emission",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2270834\/brick-kilns-sealed-vehicles-fined-for-smoke-emission",
+  "hid":96
+ },
+ {
+  "start_date":"2020-11-11",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore Traffic Police Fines Over 30 , 000 Smoke Emitting Vehicles to Eliminate Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2020\/11\/11\/lahore-traffic-police-fines-over-30000-smoke-emitting-vehicles-to-eliminate-smog\/",
+  "hid":114
+ },
+ {
+  "start_date":"2020-11-12",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Five factories , three tyre burning units sealed | The Express Tribune",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2271964\/five-factories-three-tyre-burning-units-sealed",
+  "hid":116
+ },
+ {
+  "start_date":"2020-11-19",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"EPA seals 61 brick kilns defying closure orders | The Express Tribune",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2272771\/epa-seals-61-brick-kilns-defying-closure-orders",
+  "hid":134
+ },
+ {
+  "start_date":"2020-12-04",
+  "event_type":"crop_burning_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC orders Rs50 , 000 fine on stubble burning ban violators - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1593877\/lhc-orders-rs50000-fine-on-stubble-burning-ban-violators",
+  "hid":171
+ },
+ {
+  "start_date":"2020-12-04",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"CM Buzdar okays three new parks to combat air pollution in Punjab",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/322232-punjab-is-getting-three-national-parks-to-improve-air-pollution",
+  "hid":173
+ },
+ {
+  "start_date":"2020-12-05",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Brick kilns start switching to zigzag technology",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2274703\/brick-kilns-start-switching-to-zigzag-technology",
+  "hid":178
+ },
+ {
+  "start_date":"2020-12-09",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Burning garbage prohibited in Pindi | The Express Tribune",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2275237\/burning-garbage-prohibited-in-pindi",
+  "hid":190
+ },
+ {
+  "start_date":"2020-12-09",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"SAMAA - Peshawar - Burhan motorway closed as fog rolls in",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/news\/2020\/12\/peshawar-burhan-motorway-closed-as-fog-rolls-in\/",
+  "hid":191
+ },
+ {
+  "start_date":"2020-12-11",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"EPD seals 112 brick kilns | The Express Tribune",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2275510\/epd-seals-112-brick-kilns",
+  "hid":199
+ },
+ {
+  "start_date":"2021-01-02",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Motorway closed , flights cancelled as thick fog dwells in Punjab",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/327708-thick-fog-engulfs-punjab",
+  "hid":228
+ },
+ {
+  "start_date":"2021-01-04",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Converts One - Third of All Brick Kilns to Eco - Friendly Technology",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2021\/01\/04\/punjab-converts-one-third-of-all-brick-kilns-to-eco-friendly-technology\/",
+  "hid":241
+ },
+ {
+  "start_date":"2021-10-07",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt declares smog a calamity - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1650538\/punjab-govt-declares-smog-a-calamity",
+  "hid":271
+ },
+ {
+  "start_date":"2021-10-07",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt imposes section - 144 to control smog",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/623020-Punjab-govt-decides-take-actions-control-smog-",
+  "hid":273
+ },
+ {
+  "start_date":"2021-10-07",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Section 144 imposed in Punjab to control smog",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/826396\/section-144-imposed-in-punjab-to-control-smog\/",
+  "hid":274
+ },
+ {
+  "start_date":"2021-10-12",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Section 144 imposed to check smog - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1651499\/section-144-imposed-to-check-smog",
+  "hid":279
+ },
+ {
+  "start_date":"2021-11-05",
+  "event_type":"fireworks_night",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Diwali celebration leaves Delhi wheezing in dangerously unhealthy air",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/380422-diwali-celebration-leaves-delhi-wheezing-in-dangerously-unhealthy-air",
+  "hid":308
+ },
+ {
+  "start_date":"2021-11-05",
+  "event_type":"fireworks_night",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Delhi wheezing in dangerously unhealthy air due to Diwali",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/837878\/delhi-wheezing-in-dangerously-unhealthy-air-due-to-diwali\/",
+  "hid":309
+ },
+ {
+  "start_date":"2021-11-06",
+  "event_type":"fireworks_night",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Diwali leaves Delhi wheezing in dangerously unhealthy air - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1656221\/diwali-leaves-delhi-wheezing-in-dangerously-unhealthy-air",
+  "hid":310
+ },
+ {
+  "start_date":"2021-11-06",
+  "event_type":"fireworks_night",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Diwali leaves Delhi wheezing in dangerously unhealthy air",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2328130\/the-partys-over-diwali-leaves-delhi-wheezing-in-dangerously-unhealthy-air",
+  "hid":312
+ },
+ {
+  "start_date":"2021-11-14",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Five anti - smog squads formed to curb pollution in Lahore - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1657968\/five-anti-smog-squads-formed-to-curb-pollution-in-lahore",
+  "hid":338
+ },
+ {
+  "start_date":"2021-11-14",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"5 anti - smog squads formed to curb pollution in Lahore - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1657968\/5-anti-smog-squads-formed-to-curb-pollution-in-lahore",
+  "hid":339
+ },
+ {
+  "start_date":"2021-11-15",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog squad formed to check air pollution in Lahore",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/842109\/anti-smog-squad-formed-to-check-air-pollution-in-lahore\/",
+  "hid":346
+ },
+ {
+  "start_date":"2021-11-16",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Euro - 2 fuel banned in Lahore to combat air pollution",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2329700\/euro-2-fuel-banned-in-lahore-to-combat-worsening-air-pollution",
+  "hid":354
+ },
+ {
+  "start_date":"2021-11-17",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab govt bans sale of Euro - 2 fuel in Lahore to combat air pollution",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-govt-bans-sale-of-euro-2-fuel-in-lahore-to-combat-air-pollution\/",
+  "hid":355
+ },
+ {
+  "start_date":"2021-11-17",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab bans Euro - 2 fuel in Lahore to curb air pollution",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/843017\/punjab-bans-euro-2-fuel-in-lahore-to-curb-air-pollution\/",
+  "hid":364
+ },
+ {
+  "start_date":"2021-11-18",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog : LHC orders 50 % private employees to work from home",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/news\/2021\/11\/smog-lhc-orders-50-private-employees-to-work-from-home\/",
+  "hid":375
+ },
+ {
+  "start_date":"2021-11-18",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"50pc staff in Lahore told to work from home amid high AQI",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2330015\/50pc-private-sector-staff-in-lahore-told-to-work-from-home-amid-high-aqi",
+  "hid":378
+ },
+ {
+  "start_date":"2021-11-18",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog : LHC directs Punjab to cut office attendance by 50 % ",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/909696-smog-lhc-directs-punjab-to-cut-office-attendance-by-50",
+  "hid":379
+ },
+ {
+  "start_date":"2021-11-18",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders private offices in Lahore to halve staff attendance to tackle smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1658799",
+  "hid":380
+ },
+ {
+  "start_date":"2021-11-18",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Smog : LHC directs private offices to allow work from home for 50pc employees",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/629211-Smog:-LHC-directs-private-offices-allow-50pc-employees-work-from-home",
+  "hid":381
+ },
+ {
+  "start_date":"2021-11-19",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"LHC wants 50pc attendance in offices due to smog",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/909836-lhc-wants-50pc-attendance-in-offices-due-to-smog",
+  "hid":387
+ },
+ {
+  "start_date":"2021-11-19",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog situation : Punjab govt ordered to ensure 50pc attendance in private offices",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/909854-smog-situation-punjab-govt-ordered-to-ensure-50pc-attendance-in-private-offices",
+  "hid":388
+ },
+ {
+  "start_date":"2021-11-19",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Court halves attendance in Punjab private offices over smog - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1658912\/court-halves-attendance-in-punjab-private-offices-over-smog",
+  "hid":390
+ },
+ {
+  "start_date":"2021-11-19",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"50 % attendance at offices ordered",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2330067\/50-attendance-at-offices-ordered",
+  "hid":395
+ },
+ {
+  "start_date":"2021-11-20",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore smog : Punjab announces 50 % work from home , heavy fines for polluters",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/383110-lahore-smog-punjab-announces-50-work-from-home-heavy-fines-for-polluters",
+  "hid":398
+ },
+ {
+  "start_date":"2021-11-20",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab CM imposes 50pc cut in official vehicles - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1659171\/punjab-cm-imposes-50pc-cut-in-official-vehicles",
+  "hid":408
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"  Smog calamity  declared in Punjab",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2330486\/smog-calamity-declared-in-punjab",
+  "hid":425
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab shuts schools , private offices thrice a week amid intense smog",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/punjab-shuts-schools-private-offices-thrice-a-week-amid-intense-smog\/",
+  "hid":427
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt orders closure of educational institutes , offices on Mondays to mitigate effects of smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1659613\/punjab-govt-orders-closure-of-educational-institutes-offices-on-mondays-to-mitigate-effects-of-smog",
+  "hid":428
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Schools , offices in Lahore to remain shut three days a week",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2330557\/schools-offices-in-lahore-to-remain-shut-three-days-a-week-due-to-smog",
+  "hid":429
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore smog : Schools to remain closed three days a week",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/news\/pakistan\/2021\/11\/lahore-smog-schools-to-remain-closed-three-days-a-week\/",
+  "hid":430
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore schools , offices to remain shut thrice a week as smog worsens",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/383597-lahore-schools-offices-to-shut-for-three-days-a-week-as-smog-worsens",
+  "hid":431
+ },
+ {
+  "start_date":"2021-11-22",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Toxic smog leads to closure of Lahore schools three days a week",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/629823-Toxic-smog-leads-to-closure-of-Lahore-schools-three-days-a-week",
+  "hid":432
+ },
+ {
+  "start_date":"2021-11-23",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Worsening smog condition : Educational institutes , private offices to remain shut for three days a week in Lahore",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/910952-worsening-smog-condition-educational-institutes-private-offices-to-remain-shut-for-three-days-a-week-in-lahore",
+  "hid":433
+ },
+ {
+  "start_date":"2021-11-23",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog strategy for Lahore : Three - day weekly closure of education institutes ordered - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1659663\/anti-smog-strategy-for-lahore-three-day-weekly-closure-of-education-institutes-ordered",
+  "hid":438
+ },
+ {
+  "start_date":"2021-11-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Offices , Educational Institutions in Punjab to Remain Shut on Mondays to Reduce Smog",
+  "domain":"newsweekpakistan.com",
+  "url":"https:\/\/www.newsweekpakistan.com\/offices-educational-institutions-in-punjab-to-remain-shut-on-mondays-to-reduce-smog\/",
+  "hid":439
+ },
+ {
+  "start_date":"2021-11-25",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Crackdown on units causing pollution - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1660022\/crackdown-on-units-causing-pollution",
+  "hid":455
+ },
+ {
+  "start_date":"2021-11-25",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog squads target Lahore factories as winter sets in - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1660184\/anti-smog-squads-target-lahores-factories-as-winter-sets-in",
+  "hid":456
+ },
+ {
+  "start_date":"2021-11-25",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog squads target factories as winter sets in Lahore",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2331037\/anti-smog-squads-target-factories-as-winter-sets-in-lahore",
+  "hid":459
+ },
+ {
+  "start_date":"2021-11-25",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog squads target factories in Lahore by scanning smoke",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/news\/2021\/11\/anti-smog-squads-target-factories-in-lahore-by-scanning-smoke\/",
+  "hid":460
+ },
+ {
+  "start_date":"2021-11-26",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Anti - smog squads target factories as winter sets in - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1660314\/anti-smog-squads-target-factories-as-winter-sets-in",
+  "hid":461
+ },
+ {
+  "start_date":"2021-12-15",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Government announces closure of schools from Dec 15",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/government-announces-closure-of-schools-from-dec-15\/",
+  "hid":504
+ },
+ {
+  "start_date":"2021-12-03",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Anti - smog teams in action against polluters - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1661645\/anti-smog-teams-in-action-against-polluters",
+  "hid":506
+ },
+ {
+  "start_date":"2021-12-03",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog teams in action against Lahore polluters - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1661645\/anti-smog-teams-in-action-against-lahore-polluters",
+  "hid":511
+ },
+ {
+  "start_date":"2021-12-03",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Motorway closed across various points as fog envelops Punjab , KP",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/motorway-closed-across-various-points-as-fog-envelops-punjab-kp\/",
+  "hid":512
+ },
+ {
+  "start_date":"2021-12-03",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Motorway shuts down as fog thickens",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/849703\/motorway-shuts-down-as-fog-thickens\/",
+  "hid":513
+ },
+ {
+  "start_date":"2021-12-06",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"M - tag mandatory for vehicles on Islamabad - Lahore motorway",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/news\/2021\/12\/m-tag-mandatory-for-vehicles-on-islamabad-lahore-motorway\/",
+  "hid":539
+ },
+ {
+  "start_date":"2021-12-08",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"M - Tag mandatory for Islamabad - Lahore Motorway",
+  "domain":"newsmakers.pk",
+  "url":"https:\/\/newsmakers.pk\/m-tag-mandatory-for-islamabad-lahore-motorway\/",
+  "hid":545
+ },
+ {
+  "start_date":"2021-12-10",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"SEPA seals steels mills in Nooriabad over emitting hazardous smoke",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/sepa-seals-steels-mills-in-nooriabad-over-emitting-hazardous-smoke\/",
+  "hid":556
+ },
+ {
+  "start_date":"2021-12-11",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"SEPA seals steels mills over emitting hazardous smoke",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/sepa-seals-steels-mills-over-emitting-hazardous-smoke\/",
+  "hid":558
+ },
+ {
+  "start_date":"2021-12-17",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab smog : Schools closed , flight operations cancelled",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/environment\/2021\/12\/punjab-smog-schools-closed-flight-operations-cancelled\/",
+  "hid":602
+ },
+ {
+  "start_date":"2021-12-17",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab fog : Motorways closed , flight operations cancelled",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/environment\/2021\/12\/punjab-fog-motorways-closed-flight-operations-cancelled\/",
+  "hid":603
+ },
+ {
+  "start_date":"2022-01-03",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Winter vacations : NCOC decides to close educational institutions from Jan 3",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/633408-Winter-vacations-NCOC-decides-close-educational-institutions-January-3",
+  "hid":605
+ },
+ {
+  "start_date":"2022-01-03",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"NCOC Directs Educational Institutions to Commence Winter Vacations on Jan . 3",
+  "domain":"newsweekpakistan.com",
+  "url":"https:\/\/www.newsweekpakistan.com\/ncoc-directs-educational-institutions-to-commence-winter-vacations-on-jan-3\/",
+  "hid":606
+ },
+ {
+  "start_date":"2021-12-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools to close on Dec 23 , Punjab govt informs LHC",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2334355\/schools-to-close-on-dec-23-punjab-govt-informs-lhc",
+  "hid":607
+ },
+ {
+  "start_date":"2021-12-23",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog in Lahore : Punjab to close schools from Dec 23",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/news\/2021\/12\/smog-in-lahore-punjab-to-close-schools-from-dec-23\/",
+  "hid":608
+ },
+ {
+  "start_date":"2021-12-17",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt announces date for winter vacations in public , private schools",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/punjab-govt-announces-date-for-winter-vacations-in-public-private-schools\/",
+  "hid":609
+ },
+ {
+  "start_date":"2021-12-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt announces winter holidays from Dec 23",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/633426-Punjab-govt-announces-winter-holidays-from-Dec-23",
+  "hid":610
+ },
+ {
+  "start_date":"2022-01-03",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"NCOC plans winter vacations for schools from Jan 3",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/ncoc-plans-winter-vacations-for-schools-from-jan-3\/",
+  "hid":612
+ },
+ {
+  "start_date":"2021-12-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab ready to commence winter vacations from Dec 23",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-ready-to-commence-winter-vacations-from-dec-23\/",
+  "hid":613
+ },
+ {
+  "start_date":"2021-12-19",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Sindh government revises winter vacation schedule",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/388530-sindh-govt-revises-winter-vacations-schedule",
+  "hid":618
+ },
+ {
+  "start_date":"2021-12-19",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Sindh revises schedule for winter vacations in schools",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/918031-sindh-revises-schedule-for-winter-vacations-in-schools",
+  "hid":622
+ },
+ {
+  "start_date":"2021-12-19",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Sindh government revises schedule for winter vacations in schools",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/856949\/sindh-government-revises-schedule-for-winter-vacations-in-schools\/",
+  "hid":623
+ },
+ {
+  "start_date":"2021-12-20",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab declares winter vacations for colleges , universities",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/857334\/punjab-declares-winter-vacations-for-colleges-universities\/",
+  "hid":631
+ },
+ {
+  "start_date":"2021-12-21",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab announces winter vacations for schools in two phases",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/education\/2021\/12\/punjab-announces-winter-vacations-for-schools-in-two-phases\/",
+  "hid":636
+ },
+ {
+  "start_date":"2021-12-21",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab revises winter vacation schedule",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/389021-punjab-revises-winter-vacation-schedule-for-smog-affected-areas",
+  "hid":637
+ },
+ {
+  "start_date":"2021-12-21",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"What is the winter vacation schedule in Punjab ? ",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/918665-what-is-the-winter-vacation-schedule-in-punjab",
+  "hid":638
+ },
+ {
+  "start_date":"2021-12-24",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"10 commercial units booked for causing smog - Pakistan Observer",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/10-commercial-units-booked-for-causing-smog\/",
+  "hid":653
+ },
+ {
+  "start_date":"2021-12-24",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Winter vacations start from today in 24 districts of Punjab",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/389462-winter-vacations-start-from-today-in-24-districts-of-punjab",
+  "hid":657
+ },
+ {
+  "start_date":"2021-12-24",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Winter vacations start from today in Punjab",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/858904\/winter-vacations-start-from-today-in-punjab\/",
+  "hid":658
+ },
+ {
+  "start_date":"2021-12-25",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Motorways closed amid thick fog - Daily Times",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/859248\/motorways-closed-amid-thick-fog\/",
+  "hid":659
+ },
+ {
+  "start_date":"2021-12-25",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Vehicles sans fitness certificates barred from entering Lahore - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1665608\/vehicles-sans-fitness-certificates-barred-from-entering-lahore",
+  "hid":660
+ },
+ {
+  "start_date":"2021-12-29",
+  "event_type":"fireworks_night",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab bans fireworks , concerts and aerial firing on New Year night",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-bans-fireworks-concerts-and-aerial-firing-on-new-year-night\/",
+  "hid":677
+ },
+ {
+  "start_date":"2022-01-01",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Motorway shut down due to thick smog",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/862496\/motorway-shut-down-due-to-thick-smog\/",
+  "hid":683
+ },
+ {
+  "start_date":"2022-01-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Winter vacations : Punjab schools to reopen from Jan 7 , says Murad Raas",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/922930-winter-vacations-punjab-schools-to-reopen-from-jan-7-says-murad-raas",
+  "hid":690
+ },
+ {
+  "start_date":"2022-01-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab schools to reopen from January 7",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/education\/2022\/01\/punjab-schools-to-reopen-from-january-7\/",
+  "hid":691
+ },
+ {
+  "start_date":"2022-01-11",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Dense fog interrupts normal life , shuts down motorways",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/867044\/dense-fog-interrupts-normal-life-shuts-down-motorways\/",
+  "hid":703
+ },
+ {
+  "start_date":"2022-10-01",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Rising coal costs force closure of brick kilns",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2379454\/rising-coal-costs-force-closure-of-brick-kilns",
+  "hid":720
+ },
+ {
+  "start_date":"2022-10-10",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog : 55 industrial units sealed in Lahore for polluting air",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2380910\/smog-55-industrial-units-sealed-in-lahore-for-polluting-air",
+  "hid":728
+ },
+ {
+  "start_date":"2022-10-27",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"12 pyrolysis plants demolished for causing air pollution - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1717055\/12-pyrolysis-plants-demolished-for-causing-air-pollution",
+  "hid":759
+ },
+ {
+  "start_date":"2022-10-27",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"12 pyrolysis plants in Lahore demolished for causing air pollution - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1717055\/12-pyrolysis-plants-in-lahore-demolished-for-causing-air-pollution",
+  "hid":760
+ },
+ {
+  "start_date":"2022-10-28",
+  "event_type":"construction_or_industry_ban",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Islamabad High Court Orders to Shut Down Sheesha Cafes in Islamabad",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/10\/28\/islamabad-high-court-orders-to-shut-down-sheesha-cafes-in-islamabad\/",
+  "hid":762
+ },
+ {
+  "start_date":"2022-10-30",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Crackdown on industrial units in bid to control smog - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1717602\/crackdown-on-industrial-units-in-bid-to-control-smog",
+  "hid":764
+ },
+ {
+  "start_date":"2022-10-30",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Crackdown on Lahore industrial units in bid to control smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1717602\/crackdown-on-lahores-industrial-units-in-bid-to-control-smog",
+  "hid":765
+ },
+ {
+  "start_date":"2022-10-31",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"EPD seals 33 units , imposes Rs 4 lac fine over spreading smoke",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/epd-seals-33-units-imposes-rs-4-lac-fine-over-spreading-smoke\/",
+  "hid":767
+ },
+ {
+  "start_date":"2022-10-31",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Delhi stops construction as pollution set to worsen from Tuesday",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2384062\/delhi-stops-construction-as-pollution-set-to-worsen-from-tuesday",
+  "hid":774
+ },
+ {
+  "start_date":"2022-10-31",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Delhi stops construction as pollution set to worsen",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1020688\/delhi-stops-construction-as-pollution-set-to-worsen-from-tuesday\/",
+  "hid":775
+ },
+ {
+  "start_date":"2022-11-07",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"369 smoky vehicles impounded - Pakistan Observer",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/369-smoky-vehicles-impounded-2\/",
+  "hid":797
+ },
+ {
+  "start_date":"2022-11-10",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"First - ever e - bus starts pilot run on Lahore roads - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1720034\/first-ever-e-bus-starts-pilot-run-on-lahore-roads",
+  "hid":799
+ },
+ {
+  "start_date":"2022-11-30",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"One - way rule violators to face criminal cases , says CTO - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1723863\/one-way-rule-violators-to-face-criminal-cases-says-cto",
+  "hid":834
+ },
+ {
+  "start_date":"2022-11-30",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore traffic police to register cases for one - way violation",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/677442-Lahore-traffic-police-to-register-cases-for-one-way-violation",
+  "hid":835
+ },
+ {
+  "start_date":"2022-12-06",
+  "event_type":"smog_emergency",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab govt imposes  environmental emergency  in smog - hit Lahore - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1724971\/punjab-govt-imposes-environmental-emergency-in-smog-hit-lahore",
+  "hid":863
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Environmental emergency imposed in Punjab",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1017609-environmental-emergency-imposed-in-punjab",
+  "hid":865
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":3.0,
+  "title":"Lahore schools to remain closed thrice a week amid smog",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/678830--Lahore-schools-to-remain-close-thrice-a-week-amid-smog",
+  "hid":867
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":2.0,
+  "title":"Lahore schools to remain closed two days a week due to prevailing smog situation",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/457076-lahore-schools-to-remain-closed-two-days-a-week-due-to-prevailing-smog-situation",
+  "hid":868
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":2.0,
+  "title":"No school on Fridays and Saturdays in smog - hit Lahore",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1017636-lahore-schools-to-remain-closed-on-fridays-and-saturdays-due-to-smog",
+  "hid":869
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":3.0,
+  "title":"Smog forces closure of schools three days a week across Lahore - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1725128\/smog-forces-closure-of-schools-three-days-a-week-across-lahore",
+  "hid":871
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":3.0,
+  "title":"Three - day weekly closure of schools announced in Punjab",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1036597\/three-day-weekly-closure-of-schools-announced-in-punjab\/",
+  "hid":872
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":2.0,
+  "title":"Schools in Lahore to remain closed every Friday , Saturday",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2389855\/public-private-schools-in-lahore-to-remain-closed-every-friday-saturday",
+  "hid":874
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":3.0,
+  "title":"Punjab Officially Announces 3 Holidays for Schools",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/12\/07\/punjab-officially-announces-3-holidays-for-schools\/",
+  "hid":875
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"smog_emergency",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Chief Minister Imposes Environmental - Emergency in Lahore",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/12\/07\/chief-minister-imposes-environmental-emergency-in-lahore\/",
+  "hid":876
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"smog_emergency",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog emergency imposed in Lahore",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2389854\/smog-emergency-imposed-in-lahore",
+  "hid":877
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":3.0,
+  "title":"Due to pollution , Lahore schools would closed three days a week",
+  "domain":"dailythepatriot.com",
+  "url":"https:\/\/dailythepatriot.com\/due-to-current-pollution-problem-lahore-schools-would-closed-three-days-a-week\/",
+  "hid":878
+ },
+ {
+  "start_date":"2022-12-07",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Work from Home for Offices in Lahore is Now Official",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/12\/07\/work-from-home-for-offices-in-lahore-is-now-official\/",
+  "hid":879
+ },
+ {
+  "start_date":"2022-12-08",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":3.0,
+  "title":"Smog : Lahore schools , private offices to close thrice a week",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1017971-smog-lahore-schools-private-offices-to-close-thrice-a-week",
+  "hid":882
+ },
+ {
+  "start_date":"2022-12-08",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab gets four - day work week - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1725236\/punjab-gets-four-day-work-week",
+  "hid":885
+ },
+ {
+  "start_date":"2022-12-08",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Sindh govt announces winter vacation for schools",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/457377-sindh-announces-winter-vacations-from-december-21-to-31",
+  "hid":887
+ },
+ {
+  "start_date":"2022-12-12",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Two pyrolysis plants demolished",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2390675\/two-pyrolysis-plants-demolished",
+  "hid":902
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"City markets to close at 10pm to curb smog - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1726221\/city-markets-to-close-at-10pm-to-curb-smog",
+  "hid":908
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Controlling smog : LHC directs closure of markets , restaurants by 10pm in Lahore",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/458547-controlling-smog-lhc-directs-closure-of-markets-restaurants-by-10pm",
+  "hid":909
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders restaurant closure by 10pm in smog - bitten city",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/680556-Smog-LHC-orders-restaurants-closure-by-10pm-in-Lahore-",
+  "hid":910
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Close markets , eateries in Lahore at 10pm , LHC orders as smog blankets city",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1019956-close-markets-restaurants-in-lahore-at-10pm-lhc-orders-as-smog-blankets-city",
+  "hid":911
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"High Court Enforces Curfew for Markets in Lahore",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/12\/14\/high-court-enforces-curfew-for-markets-in-lahore\/",
+  "hid":912
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"LHC orders closure of markets by 10pm due to smog",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2391066\/lhc-orders-closure-of-markets-by-10pm-due-to-smog",
+  "hid":914
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Smog : LHC orders closure of markets , restaurants at 10pm",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/smog-lahore-markets-restaurants-to-close-at-10pm\/",
+  "hid":915
+ },
+ {
+  "start_date":"2022-12-14",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders closure of markets , restaurants in smog - hit Lahore by 10pm on weekdays - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1726315",
+  "hid":916
+ },
+ {
+  "start_date":"2022-12-15",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Court orders admin to ensure markets closure by 10pm - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1726385\/court-orders-admin-to-ensure-markets-closure-by-10pm",
+  "hid":919
+ },
+ {
+  "start_date":"2022-12-15",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Markets to be shut at 10pm",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2391140\/markets-to-be-shut-at-10pm",
+  "hid":920
+ },
+ {
+  "start_date":"2022-12-19",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"EPD seals installations for smog violations",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2391729\/epd-seals-installations-for-smog-violations",
+  "hid":930
+ },
+ {
+  "start_date":"2022-12-20",
+  "event_type":"crop_burning_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Ban imposed on burning of trash",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2391869\/ban-imposed-on-burning-of-trash",
+  "hid":938
+ },
+ {
+  "start_date":"2022-12-21",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Dense fog : PIA partially shifts flight operation from Lahore to Islamabad airport",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/682634-Dense-fog:-PIA-partially-shifts-flight-operation-from-Lahore-to-Islamaba",
+  "hid":941
+ },
+ {
+  "start_date":"2022-12-22",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"PIA shifts Lahore operation to Islamabad",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2392309\/pia-shifts-lahore-operation-to-islamabad",
+  "hid":943
+ },
+ {
+  "start_date":"2022-12-22",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"PIA Redirects All Lahore - Bound Flights to Islamabad Airport",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/12\/22\/pia-redirects-all-lahore-bound-flights-to-islamabad-airport\/",
+  "hid":944
+ },
+ {
+  "start_date":"2022-12-22",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore operation is moved by PIA to Islamabad",
+  "domain":"dailythepatriot.com",
+  "url":"https:\/\/dailythepatriot.com\/lahore-operation-is-moved-by-pia-to-islamabad\/",
+  "hid":945
+ },
+ {
+  "start_date":"2022-12-23",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"M - 4 Motorway closed due to intense fog - Pakistan Observer",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/m-4-motorway-closed-due-to-intense-fog\/",
+  "hid":951
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders extension in winter vacation in smog - bitten Lahore",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/684235-LHC-orders-extension-in-winter-vacation-for-educational-institutions",
+  "hid":963
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders extension in winter vacation of schools , colleges as smog worsens",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1024287-lhc-orders-closure-of-lahore-schools-colleges-for-another-week-due-to-smog",
+  "hid":964
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"LHC orders one - week extension in winter holidays for schools",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1043804\/lhc-orders-one-week-extension-in-winter-holidays-for-schools\/",
+  "hid":965
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"LHC orders govt to extend winter vacation by 7 days due to smog",
+  "domain":"dailythepatriot.com",
+  "url":"https:\/\/dailythepatriot.com\/lhc-orders-govt-to-extend-winter-vacation-by-7-days-due-to-smog\/",
+  "hid":966
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"LHC directs govt to extend winter vacations by 7 more days in smog - hit Lahore",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/461132-lhc-directs-govt-to-extend-winter-vacations-by-7-more-days-in-smog-hit-lahore",
+  "hid":967
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Winter Vacations Extended for Lahore Public and Private Schools",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2022\/12\/27\/winter-vacations-extended-for-lahores-public-and-private-schools\/",
+  "hid":968
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"LHC orders one week extension in winter holidays due to smog",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2393034\/lhc-orders-one-week-extension-in-winter-holidays-due-to-smog-in-lahore",
+  "hid":973
+ },
+ {
+  "start_date":"2022-12-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"LHC orders week - long extension in winter vacation across schools , colleges in smog - hit Lahore - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1728529",
+  "hid":974
+ },
+ {
+  "start_date":"2022-12-28",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"LHC orders week - long extension in winter vacation across schools , colleges",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/lhc-orders-week-long-extension-in-winter-vacation-across-schools-colleges\/",
+  "hid":976
+ },
+ {
+  "start_date":"2022-12-28",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders extension of winter holidays in schools , colleges",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/lhc-orders-extension-of-winter-holidays-in-schools-colleges\/",
+  "hid":978
+ },
+ {
+  "start_date":"2022-12-28",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Schools to stay shut till Jan 9 in smog - hit Lahore - Newspaper",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1728627\/schools-to-stay-shut-till-jan-9-in-smog-hit-lahore",
+  "hid":979
+ },
+ {
+  "start_date":"2023-01-05",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt decides to extend winter holidays in schools till Jan 15",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/punjab-govt-decides-to-extend-winter-holidays-in-schools-till-jan-15\/",
+  "hid":1005
+ },
+ {
+  "start_date":"2023-01-22",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"39 businesses sealed in anti - smog campaign",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2397153\/39-businesses-sealed-in-anti-smog-campaign",
+  "hid":1045
+ },
+ {
+  "start_date":"2023-10-06",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"High Court Bans New Development Projects in Lahore",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/10\/06\/high-court-bans-new-development-projects-in-lahore\/",
+  "hid":1058
+ },
+ {
+  "start_date":"2023-10-10",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore schools , markets to remain closed due to smog",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/208732414-lahore-schools-markets-to-remain-closed-due-to-smog",
+  "hid":1061
+ },
+ {
+  "start_date":"2023-10-10",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":60.0,
+  "title":"Smog threat : Lahore to shut every Wednesday for two months",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/761684-Smog-threat:-Lahore-to-shut-on-every-Wednesday-for-two-months",
+  "hid":1062
+ },
+ {
+  "start_date":"2023-10-10",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Schools , markets to remain closed on Wednesday",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/schools-markets-to-remain-closed-on-wednesday\/",
+  "hid":1063
+ },
+ {
+  "start_date":"2023-10-11",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Markets in Lahore to shut on Wednesdays to counter smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1780457\/markets-in-lahore-to-shut-on-wednesdays-to-counter-smog",
+  "hid":1065
+ },
+ {
+  "start_date":"2023-10-12",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Mid - week day off announced in city",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2440386\/mid-week-day-off-announced-in-city",
+  "hid":1066
+ },
+ {
+  "start_date":"2023-10-15",
+  "event_type":"construction_or_industry_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"EPD razes nine pyrolysis plants at Margallas",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2441186\/epd-razes-nine-pyrolysis-plants-at-margallas",
+  "hid":1068
+ },
+ {
+  "start_date":"2023-10-24",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"CM Punjab Announces Decision on Extra Weekly Holiday for Schools in Lahore",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/10\/24\/cm-punjab-announces-decision-on-extra-weekly-holiday-for-schools-in-lahore\/",
+  "hid":1081
+ },
+ {
+  "start_date":"2023-10-27",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC bans issuance of NOCs for development projects until January",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/765961-LHC-bans-issuance-of-NOCs-for-development-projects-until-January",
+  "hid":1086
+ },
+ {
+  "start_date":"2023-11-01",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog declared  calamity  in Punjab - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1785582\/smog-declared-calamity-in-punjab",
+  "hid":1104
+ },
+ {
+  "start_date":"2023-11-02",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab declares smog emergency on LHC order",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1125100-punjab-declares-smog-emergency-on-lhc-order",
+  "hid":1105
+ },
+ {
+  "start_date":"2023-11-02",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"PDMA declares smog a calamity in Punjab",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/767388-PDMA-declares-smog-a-calamity-in-Punjab",
+  "hid":1108
+ },
+ {
+  "start_date":"2023-11-02",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Makes Wearing Face Masks Mandatory in Schools",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/02\/punjab-makes-wearing-face-masks-mandatory-in-schools\/",
+  "hid":1109
+ },
+ {
+  "start_date":"2023-11-02",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab declares smog emergency",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2444194\/punjab-declares-smog-emergency",
+  "hid":1110
+ },
+ {
+  "start_date":"2023-11-03",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Students ordered to wear masks in smog - hit Lahore - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40271464\/students-ordered-to-wear-masks-in-smog-hit-lahore",
+  "hid":1112
+ },
+ {
+  "start_date":"2023-11-03",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC orders closure of smoke - belching factories across Punjab in battle against smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1786071\/lhc-orders-closure-of-smoke-belching-factories-across-punjab-in-battle-against-smog",
+  "hid":1118
+ },
+ {
+  "start_date":"2023-11-07",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Crackdown intensified on smoke - emitting vehicles",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1126634-crackdown-intensified-on-smoke-emitting-vehicles",
+  "hid":1125
+ },
+ {
+  "start_date":"2023-11-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":4.0,
+  "title":"  Four - day  holiday in smog - hit Punjab areas",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/517912-holiday-in-punjab-next-friday-amid-smog-threat",
+  "hid":1129
+ },
+ {
+  "start_date":"2023-11-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":4.0,
+  "title":"Punjab govt declares four - day holiday as smog wave worsens - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40272132\/punjab-govt-declares-four-day-holiday-as-smog-wave-worsens",
+  "hid":1130
+ },
+ {
+  "start_date":"2023-11-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":4.0,
+  "title":"Here what you need to know about Punjab four - day  smog closure  ",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1126810-heres-what-you-need-to-know-about-punjabs-four-day-smog-closure",
+  "hid":1131
+ },
+ {
+  "start_date":"2023-11-09",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":4.0,
+  "title":"Punjab health dept orders closure of schools , offices in smog - hit areas from Nov 9 - 12 - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1787323\/punjab-health-dept-orders-closure-of-schools-offices-in-smog-hit-areas-from-nov-9-12",
+  "hid":1132
+ },
+ {
+  "start_date":"2023-11-08",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":4.0,
+  "title":"Four - Day Holiday Declared in Punjab to Combat Severe Smog Conditions",
+  "domain":"dailycapital.pk",
+  "url":"https:\/\/dailycapital.pk\/four-day-holiday-declared-in-punjab-to-combat-severe-smog-conditions\/",
+  "hid":1133
+ },
+ {
+  "start_date":"2023-11-10",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":1.0,
+  "title":"LCCI to remain closed on Nov 10",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/business\/lcci-to-remain-closed-on-nov-10\/",
+  "hid":1134
+ },
+ {
+  "start_date":"2023-11-08",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Health emergency in several Punjab districts to combat smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1787430\/health-emergency-in-several-punjab-districts-to-combat-smog",
+  "hid":1136
+ },
+ {
+  "start_date":"2023-11-09",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":4.0,
+  "title":"Pakistan : Punjab health dept orders closure of schools , offices in smog - hit areas from November 9 - 12",
+  "domain":"pakistantelegraph.com",
+  "url":"https:\/\/www.pakistantelegraph.com\/news\/274025330\/pakistan-punjab-health-dept-orders-closure-of-schools-offices-in-smog-hit-areas-from-november-9-12",
+  "hid":1138
+ },
+ {
+  "start_date":"2023-11-08",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Lockdown in several cities to enable people to breathe easy amid smog",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/768934-Lockdown-in-several-cities-to-enable-people-to-breathe-easy-amid-smog",
+  "hid":1139
+ },
+ {
+  "start_date":"2023-11-08",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Long weekend imposed to cleanse air",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2445337\/long-weekend-imposed-to-cleanse-air",
+  "hid":1141
+ },
+ {
+  "start_date":"2023-11-10",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"SBP announces closure of banks on Nov 10 in Smog hit areas of Punjab",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/business\/sbp-announces-closure-of-banks-on-nov-10-in-smog-hit-areas-of-punjab\/",
+  "hid":1143
+ },
+ {
+  "start_date":"2023-11-09",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Section 144 imposed in Lahore Division to fight smog",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1127329-section-144-imposed-in-lahore-division-to-fight-smog",
+  "hid":1145
+ },
+ {
+  "start_date":"2023-11-09",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Govt imposes smart lockdown in province from today to eliminate smog",
+  "domain":"radio.gov.pk",
+  "url":"https:\/\/www.radio.gov.pk\/09-11-2023\/punjab-govt-imposes-smart-lockdown-in-province-from-today-to-eliminate-smog",
+  "hid":1149
+ },
+ {
+  "start_date":"2023-11-10",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Schools , offices shut , parks closed due to pollution in Pakistan Lahore",
+  "domain":"southeastasiapost.com",
+  "url":"https:\/\/www.southeastasiapost.com\/news\/274028552\/schools-offices-shut-parks-closed-due-to-pollution-in-pakistan-lahore",
+  "hid":1160
+ },
+ {
+  "start_date":"2023-11-11",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab decides to lift smog lockdown as rain improves air quality",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/518415-punjab-decides-to-lift-smog-lockdown-as-rain-improves-air-quality",
+  "hid":1165
+ },
+ {
+  "start_date":"2023-11-12",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab lockdown to be lifted tomorrow",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1127801-punjab-lockdown-to-be-lifted-tomorrow-after-rain-washes-away-smog",
+  "hid":1166
+ },
+ {
+  "start_date":"2023-11-11",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt lifts lockdown after rain improves air quality - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40272655\/punjab-govt-lifts-lockdown-after-rain-improves-air-quality",
+  "hid":1167
+ },
+ {
+  "start_date":"2023-11-11",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Educational institutions in Lahore will remain closed until Sunday",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/208734247-punjab-govt-lifts-lockdown-in-lahore-as-air-quality-improves",
+  "hid":1168
+ },
+ {
+  "start_date":"2023-11-11",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt lifts lockdown after rain - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1788267\/punjab-govt-lifts-lockdown-after-rain",
+  "hid":1171
+ },
+ {
+  "start_date":"2023-11-18",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"LHC orders closure of schools on Nov 18 , recommends 2 - day remote work to curb smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1788997\/lhc-orders-closure-of-schools-on-nov-18-recommends-2-day-remote-work-to-curb-smog",
+  "hid":1178
+ },
+ {
+  "start_date":"2023-11-13",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC orders closure of schools on Saturdays to combat smog in Punjab",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/lhc-orders-closure-of-schools-on-saturdays-to-combat-smog-in-punjab\/",
+  "hid":1179
+ },
+ {
+  "start_date":"2023-11-18",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"Smog battle : Punjab schools , offices get holiday on Nov 18",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/519093-smog-battle-punjab-schools-offices-get-holiday-on-nov-18",
+  "hid":1186
+ },
+ {
+  "start_date":"2023-11-18",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"Punjab cabinet okays anti - smog measures : Campuses , govt offices to be closed on 18th",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1129468-punjab-cabinet-okays-anti-smog-measures-campuses-govt-offices-to-be-closed-on-18th",
+  "hid":1189
+ },
+ {
+  "start_date":"2023-11-16",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"M2 Motorway Closed Due to Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/16\/m2-motorway-closed-due-to-smog\/",
+  "hid":1191
+ },
+ {
+  "start_date":"2023-11-18",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"Campuses in 10 districts to remain closed tomorrow",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1129757-campuses-in-10-districts-to-remain-closed-tomorrow",
+  "hid":1193
+ },
+ {
+  "start_date":"2023-11-17",
+  "event_type":"construction_or_industry_ban",
+  "place":"Faisalabad",
+  "duration_days":null,
+  "title":"34 factories sealed during anti - smog drive in Faisalabad",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Business\/770863-34-factories-sealed-during-anti-smog-drive",
+  "hid":1197
+ },
+ {
+  "start_date":"2023-11-18",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Crackdown on underage drivers launched on Lahore High Court order - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1790267\/crackdown-on-underage-drivers-launched-on-lahore-high-courts-order",
+  "hid":1200
+ },
+ {
+  "start_date":"2023-11-18",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"10 districts of Punjab to remain closed today",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/208734657-life-in-10-districts-of-punjab-to-remain-limited-today",
+  "hid":1202
+ },
+ {
+  "start_date":"2023-11-19",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt makes face masks mandatory in smog - affected districts - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40274047\/punjab-govt-makes-face-masks-mandatory-in-smog-affected-districts",
+  "hid":1205
+ },
+ {
+  "start_date":"2023-11-19",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt makes wearing face masks mandatory in smog - hit districts - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1790681\/punjab-govt-makes-wearing-face-masks-mandatory-in-smog-hit-districts",
+  "hid":1206
+ },
+ {
+  "start_date":"2023-11-19",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt makes wearing face masks mandatory in smog affected divisions",
+  "domain":"radio.gov.pk",
+  "url":"https:\/\/www.radio.gov.pk\/19-11-2023\/punjab-govt-makes-wearing-face-masks-mandatory-in-smog-affected-divisions",
+  "hid":1208
+ },
+ {
+  "start_date":"2023-11-19",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Mask Mandate in Pakistan Punjab Due to Smog",
+  "domain":"pakistantelegraph.com",
+  "url":"https:\/\/www.pakistantelegraph.com\/news\/274038576\/mask-mandate-in-pakistans-punjab-due-to-smog",
+  "hid":1209
+ },
+ {
+  "start_date":"2023-11-19",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog threat : Punjab makes wearing masks mandatory",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/smog-threat-punjab-makes-wearing-masks-mandatory\/",
+  "hid":1210
+ },
+ {
+  "start_date":"2023-11-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt makes face mask mandatory",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1130621-punjab-govt-makes-face-mask-mandatory",
+  "hid":1216
+ },
+ {
+  "start_date":"2023-11-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Face masks made must in smog - hit Punjab - Pakistan Observer",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/face-masks-made-must-in-smog-hit-punjab\/",
+  "hid":1218
+ },
+ {
+  "start_date":"2023-11-20",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC issues new directives for schools closure in Punjab amid smog , check details",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/lhc-issues-new-directives-for-schools-closure-in-punjab-amid-smog-check-details\/",
+  "hid":1222
+ },
+ {
+  "start_date":"2023-11-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Makes Wearing Face Masks Mandatory in Multiple Districts",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/20\/punjab-makes-wearing-face-masks-mandatory-in-multiple-districts\/",
+  "hid":1224
+ },
+ {
+  "start_date":"2023-11-20",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Lahore High Court Announces Another Weekly Holiday For All Educational Institutes Till January End",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/20\/lahore-high-court-announces-another-weekly-holiday-for-all-educational-institutes-till-januarys-end\/",
+  "hid":1225
+ },
+ {
+  "start_date":"2023-11-20",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC issues new directives for schools closure in Punjab",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/lhc-issues-new-directives-for-schools-closure-in-punjab\/",
+  "hid":1226
+ },
+ {
+  "start_date":"2023-11-21",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC orders two weekly offs for Punjab educational institutions",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1131049-lhc-orders-two-weekly-offs-for-punjab-educational-institutions",
+  "hid":1229
+ },
+ {
+  "start_date":"2023-11-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Announces 3 Weekly Holidays for Schools and Colleges",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/23\/punjab-announces-3-weekly-holidays-for-schools-and-colleges\/",
+  "hid":1241
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":2.0,
+  "title":"Schools , colleges in Punjab smog - hit areas to remain closed on Friday , Saturday",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1131735-schools-colleges-in-punjab-smog-hit-areas-to-remain-closed-on-friday-saturday",
+  "hid":1242
+ },
+ {
+  "start_date":"2023-11-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":3.0,
+  "title":"Schools , colleges to close thrice a week",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/schools-colleges-to-close-thrice-a-week\/",
+  "hid":1244
+ },
+ {
+  "start_date":"2023-11-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":2.0,
+  "title":"Schools in Punjab smog - hit divisions to remain closed for two days - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40274822\/schools-in-punjabs-smog-hit-divisions-to-remain-closed-for-two-days",
+  "hid":1245
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":2.0,
+  "title":"Punjab announces closure of schools , colleges on Friday and Saturday in smog - hit areas - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1791802\/punjab-announces-closure-of-schools-colleges-on-friday-and-saturday-in-smog-hit-areas",
+  "hid":1246
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":2.0,
+  "title":"Punjab schools to remain closed on Friday , Saturday",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2447722\/punjab-schools-to-remain-closed-on-friday-saturday",
+  "hid":1247
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab imposes new restrictions in smog - hit districts ; check details",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-imposes-new-restrictions-in-smog-hit-districts-check-details\/",
+  "hid":1248
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":1.0,
+  "title":"Schools and colleges to remain closed on Friday in 12 Punjab districts",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/schools-and-colleges-to-remain-closed-on-friday-in-12-punjab-districts\/",
+  "hid":1249
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":3.0,
+  "title":"Punjab University to Remain Closed for 3 Days",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/24\/punjab-university-to-remain-closed-for-3-days\/",
+  "hid":1252
+ },
+ {
+  "start_date":"2023-11-24",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Pakistan : PDMA notifies smart lockdown in 10 districts of Punjab due to smog",
+  "domain":"pakistantelegraph.com",
+  "url":"https:\/\/www.pakistantelegraph.com\/news\/274044279\/pakistan-pdma-notifies-smart-lockdown-in-10-districts-of-punjab-due-to-smog",
+  "hid":1255
+ },
+ {
+  "start_date":"2023-11-25",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders closure of cafes in Johar Town by 10pm",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1132212-lhc-orders-closure-of-cafes-in-johar-town-by-10pm",
+  "hid":1257
+ },
+ {
+  "start_date":"2023-11-25",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smart lockdown : Educational institutions remain closed on second consecutive day",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/772938-Smart-lockdown:-Educational-institutions-remain-closed-on-second-consecu",
+  "hid":1260
+ },
+ {
+  "start_date":"2023-11-25",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Educational institutions remain closed on second consecutive day",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/educational-institutions-remain-closed-on-second-consecutive-day\/",
+  "hid":1264
+ },
+ {
+  "start_date":"2023-11-26",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":1.0,
+  "title":"Anti - smog steps : Lahore to stay shut today",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/208735157-anti-smog-steps-lahore-to-stay-shut-today",
+  "hid":1269
+ },
+ {
+  "start_date":"2023-11-27",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Smog lockdown continues in Sargodha - Pakistan Observer",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/smog-lockdown-continues-in-sargodha\/",
+  "hid":1273
+ },
+ {
+  "start_date":"2023-11-28",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"High Court Orders Closure of Business Activities in Lahore at 10 PM",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2023\/11\/28\/high-court-orders-closure-of-business-activities-in-lahore-at-10-pm\/",
+  "hid":1281
+ },
+ {
+  "start_date":"2023-11-29",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"LHC orders restaurants , markets closure by 10pm",
+  "domain":"pakistantoday.com.pk",
+  "url":"https:\/\/www.pakistantoday.com.pk\/2023\/11\/28\/lhc-orders-restaurants-markets-closure-by-10pm\/",
+  "hid":1286
+ },
+ {
+  "start_date":"2023-11-29",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Anti - smog measures : LHC orders business closure at 10pm",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1133479-anti-smog-measures-lhc-orders-business-closure-at-10pm",
+  "hid":1289
+ },
+ {
+  "start_date":"2023-12-01",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab schools winter vacations announced",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/521130-punjab-schools-winter-vacations-announced",
+  "hid":1293
+ },
+ {
+  "start_date":"2023-12-01",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"CM chairs meeting to lift smog - related curbs",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/domestic\/cm-chairs-meeting-to-lift-smog-related-curbs\/",
+  "hid":1300
+ },
+ {
+  "start_date":"2023-12-02",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"CM lifts smog - related restrictions",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1134341-cm-lifts-smog-related-restrictions",
+  "hid":1301
+ },
+ {
+  "start_date":"2023-12-02",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog : 144 boilers , 305 kilns sealed , 8267 vehicles challaned",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/domestic\/smog-144-boilers-305-kilns-sealed-8267-vehicles-challaned\/",
+  "hid":1304
+ },
+ {
+  "start_date":"2023-12-09",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Anti - smog measures violation : LHC orders sealing of cafes",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1136494-anti-smog-measures-violation-lhc-orders-sealing-of-cafes",
+  "hid":1323
+ },
+ {
+  "start_date":"2023-12-10",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore - Sialkot Motorway shut for poor visibility",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/776514-",
+  "hid":1326
+ },
+ {
+  "start_date":"2023-12-14",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Restrictions imposed on smoke - emitting vehicles",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1138053-restrictions-imposed-on-smoke-emitting-vehicles",
+  "hid":1338
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":2.0,
+  "title":"LHC orders private offices to work from home for two days",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1138670-lhc-orders-private-offices-to-work-from-home-for-two-days",
+  "hid":1343
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"First artificial rain induced in Lahore to combat smog - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40278992\/first-artificial-rain-induced-in-lahore-to-combat-smog",
+  "hid":1344
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"  First artificial rain  falls over parts of Lahore to clear smog",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/523277-first-artificial-rain-falls-over-parts-of-lahore-to-clear-smog",
+  "hid":1345
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog - hit Lahore gets  first artificial rain  ",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1138901-smog-hit-lahore-gets-first-artificial-rain",
+  "hid":1346
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore receives first ever artificial rain amid Punjab govt efforts to ease smog",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/lahore-receives-first-ever-artificial-rain-amid-punjab-govts-efforts-to-ease-smog\/",
+  "hid":1347
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore achieves meteorological milestone with artificial rain",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2450208\/lahore-achieves-meteorological-milestone-with-artificial-rain-to-counter-smog",
+  "hid":1348
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"In a first , Punjab govt uses artificial rain against smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1798419\/in-a-first-punjab-govt-uses-artificial-rain-against-smog",
+  "hid":1349
+ },
+ {
+  "start_date":"2023-12-16",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab Govt makes history with successful artificial rain experiment in Lahore",
+  "domain":"radio.gov.pk",
+  "url":"https:\/\/www.radio.gov.pk\/16-12-2023\/punjab-govt-makes-history-with-successful-artificial-rain-experiment-in-lahore",
+  "hid":1350
+ },
+ {
+  "start_date":"2023-12-17",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore gets  first - ever artificial rain  to clear smog",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1138946-lahore-gets-first-ever-artificial-rain-to-clear-smog",
+  "hid":1353
+ },
+ {
+  "start_date":"2023-12-17",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"  First artificial rain  falls over parts of Lahore",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/first-artificial-rain-falls-over-parts-of-lahore\/",
+  "hid":1354
+ },
+ {
+  "start_date":"2023-12-17",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"City enjoys maiden artificial rain",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2450238\/city-enjoys-maiden-artificial-rain",
+  "hid":1356
+ },
+ {
+  "start_date":"2023-12-18",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Winter Holidays Begin for Lahore Students",
+  "domain":"khybernews.tv",
+  "url":"https:\/\/khybernews.tv\/winter-holidays-begin-for-lahore-students\/",
+  "hid":1363
+ },
+ {
+  "start_date":"2023-12-19",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Artificial rain",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2450426\/artificial-rain",
+  "hid":1364
+ },
+ {
+  "start_date":"2023-12-20",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"No vehicle to be allowed on road without NOC from VICS",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/no-vehicle-to-be-allowed-on-road-without-noc-from-vics\/",
+  "hid":1365
+ },
+ {
+  "start_date":"2024-01-02",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab to use artificial rain for second time to counter smog",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/781852-Punjab-to-use-artificial-rain-for-second-time-to-counter-smog",
+  "hid":1409
+ },
+ {
+  "start_date":"2024-01-02",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Artificial rain to be showered again in Lahore to fight smog : CM Naqvi",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/artificial-rain-to-be-showered-again-in-lahore-to-fight-smog-cm-naqvi\/",
+  "hid":1411
+ },
+ {
+  "start_date":"2024-01-04",
+  "event_type":"construction_or_industry_ban",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"CDA seals plastic factory",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1144545-cda-seals-plastic-factory",
+  "hid":1419
+ },
+ {
+  "start_date":"2024-01-05",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Sindh announces new school timings as cold wave grips province",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/525890-sindh-announces-new-school-timings-as-cold-wave-grips-province",
+  "hid":1425
+ },
+ {
+  "start_date":"2024-01-08",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Announces Decision on Winter Holidays and New School Timings",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/01\/08\/punjab-announces-decision-on-winter-holidays-and-new-school-timings\/",
+  "hid":1428
+ },
+ {
+  "start_date":"2024-01-10",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"CM Naqvi distributes environment - friendly e - motorcycles among students",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/cm-naqvi-distributes-environment-friendly-e-motorcycles-among-students\/",
+  "hid":1435
+ },
+ {
+  "start_date":"2024-01-11",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":7.0,
+  "title":"Prep classes in schools suspended for a week",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2452862\/prep-classes-in-schools-suspended-for-a-week",
+  "hid":1439
+ },
+ {
+  "start_date":"2024-01-15",
+  "event_type":"construction_or_industry_ban",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Over 77 % polluting brick kilns converted to cleaner Zig - Zag technology in federal capital : Spokesman",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/national\/over-77-polluting-brick-kilns-converted-to-cleaner-zig-zag-technology-in-federal-capital-spokesman\/",
+  "hid":1452
+ },
+ {
+  "start_date":"2024-01-15",
+  "event_type":"construction_or_industry_ban",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Brick kilns converted to cleaner Zig - Zag technology in Islamabad",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/brick-kiln-converted-to-cleaner-zig-zag-technology-in-islamabad\/",
+  "hid":1455
+ },
+ {
+  "start_date":"2024-01-17",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC Announces Major Decision on How Schools and Colleges Operate",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/01\/17\/lhc-announces-major-decision-on-how-schools-and-colleges-operate\/",
+  "hid":1461
+ },
+ {
+  "start_date":"2024-01-24",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Islamabad - Lahore motorway closed to traffic amid dense fog",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/208738581-islamabad-lahore-motorway-closed-to-traffic-amid-dense-fog",
+  "hid":1476
+ },
+ {
+  "start_date":"2024-10-23",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"School timings changed amid rising smog levels in Lahore",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087322861-punjab-govt-changes-school-timings-amid-rising-smog-levels-in-lahore",
+  "hid":1503
+ },
+ {
+  "start_date":"2024-10-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab announces new school timings",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/570447-what-are-new-school-timings-for-punjab",
+  "hid":1506
+ },
+ {
+  "start_date":"2024-10-28",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":96.0,
+  "title":"New school timings in Punjab from Oct 28 to Jan 31 announced",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/new-school-timings-in-punjab-from-oct-28-to-jan-31-announced\/",
+  "hid":1507
+ },
+ {
+  "start_date":"2024-10-28",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"New school timings implemented in Lahore from today",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087323106-new-school-timings-implemented-in-lahore-from-today",
+  "hid":1512
+ },
+ {
+  "start_date":"2024-10-31",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore goes for  green lockdown  to tackle smog - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1868819\/lahore-goes-for-green-lockdown-to-tackle-smog",
+  "hid":1519
+ },
+ {
+  "start_date":"2024-11-03",
+  "event_type":"other_measure",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Section 144 imposed in capital to combat air pollution",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/848113-section-144-imposed-in-capital-to-combat-air-pollution",
+  "hid":1530
+ },
+ {
+  "start_date":"2024-11-03",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"Severe smog in Lahore prompts closure of primary schools for one week",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/848175-severe-smog-in-lahore-prompts-closure-of-primary-schools-for-one-week",
+  "hid":1533
+ },
+ {
+  "start_date":"2024-11-03",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"Lahore Schools for primary students close for one week amid record toxic smog",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/03-Nov-2024\/lahore-schools-for-primary-students-close-for-one-week-amid-record-toxic-smog",
+  "hid":1534
+ },
+ {
+  "start_date":"2024-11-04",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab bans entering of heavy vehicles in Lahore amid rising smog levels",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/03-Nov-2024\/punjab-bans-entering-of-heavy-vehicles-in-lahore-amid-rising-smog-levels",
+  "hid":1538
+ },
+ {
+  "start_date":"2024-11-04",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":7.0,
+  "title":"Critical air pollution prompts primary schools closure for a week",
+  "domain":"pakistantoday.com.pk",
+  "url":"https:\/\/www.pakistantoday.com.pk\/2024\/11\/04\/critical-air-pollution-prompts-primary-schools-closure-for-a-week\/",
+  "hid":1539
+ },
+ {
+  "start_date":"2024-11-05",
+  "event_type":"smog_emergency",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Red alert issued for smog in Lahore",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087323494-red-alert-issued-for-smog-in-lahore",
+  "hid":1546
+ },
+ {
+  "start_date":"2024-11-06",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Wearing Face Mask is Now Mandatory in 4 Divisions in Punjab",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/06\/wearing-face-mask-is-now-mandatory-in-4-divisions-in-punjab\/",
+  "hid":1552
+ },
+ {
+  "start_date":"2024-11-06",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Offices Ordered to Enforce Work From Home Policy Due to Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/06\/punjab-govt-announces-work-from-home-for-all-offices-due-to-smog-in-four-divisions\/",
+  "hid":1553
+ },
+ {
+  "start_date":"2024-11-06",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools and Colleges to Hold Online Classes Due to Smog in 4 Divisions",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/06\/punjab-govt-closes-all-schools-and-colleges-due-to-smog-in-four-divisions\/",
+  "hid":1554
+ },
+ {
+  "start_date":"2024-11-06",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Strict SOPs Enforced for Open - Air BBQ Spots in Lahore Amid Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/06\/strict-sops-enforced-for-open-air-bbq-spots-in-lahore-amid-smog\/",
+  "hid":1555
+ },
+ {
+  "start_date":"2024-11-06",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt closes schools as smog situation worsens",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/848815-punjab-govt-closes-schools-as-smog-situation-worsens",
+  "hid":1557
+ },
+ {
+  "start_date":"2024-11-06",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Big breaking : Mask - wearing made mandatory",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087323593-smog-dilemma-mask-wearing-made-mandatory-in-lahore-other-punjab-divisions",
+  "hid":1558
+ },
+ {
+  "start_date":"2024-11-07",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab goes virtual again as schools shut down",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2508014\/punjab-goes-virtual-again-as-schools-shut-down",
+  "hid":1560
+ },
+ {
+  "start_date":"2024-11-08",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Sections of motorways closed for traffic due to fog",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/08-Nov-2024\/sections-of-motorways-closed-for-traffic-due-to-fog",
+  "hid":1570
+ },
+ {
+  "start_date":"2024-11-08",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"All activities in Lahore schools suspended amid smog holidays",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/573319-all-activities-in-lahore-schools-suspended-amid-smog-holidays",
+  "hid":1573
+ },
+ {
+  "start_date":"2024-11-08",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt shuts down public spaces amid smog crisis",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/08-Nov-2024\/punjab-govt-shuts-down-public-spaces-amid-smog-crisis",
+  "hid":1576
+ },
+ {
+  "start_date":"2024-11-08",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":2.0,
+  "title":"Lahore Set to Receive Artificial Rain for Two Days",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/08\/artificial-rain-planned-for-two-days-to-combat-record-smog-in-lahore\/",
+  "hid":1578
+ },
+ {
+  "start_date":"2024-11-09",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab bans entry in Parks , Zoos , Museums in Lahore , other smog - hit divisions",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-bans-entry-in-parks-zoos-museums-in-lahore-other-smog-hit-divisions\/",
+  "hid":1579
+ },
+ {
+  "start_date":"2024-11-09",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog shuts parks , zoos in 17 districts",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2508403\/smog-shuts-parks-zoos-in-17-districts",
+  "hid":1580
+ },
+ {
+  "start_date":"2024-11-10",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Govt Orders to Install Air Purifiers in Malls to Combat Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/10\/punjab-govt-orders-to-install-air-purifiers-in-malls-to-combat-smog\/",
+  "hid":1594
+ },
+ {
+  "start_date":"2024-11-10",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Air purifiers to be installed across Punjab to combat smog",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/air-purifiers-to-be-installed-across-punjab-to-combat-smog\/",
+  "hid":1595
+ },
+ {
+  "start_date":"2024-11-10",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab EPD directs malls , plazas in selected divisions to install air purifiers",
+  "domain":"radio.gov.pk",
+  "url":"https:\/\/www.radio.gov.pk\/10-11-2024\/punjab-epd-directs-malls-plazas-in-selected-divisions-to-install-air-purifiers",
+  "hid":1596
+ },
+ {
+  "start_date":"2024-11-10",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore cracks down on polluting vehicles amid worsening smog",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2508690\/lahore-cracks-down-on-polluting-vehicles-amid-worsening-smog",
+  "hid":1597
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog , fog force closure of motorway at several places",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/849737-smog-fog-force-closure-of-motorway-at-several-places",
+  "hid":1603
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Heavy vehicles banned to combat smog",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2508743\/heavy-vehicles-banned-to-combat-smog",
+  "hid":1604
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"other_measure",
+  "place":"Multan",
+  "duration_days":null,
+  "title":"After Lahore , all outdoor activities banned in Multan , other smog - hit districts",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/573808-after-lahore",
+  "hid":1605
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Markets in four districts of Punjab to be closed at 8pm due to smog",
+  "domain":"radio.gov.pk",
+  "url":"https:\/\/www.radio.gov.pk\/11-11-2024\/markets-in-four-districts-of-punjab-to-be-closed-at-8pm-due-to-smog",
+  "hid":1606
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"M2 , M3 and other motorways closed at these points due to fog",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/m2-m3-and-other-motorways-closed-at-these-points-due-to-fog\/",
+  "hid":1609
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Outdoor Activities Banned in More Smog - Hit Districts",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/11\/outdoor-activities-banned-in-more-smog-hit-districts\/",
+  "hid":1613
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab directs closure of markets by 8pm in Lahore , other smog - hit districts",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-directs-closure-of-markets-by-8pm-in-lahore-other-smog-hit-districts\/",
+  "hid":1614
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":7.0,
+  "title":"Govt bans outdoor activities till Nov 17 as smog takes heavy toll on people health – The Frontier Post",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/govt-bans-outdoor-activities-till-nov-17-as-smog-takes-heavy-toll-on-peoples-health\/",
+  "hid":1615
+ },
+ {
+  "start_date":"2024-11-11",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Anti - smog measures : Punjab bans outdoor activities in four districts - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40331867\/anti-smog-measures-punjab-bans-outdoor-activities-in-four-districts",
+  "hid":1616
+ },
+ {
+  "start_date":"2024-11-12",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab limits outdoor activities , market hours - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40331961\/punjab-limits-outdoor-activities-market-hours",
+  "hid":1621
+ },
+ {
+  "start_date":"2024-11-12",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab shuts schools in five more divisions as smog worsens",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1250176-punjab-orders-schools-closure-in-5-more-divisions-amid-worsening-smog",
+  "hid":1625
+ },
+ {
+  "start_date":"2024-11-12",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Schools closed in Rawalpindi , other Punjab divisions as smog chokes students",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/12-Nov-2024\/schools-closed-in-rawalpindi-other-punjab-divisions-as-smog-chokes-students",
+  "hid":1628
+ },
+ {
+  "start_date":"2024-11-12",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools closed in five more Punjab divisions due to rising air pollution",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/849987-schools-closed-in-five-more-punjab-divisions-due-to-rising-air-polluti",
+  "hid":1629
+ },
+ {
+  "start_date":"2024-11-13",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools in five more Punjab divisions shut down - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40332173\/schools-in-five-more-punjab-divisions-shut-down",
+  "hid":1635
+ },
+ {
+  "start_date":"2024-11-13",
+  "event_type":"school_closure",
+  "place":"Other",
+  "duration_days":5.0,
+  "title":"Alarming increase in smog : All educational institutes closed in Rawalpindi Division till 17th - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40332172\/alarming-increase-in-smog-all-educational-institutes-closed-in-rawalpindi-division-till-17th",
+  "hid":1636
+ },
+ {
+  "start_date":"2024-11-13",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab shuts schools in all but 5 dists",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2509263\/punjab-shuts-schools-in-all-but-5-dists",
+  "hid":1637
+ },
+ {
+  "start_date":"2024-11-13",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab shuts schools , colleges across province as smog crisis worsens",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1239057\/punjab-shuts-schools-colleges-across-province-as-smog-crisis-worsens\/",
+  "hid":1638
+ },
+ {
+  "start_date":"2024-11-13",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Motorways closed as Lahore air ranks 2nd most polluted globally",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087323897-motorways-closed-as-lahore-s-air-ranks-2nd-most-polluted-globally",
+  "hid":1642
+ },
+ {
+  "start_date":"2024-11-13",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Pollution chart goes through the roof : Schools closure extended across Punjab - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1871966\/pollution-chart-goes-through-the-roof-schools-closure-extended-across-punjab",
+  "hid":1643
+ },
+ {
+  "start_date":"2024-11-15",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog crisis : School holidays extended , Punjab to go for full lockdown",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087324034-smog-crisis-school-holidays-extended-punjab-to-go-for-full-lockdown",
+  "hid":1655
+ },
+ {
+  "start_date":"2024-11-15",
+  "event_type":"smog_emergency",
+  "place":"Multan",
+  "duration_days":null,
+  "title":"Punjab declares health emergency in worst smog - hit Multan , Lahore",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/574494-punjab-declares-health-emergency-in-worst-smog-hit-multan-lahore",
+  "hid":1656
+ },
+ {
+  "start_date":"2024-11-15",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab announces complete lockdown in Lahore , Multan to tackle smog",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-announces-complete-lockdown-in-lahore-multan-to-tackle-smog\/",
+  "hid":1657
+ },
+ {
+  "start_date":"2024-11-16",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":3.0,
+  "title":"Smog : Govt Imposes Three - Day Weekly Lockdown",
+  "domain":"arynews.tv",
+  "url":"https:\/\/arynews.tv\/smog-govt-imposes-three-day-weekly-lockdown\/",
+  "hid":1658
+ },
+ {
+  "start_date":"2024-11-16",
+  "event_type":"smog_emergency",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Health emergency declared in Lahore , Multan as minister calls smog national disaster",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/574603-health-emergency-declared-in-lahore-multan-as-minister-calls-smog-national-disaster",
+  "hid":1660
+ },
+ {
+  "start_date":"2024-11-16",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lockdown in Lahore and Multan as govt declares  all - out war  against smog",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/850873-lockdown-in-lahore-and-multan-as-govt-declares-allout-war-again",
+  "hid":1664
+ },
+ {
+  "start_date":"2024-11-16",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":7.0,
+  "title":"Colleges , Universities closed in Lahore , Multan for one week amid smog mayhem",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/16-Nov-2024\/colleges-universities-closed-in-lahore-multan-for-one-week-amid-smog-mayhem",
+  "hid":1665
+ },
+ {
+  "start_date":"2024-11-16",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt orders officials to reduce staff in offices by 50 % ",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087324074-punjab-govt-orders-officials-to-reduce-staff-in-offices-by-50",
+  "hid":1666
+ },
+ {
+  "start_date":"2024-11-16",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab University Postpones Exams Due to Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/11\/16\/punjab-university-postpones-exams-due-to-smog\/",
+  "hid":1668
+ },
+ {
+  "start_date":"2024-11-17",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Lahore Air Quality improves slightly amid new restrictions in Punjab",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/17-Nov-2024\/lahores-air-quality-improves-slightly-amid-new-restrictions-in-punjab",
+  "hid":1670
+ },
+ {
+  "start_date":"2024-11-19",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools reopen tomorrow in Punjab save Lahore , Multan as smog subsides",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/851234-schools-reopen-tomorrow-in-punjab-save-lahore-multan-as-smog-subsides",
+  "hid":1679
+ },
+ {
+  "start_date":"2024-11-19",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Barring Lahore and Multan , schools reopen in Punjab",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1240830\/barring-lahore-and-multan-schools-reopen-in-punjab\/",
+  "hid":1682
+ },
+ {
+  "start_date":"2024-11-18",
+  "event_type":"construction_or_industry_ban",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Anti - smog operation intensifies in Punjab as dozens of brick kilns , industrial units demolished",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2510613\/anti-smog-operation-intensifies-in-punjab-as-dozens-of-brick-kilns-industrial-units-demolished",
+  "hid":1683
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore , Multan schools reopen today",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2510663\/lahore-multan-schools-reopen-today",
+  "hid":1685
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools re - open as AQI levels improve",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1252878-schools-re-open-as-aqi-levels-improve",
+  "hid":1686
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Schools reopen in Punjab over improved air quality",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1241057\/schools-reopen-in-punjab-over-improved-air-quality\/",
+  "hid":1687
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore schools resume after slight ease in Punjab smog",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1253005-lahore-schools-resume-after-slight-ease-in-punjab-smog",
+  "hid":1688
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Schools in Lahore and Multan divisions open today - Pakistan",
+  "domain":"dawn.com",
+  "url":"https:\/\/www.dawn.com\/news\/1873535\/schools-in-lahore-and-multan-divisions-open-today",
+  "hid":1690
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore grapples with persistent smog , schools reopen after slight ease",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/575280-schools-reopen-in-punjab-after-reduction-in-smog-levels",
+  "hid":1691
+ },
+ {
+  "start_date":"2024-11-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Latest : Punjab allows restaurants to remain open till 10pm",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087324185-punjab-allows-restaurants-to-remain-open-till-10pm",
+  "hid":1692
+ },
+ {
+  "start_date":"2024-11-21",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Recreational places reopened as Punjab further eases smog restriction",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/21-Nov-2024\/recreational-places-reopened-as-punjab-further-eases-smog-restriction",
+  "hid":1695
+ },
+ {
+  "start_date":"2024-11-21",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab opens parks , resumes outdoor activities as smog subsides",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-opens-parks-resumes-outdoor-activities-as-smog-subsides\/",
+  "hid":1696
+ },
+ {
+  "start_date":"2024-11-21",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Govt eases restrictions as smog improves across Punjab",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1253506-govt-eases-restrictions-as-smog-improves-across-punjab",
+  "hid":1697
+ },
+ {
+  "start_date":"2024-11-25",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab eases smog restrictions in four districts",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087324574-punjab-eases-smog-restrictions-in-four-districts",
+  "hid":1708
+ },
+ {
+  "start_date":"2024-11-26",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Anti - smog SOPs relaxed as AQI improves",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1255016-anti-smog-sops-relaxed-as-aqi-improves",
+  "hid":1711
+ },
+ {
+  "start_date":"2024-11-26",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Anti - smog curbs eased in Punjab",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2511916\/anti-smog-curbs-eased-in-punjab",
+  "hid":1712
+ },
+ {
+  "start_date":"2024-11-28",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore smog : With sun out , govt lifts restrictions",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/576765-lahores-smog-with-sun-out-govt-lifts-restrictions",
+  "hid":1720
+ },
+ {
+  "start_date":"2024-12-02",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab govt decides not to issue M - Tag without fitness certificate",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/854050-punjab-govt-decides-not-to-issue-mtag-without-fitness-certificate",
+  "hid":1741
+ },
+ {
+  "start_date":"2024-12-02",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"71 shops sealed in smog crackdown",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/domestic\/71-shops-sealed-in-smog-crackdown\/",
+  "hid":1743
+ },
+ {
+  "start_date":"2024-12-02",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC orders seizing unfit vehicles to combat smog",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/577467-lhc-orders-seizing-unfit-vehicles-to-combat-smog",
+  "hid":1744
+ },
+ {
+  "start_date":"2024-12-03",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab changes school timings as air quality improves",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/03-Dec-2024\/punjab-changes-school-timings-as-air-quality-improves",
+  "hid":1749
+ },
+ {
+  "start_date":"2024-12-03",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"School timings changed in Punjab as smog levels drop",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2513535\/school-timings-changed-in-punjab-as-smog-levels-drop",
+  "hid":1752
+ },
+ {
+  "start_date":"2024-12-04",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Revises School Timings as Smog Declines",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2024\/12\/04\/punjab-revises-school-timings-as-smog-declines\/",
+  "hid":1757
+ },
+ {
+  "start_date":"2024-12-05",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Two booked over smog SOPs breach",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1258234-two-booked-over-smog-sops-breach",
+  "hid":1759
+ },
+ {
+  "start_date":"2024-12-05",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Fitness certificate made mandatory for all vehicles across Punjab",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1258233-fitness-certificate-made-mandatory-for-all-vehicles-across-punjab",
+  "hid":1761
+ },
+ {
+  "start_date":"2024-12-06",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Makes Fitness Certificates Mandatory for All Vehicles to Control Smog . ",
+  "domain":"newsmakers.pk",
+  "url":"https:\/\/newsmakers.pk\/punjab-makes-fitness-certificates-mandatory-for-all-vehicles-to-control-smog\/",
+  "hid":1767
+ },
+ {
+  "start_date":"2024-12-06",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Crackdown on smog SOP violators continues",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/domestic\/crackdown-on-smog-sop-violators-continues\/",
+  "hid":1774
+ },
+ {
+  "start_date":"2024-12-07",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Four booked for defying smog regulations",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1258932-four-booked-for-defying-smog-regulations",
+  "hid":1778
+ },
+ {
+  "start_date":"2024-12-08",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Six arrested over smog SOP violations",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2514470\/six-arrested-over-smog-sop-violations",
+  "hid":1784
+ },
+ {
+  "start_date":"2024-12-09",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"12 cases registered over smog SOPs breach",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/print\/1259587-12-cases-registered-over-smog-sops-breach",
+  "hid":1789
+ },
+ {
+  "start_date":"2024-12-13",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Police intensifies crackdown against smog SOPs violations",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/domestic\/police-intensifies-crackdown-against-smog-sops-violations\/",
+  "hid":1797
+ },
+ {
+  "start_date":"2024-12-14",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog clean tower being installed in Lahore to combat air pollution",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/856553-smog-clean-tower-being-installed-in-lahore-to-combat-air-pollution",
+  "hid":1804
+ },
+ {
+  "start_date":"2024-12-21",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Smog Clean Tower to be activated on 21st",
+  "domain":"app.com.pk",
+  "url":"https:\/\/www.app.com.pk\/domestic\/smog-clean-tower-to-be-activated-on-21st\/",
+  "hid":1805
+ },
+ {
+  "start_date":"2024-12-15",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Punjab Government installs Smog Clean Tower in Lahore",
+  "domain":"radio.gov.pk",
+  "url":"https:\/\/www.radio.gov.pk\/14-12-2024\/punjab-government-installs-smog-clean-tower-in-lahore",
+  "hid":1806
+ },
+ {
+  "start_date":"2024-12-15",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Tower installed in Lahore to deal with smog challenge - Pakistan",
+  "domain":"brecorder.com",
+  "url":"https:\/\/www.brecorder.com\/news\/40337615\/tower-installed-in-lahore-to-deal-with-smog-challenge",
+  "hid":1810
+ },
+ {
+  "start_date":"2024-12-23",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab schools winter vacations to begin from Dec 23",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/580421-punjabs-education-department-reschedules-winter-holidays",
+  "hid":1826
+ },
+ {
+  "start_date":"2024-12-26",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Pakistan installs first anti - smog tower in Lahore to combat pollution",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087326243-first-anti-smog-tower-installed-in-lahore-to-combat-pollution",
+  "hid":1853
+ },
+ {
+  "start_date":"2024-12-27",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Country first - ever smog tower installed",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2518441\/countrys-first-ever-smog-tower-installed",
+  "hid":1854
+ },
+ {
+  "start_date":"2024-12-28",
+  "event_type":"construction_or_industry_ban",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Govt Installs Around 100 Percent Emission Control Systems In Lahore Industries",
+  "domain":"urdupoint.com",
+  "url":"https:\/\/www.urdupoint.com\/en\/pakistan\/govt-installs-around-100-percent-emission-con-1900601.html",
+  "hid":1860
+ },
+ {
+  "start_date":"2024-12-31",
+  "event_type":"fireworks_night",
+  "place":"Lahore",
+  "duration_days":1.0,
+  "title":"Complete ban imposed on New Year Eve fireworks in Lahore",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/complete-ban-imposed-on-new-years-eve-fireworks-in-lahore\/",
+  "hid":1868
+ },
+ {
+  "start_date":"2024-12-31",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Diamond Paints Provides Over 100 Plants to Combat Smog in Sundar Industrial Estate , Lahore",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1252150\/diamond-paints-provides-over-100-plants-to-combat-smog-in-sundar-industrial-estate-lahore\/",
+  "hid":1869
+ },
+ {
+  "start_date":"2024-12-31",
+  "event_type":"fireworks_night",
+  "place":"Lahore",
+  "duration_days":1.0,
+  "title":"Ban Imposed On Fireworks In Lahore On Eve Of New Year Night",
+  "domain":"urdupoint.com",
+  "url":"https:\/\/www.urdupoint.com\/en\/pakistan\/ban-imposed-on-fireworks-in-lahore-on-eve-of-1901655.html",
+  "hid":1870
+ },
+ {
+  "start_date":"2025-10-02",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore deploys anti - smog guns today to fight pollution",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1377828\/lahore-deploys-anti-smog-guns-today-to-fight-pollution\/",
+  "hid":1922
+ },
+ {
+  "start_date":"2025-10-06",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Islamabad to launch crackdown on smoke - emitting vehicles , Violators will face fines",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2570754\/islamabad-to-launch-crackdown-on-smoke-emitting-vehicles-to-combat-worsening-air-pollution",
+  "hid":1929
+ },
+ {
+  "start_date":"2025-10-15",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab directs restaurants to install suction hoods ahead of smog season",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-directs-restaurants-to-install-suction-hoods-ahead-of-smog-season\/",
+  "hid":1948
+ },
+ {
+  "start_date":"2025-10-19",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore Bans Entry of Heavy Traffic Amid Smog",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/10\/19\/lahore-bans-entry-of-heavy-traffic-amid-smog\/",
+  "hid":1961
+ },
+ {
+  "start_date":"2025-10-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab makes face masks mandatory for motorcyclists amid worsening smog",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/913020-punjab-makes-face-masks-mandatory-for-motorcyclists-amid-worsening-smo",
+  "hid":1968
+ },
+ {
+  "start_date":"2025-10-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Lahore tops global pollution index as Punjab makes masks mandatory for bikers",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/lahore-tops-global-pollution-index-as-punjab-makes-masks-mandatory-for-bikers\/",
+  "hid":1970
+ },
+ {
+  "start_date":"2025-10-20",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Islamabad Launches New Action Plan to Control Vehicular Emissions and Air Pollution",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/10\/20\/islamabad-launches-new-action-plan-to-control-vehicular-emissions-and-air-pollution\/",
+  "hid":1972
+ },
+ {
+  "start_date":"2025-10-20",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab enforces face masks for motorcyclists as smog crisis deepens",
+  "domain":"dailytimes.com.pk",
+  "url":"https:\/\/dailytimes.com.pk\/1386891\/punjab-enforces-face-masks-for-motorcyclists-as-smog-crisis-deepens\/",
+  "hid":1974
+ },
+ {
+  "start_date":"2025-10-21",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Face masks made mandatory for bikers as Punjab battles worsening smog",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2573288\/face-masks-made-mandatory-for-bikers-as-punjab-battles-worsening-smog",
+  "hid":1975
+ },
+ {
+  "start_date":"2025-10-22",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Pak - EPA cracks down on polluting vehicles , is yours on the list ? ",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2573614\/pak-epa-cracks-down-on-polluting-vehicles-is-yours-on-the-list",
+  "hid":1985
+ },
+ {
+  "start_date":"2025-10-23",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Crackdown on Pollution Underway",
+  "domain":"dailythepatriot.com",
+  "url":"https:\/\/dailythepatriot.com\/crackdown-on-pollution-underway\/",
+  "hid":1986
+ },
+ {
+  "start_date":"2025-10-25",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab intensifies crackdown on timber mafia to curb smog , protect forests",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2574140\/punjab-intensifies-crackdown-on-timber-mafia-to-curb-smog-protect-forests",
+  "hid":2003
+ },
+ {
+  "start_date":"2025-10-25",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Emergency plan enforced in Punjab as toxic air from India pushes AQI to 257",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2574170\/emergency-plan-enforced-in-punjab-as-toxic-air-from-india-pushes-aqi-to-257",
+  "hid":2004
+ },
+ {
+  "start_date":"2025-10-26",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore tops world pollution chart as AQI hits hazardous 412 , authorities launch crackdown",
+  "domain":"pakistantelegraph.com",
+  "url":"http:\/\/www.pakistantelegraph.com\/news\/278656657\/lahore-tops-world-pollution-chart-as-aqi-hits-hazardous-412-authorities-launch-crackdown",
+  "hid":2008
+ },
+ {
+  "start_date":"2025-10-26",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab school tmings revised amid worsening smog",
+  "domain":"thenews.com.pk",
+  "url":"https:\/\/www.thenews.com.pk\/latest\/1353681-punjab-school-tmings-revised-amid-worsening-smog",
+  "hid":2009
+ },
+ {
+  "start_date":"2025-10-26",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab revises school timings amid worsening smog",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/630572-punjab-revises-school-timings-amid-worsening-smog",
+  "hid":2010
+ },
+ {
+  "start_date":"2025-10-26",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Schools to Start at 8 : 45 AM with New Winter Timings Amid Smog",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/26-Oct-2025\/punjab-schools-to-start-at-845-am-as-new-winter-timings-announced",
+  "hid":2012
+ },
+ {
+  "start_date":"2025-10-26",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab announces new school timings for students , teachers",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2574307\/punjab-changes-school-timings-amid-rising-smog-winter-conditions",
+  "hid":2016
+ },
+ {
+  "start_date":"2025-10-27",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab revises school timings as smog crisis deepens",
+  "domain":"pakistantoday.com.pk",
+  "url":"https:\/\/www.pakistantoday.com.pk\/2025\/10\/26\/punjab-revises-school-timings-as-smog-crisis-deepens\/",
+  "hid":2018
+ },
+ {
+  "start_date":"2025-10-27",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":186.0,
+  "title":"New School Timings for Students , Teachers in Punjab from October 2025 to April 2026",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/27-Oct-2025\/new-school-timings-for-students-teachers-in-punjab-from-october-2025-to-april-2026",
+  "hid":2021
+ },
+ {
+  "start_date":"2025-10-27",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Lahore Smog Crisis | Schools Change Timings | Air Quality Index Hits 350 - Aaj Pakistan News - Videos",
+  "domain":"aaj.tv",
+  "url":"https:\/\/www.aaj.tv\/news\/30489177\/",
+  "hid":2022
+ },
+ {
+  "start_date":"2025-10-29",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Vehicles without emission test stickers to be seized",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2574693\/vehicles-without-emission-test-stickers-to-be-seized",
+  "hid":2029
+ },
+ {
+  "start_date":"2025-10-29",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab bans dry sweeping , lime powder use as smog intensifies",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-bans-dry-sweeping-lime-powder-use-as-smog-intensifies\/",
+  "hid":2036
+ },
+ {
+  "start_date":"2025-10-31",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Vehicles sans green stickers banned",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2575038\/vehicles-sans-green-stickers-banned",
+  "hid":2043
+ },
+ {
+  "start_date":"2025-11-02",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Smog dilemma : School timings changed across Punjab",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087341300-smog-dilemma-school-timings-changed-across-punjab",
+  "hid":2052
+ },
+ {
+  "start_date":"2025-11-02",
+  "event_type":"school_closure",
+  "place":"Lahore",
+  "duration_days":90.0,
+  "title":"New School Timings announced in Lahore , Punjab cities till Jan 31 as Smog worsens",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/02-Nov-2025\/new-school-timings-announced-in-lahore-punjab-cities-till-jan-31-as-smog-worsens",
+  "hid":2054
+ },
+ {
+  "start_date":"2025-11-02",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab revises school timings as smog crisis worsens",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2575434\/punjab-revises-school-timings-as-smog-crisis-worsens",
+  "hid":2055
+ },
+ {
+  "start_date":"2025-11-02",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"No Entry for Vehicles without Fitness Certificates as Lahore battles Smog mayhem",
+  "domain":"en.dailypakistan.com.pk",
+  "url":"https:\/\/en.dailypakistan.com.pk\/02-Nov-2025\/no-entry-for-vehicles-without-fitness-certificates-as-lahore-battles-smog-mayhem",
+  "hid":2056
+ },
+ {
+  "start_date":"2025-11-04",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"LHC bans commercial activities on Sundays amid smog crisis",
+  "domain":"geo.tv",
+  "url":"https:\/\/www.geo.tv\/latest\/632055-lhc-bans-commercial-activities-on-sundays-amid-smog-crisis",
+  "hid":2070
+ },
+ {
+  "start_date":"2025-11-04",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"LHC orders complete ban over commercial activities on Sundays",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/lhc-orders-complete-ban-over-commercial-activities-on-sundays\/",
+  "hid":2071
+ },
+ {
+  "start_date":"2025-11-05",
+  "event_type":"lockdown_or_office_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab approves 8pm closure for markets to curb smog",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2575816\/punjab-approves-8pm-closure-for-markets-to-curb-smog",
+  "hid":2072
+ },
+ {
+  "start_date":"2025-11-05",
+  "event_type":"other_measure",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Sindh Bans Tire Burning to Stop Air Pollution",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/11\/05\/sindh-bans-tire-burning-to-stop-air-pollution\/",
+  "hid":2075
+ },
+ {
+  "start_date":"2025-11-07",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"LHC orders crackdown on smoky vehicles to tackle smog in Punjab",
+  "domain":"thefrontierpost.com",
+  "url":"https:\/\/thefrontierpost.com\/lhc-orders-crackdown-on-smoky-vehicles-to-tackle-smog-in-punjab\/",
+  "hid":2084
+ },
+ {
+  "start_date":"2025-11-08",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"LHC orders citywide crackdown on smoke - emitting vehicles",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2576388\/lhc-orders-citywide-crackdown-on-smoke-emitting-vehicles",
+  "hid":2088
+ },
+ {
+  "start_date":"2025-11-08",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab announces winter holidays schedule 2025 for schools",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/punjab-announces-winter-holidays-schedule-2025-for-schools\/",
+  "hid":2092
+ },
+ {
+  "start_date":"2025-11-11",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Unfit Buses Banned in Punjab , Smoke - Emitting Cars to Face Action at Motorways",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/11\/11\/unfit-buses-banned-in-punjab-smoke-emitting-cars-to-face-action-at-motorways\/",
+  "hid":2098
+ },
+ {
+  "start_date":"2025-11-13",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"  E - tag  declared mandatory for vehicles entering Islamabad [ Check Deadline ] ",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/e-tag-declared-mandatory-for-vehicles-entering-islamabad-check-deadline\/",
+  "hid":2107
+ },
+ {
+  "start_date":"2025-11-15",
+  "event_type":"other_measure",
+  "place":"Faisalabad",
+  "duration_days":null,
+  "title":"Faisalabad gets first mobile fuel lab",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2577506\/faisalabad-gets-first-mobile-fuel-lab",
+  "hid":2113
+ },
+ {
+  "start_date":"2025-11-15",
+  "event_type":"other_measure",
+  "place":"Faisalabad",
+  "duration_days":null,
+  "title":"Faisalabad Launches First Mobile Fuel Testing Lab",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/11\/15\/faisalabad-launches-first-mobile-fuel-testing-lab\/",
+  "hid":2116
+ },
+ {
+  "start_date":"2025-11-18",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Raiwind electric rickshaw plant inaugurated",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2577936\/raiwind-electric-rickshaw-plant-inaugurated",
+  "hid":2123
+ },
+ {
+  "start_date":"2025-11-21",
+  "event_type":"traffic_restriction",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"CM Maryam orders rapid expansion of e - bus service across nine cities",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087342088-cm-maryam-orders-rapid-expansion-of-e-bus-service-across-nine-cities",
+  "hid":2133
+ },
+ {
+  "start_date":"2025-11-25",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Islamabad Bans Vehicles Without Emission Clearance Certificate",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/11\/25\/islamabad-bans-vehicles-without-emission-clearance-certificate\/",
+  "hid":2145
+ },
+ {
+  "start_date":"2025-11-29",
+  "event_type":"traffic_restriction",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"  Chingchi Rickshaw banned on Five Major Roads in Lahore amid worsening smog",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/chingchi-rickshaws-banned-on-five-major-roads-in-lahore-amid-worsening-smog\/",
+  "hid":2151
+ },
+ {
+  "start_date":"2025-12-01",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Strict Warning Issued to Smoke - Emitting Vehicles in Islamabad",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/12\/01\/strict-warning-issued-to-smoke-emitting-vehicles-in-islamabad\/",
+  "hid":2161
+ },
+ {
+  "start_date":"2025-12-07",
+  "event_type":"smog_emergency",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab extends smog alert",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2580888\/punjab-extends-smog-alert",
+  "hid":2178
+ },
+ {
+  "start_date":"2025-12-08",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Over 1 , 000 vehicles inspected , 80 seized as Pak - EPA steps up anti - smog drive",
+  "domain":"pakobserver.net",
+  "url":"https:\/\/pakobserver.net\/over-1000-vehicles-inspected-80-seized-as-pak-epa-steps-up-anti-smog-drive\/",
+  "hid":2180
+ },
+ {
+  "start_date":"2025-12-09",
+  "event_type":"crop_burning_ban",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Drone helps douse stubble fire",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2581235\/drone-helps-douse-stubble-fire",
+  "hid":2182
+ },
+ {
+  "start_date":"2025-12-11",
+  "event_type":"traffic_restriction",
+  "place":"Other",
+  "duration_days":null,
+  "title":"Air pollution and dense fog grip major cities , several motorway sections shut down",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Pakistan\/923063-air-pollution-and-dense-fog-grip-major-cities-several-motorway-sectio",
+  "hid":2183
+ },
+ {
+  "start_date":"2025-12-12",
+  "event_type":"school_closure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Extends Section 144 , Enforces Strict School Timing Rules Amid Smog",
+  "domain":"dailyk2.com",
+  "url":"https:\/\/dailyk2.com\/punjab-extends-section-144-enforces-strict-school-timing-rules-amid-smog\/",
+  "hid":2186
+ },
+ {
+  "start_date":"2025-12-15",
+  "event_type":"traffic_restriction",
+  "place":"Islamabad",
+  "duration_days":null,
+  "title":"Islamabad puts drivers on notice as smog crisis worsens",
+  "domain":"tribune.com.pk",
+  "url":"https:\/\/tribune.com.pk\/story\/2582224\/islamabad-puts-drivers-on-notice-as-smog-crisis-worsens",
+  "hid":2194
+ },
+ {
+  "start_date":"2025-12-17",
+  "event_type":"smog_emergency",
+  "place":"Other",
+  "duration_days":null,
+  "title":"NDMA issues smog alert across several regions",
+  "domain":"samaa.tv",
+  "url":"https:\/\/www.samaa.tv\/2087343302-ndma-issues-smog-alert-across-several-regions",
+  "hid":2200
+ },
+ {
+  "start_date":"2025-12-18",
+  "event_type":"smog_emergency",
+  "place":"Other",
+  "duration_days":null,
+  "title":"NEOC Issues Alert on Potential Smog Conditions Across Several Cities – News Makers",
+  "domain":"newsmakers.pk",
+  "url":"https:\/\/newsmakers.pk\/neoc-issues-alert-on-potential-smog-conditions-across-several-cities\/",
+  "hid":2201
+ },
+ {
+  "start_date":"2025-12-30",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab Introduces New Mandatory Requirement for Wedding Halls",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2025\/12\/30\/punjab-introduces-new-mandatory-requirement-for-wedding-halls\/",
+  "hid":2220
+ },
+ {
+  "start_date":"2026-01-13",
+  "event_type":"other_measure",
+  "place":"Lahore",
+  "duration_days":null,
+  "title":"Commercial Activities Banned in Lahore Parks",
+  "domain":"propakistani.pk",
+  "url":"https:\/\/propakistani.pk\/2026\/01\/16\/commercial-activities-banned-in-lahore-parks\/",
+  "hid":2243
+ },
+ {
+  "start_date":"2026-01-23",
+  "event_type":"other_measure",
+  "place":"Punjab-wide",
+  "duration_days":null,
+  "title":"Punjab launches  Green Policing Unit  with electric patrol fleet",
+  "domain":"dunyanews.tv",
+  "url":"https:\/\/dunyanews.tv\/en\/Technology\/931113-punjab-launches-green-policing-unit-with-electric-patrol-fleet",
+  "hid":2248
+ }
+]

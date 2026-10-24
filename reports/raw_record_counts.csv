@@ -1,6 +1,7 @@
 source,raw_records
 Open-Meteo weather (hourly rows),266760
 OpenAQ PM2.5 (sensor-hours),587969
-NASA FIRMS fire detections,1184817
+OpenAQ PM10 (sensor-hours),5904
+NASA FIRMS fire detections,1185836
 GDELT news headlines,2255
-Total,2041801
+Total,2048724

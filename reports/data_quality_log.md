@@ -21,6 +21,8 @@ The numeric before/after statistics for every cleaning step are in the generated
 | A6 | Islamabad's two reference "monitors" are one monitor published twice (StateAir and AirNow) | 15,925 overlapping hours, 87% identical, r = 0.978 | Averaged into one series |
 | A7 | AirGradient's OpenAQ data is already humidity-corrected | Raw mean 35.9 vs reference 34.0; EPA correction would drop it to 18.6 and raise MAE from 9.8 to 15.6 | Correction applied per provider only where it helps (Hawanama); skipped for AirGradient and Clarity |
 | A8 | Clarity reads ~32% below the reference monitor | 6,333 overlapping hours: 83.6 vs 122.6 ug/m3 | Not corrected (no reliable formula); see L1 |
+| A9 | Sensor dropouts: readings that fall to near zero for one hour in the middle of heavy smog | Found on the deployed dashboard: Lahore showed 0 ug/m3 at 10:00 on 3 Nov 2024 (Clarity reported 0.0 between 374 and 334 while the reference monitor was offline). Dozens of exact-zero city-hours elsewhere | Three rules added in step 3/5: readings below 1 ug/m3 dropped (instrument floor); sensor-level dropout test (1,124 readings in the first pass); a second dropout pass on the combined city series |
+| A10 | NO2 does not exist in OpenAQ near the five cities; PM10 barely does | Coverage table: 0 NO2 sensors, 5 PM10 sensors (2 Clarity, 3 short-lived AirGradient) | PM10 downloaded (5,904 hours), cleaned and added to the master table as context; NO2 reported as unavailable |
 
 ## Fires (NASA FIRMS)
 
@@ -29,7 +31,8 @@ The numeric before/after statistics for every cleaning step are in the generated
 | F1 | Industrial heat sources and offshore flares in the fire data | NASA `type` 2 and 3: 36,098 detections | Kept only `type = 0` (vegetation fires) |
 | F2 | The same fire is seen by several satellite passes | 139,298 fires seen by more than one pass | One fire per ~1 km cell, day and day/night pass (strongest FRP kept) |
 | F3 | FIRMS answers "Invalid MAP_KEY" when the 5,000-per-10-minutes quota is used up | Key status read 4,886/5,000 at the time of the error | Downloader waits and retries instead of stopping |
-| F5 | One month of VIIRS (Aug 2023, 1,019 detections) finished downloading after the fire table was built, so it is not in the analysis | Raw file on disk, absent from `firms_fires.parquet` (1,184,817 rows) | 0.09% of detections, a monsoon month with almost no crop burning, inside the training period and far from both test seasons, so results are unaffected. Run `python -m saans.ingest.firms build` before any full re-run |
+| F5 | One month of VIIRS (Aug 2023, 1,019 detections) finished downloading after the fire table was first built | Raw file on disk, absent from the first `firms_fires.parquet` (1,184,817 rows) | Fixed in the re-evaluation: table rebuilt (1,185,836 detections) and the whole pipeline re-run |
+| F6 | NASA FIRMS stopped accepting connections from the development machine on 24 Oct 2026, after the archive downloads | Connection timeouts on every FIRMS URL while other NASA sites answered | The live forecast reports "no fresh fire data" on screen instead of silently assuming no fires; the deployed app runs from a different network |
 | F4 | VIIRS on NOAA-20 was ~3x slower to download (an estimated 5 hours) | 7 months in 30 minutes | Dropped; VIIRS S-NPP + MODIS kept (as in the proposal). A partial year would have biased the fire index |
 
 ## News and LLM
@@ -45,6 +48,8 @@ The numeric before/after statistics for every cleaning step are in the generated
 
 | ID | Finding | Evidence | Fix |
 |---|---|---|---|
-| L1 | Lahore 2025-26 forecasts run high | Mean bias +26 ug/m3 when Lahore's data switched to the low-cost networks (A1, A8) | Reported as a limitation: losing a reference monitor degrades forecasts. Recalibration on the new network is future work |
-| L3 | The what-if on fires is not always monotonic | Multan 2025-26: removing 100% of fires raised one forecast by 5 ug/m3. Tree models do not enforce "more fire, more smoke" | Labelled as an estimate on the dashboard; fix is LightGBM monotone constraints on the fire features (future work) |
-| L2 | Predicting PM2.5 levels directly clipped the record days | 6 Nov 2024: forecast 283 vs observed 510 | Models predict the change from the last 24 h instead; same day now 390, overall skill vs persistence up from 6% to 13.5% (2024-25, 24 h) |
+| L1 | Lahore 2025-26 forecasts run high | Mean bias +25 ug/m3 when Lahore's data switched to the low-cost networks (A1, A8) | Reported as a limitation: losing a reference monitor degrades forecasts. Recalibration on the new network is future work |
+| L3 | The what-if on fires was not always monotonic | Multan 2025-26: removing 100% of fires raised one forecast by 5 ug/m3. Tree models do not enforce "more fire, more smoke" | Fixed: LightGBM monotone constraints on the three fire features (the quantile band models cannot take constraints) |
+| L4 | The first dashboard only replayed past seasons: no forecast for today | User review of the deployed app | Live mode built (`saans/live.py`, notebook 07): fetches the last 4 days of sensors, weather and fires, cleans them with the same rules, forecasts the next 24/48 h. A parity check shows live features equal training features exactly (0.0 difference on 266,760 rows x 44 features) |
+| L5 | Live mode differs from training in two inputs | Weather comes from the Open-Meteo forecast model instead of ERA5; the news event calendar is not updated live | Stated on the dashboard; event features are zero in live runs |
+| L2 | Predicting PM2.5 levels directly clipped the record days | 6 Nov 2024: forecast 283 vs observed 510 | Models predict the change from the last 24 h instead; same day now 383, overall skill vs persistence up from 6% to 13.4% (2024-25, 24 h) |
