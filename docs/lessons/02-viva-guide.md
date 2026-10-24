@@ -65,6 +65,19 @@ The LLM appears twice: at the start (turning news into data) and at the end (tur
 
 ## 4. Likely questions, with answers
 
+**How did you fetch the data?** (the full answer is [docs/DATA_PIPELINE.md](../DATA_PIPELINE.md); notebook 01 shows the code and a raw response for each source)
+Four free APIs, each downloaded by a small Python script in `saans/ingest/` that saves every response untouched and skips what is already saved:
+* **Weather:** Open-Meteo's historical API, one request per city per year (35 requests), 13 hourly variables.
+* **PM2.5:** OpenAQ v3. First a search for all sensors within 25 km of each city (248 found, 200 with PM2.5 in our period), then each sensor's hourly values one month per request (about 1,300 requests, four workers inside the 60-per-minute limit). Whole-year requests timed out, which is why we switched to months.
+* **Fires:** NASA FIRMS area API, 5 days per call, saved per month (146 files); when we hit NASA's quota it answers "Invalid MAP_KEY", so the script waits and retries.
+* **News:** GDELT, 13 requests, heavily rate-limited.
+
+**Why does the data stop on 31 January 2026?**
+The proposal covers 2020 to 2025 and tests on the 2024 and 2025 smog seasons. A season runs October to January, so the 2025 season ends on 31 January 2026; stopping there gives two complete test seasons. February to September has little smog. Anything after January 2026 is handled by the live forecast, which downloads the latest four days every time it runs.
+
+**From when to when is the sensor data?**
+Lahore, Islamabad and Karachi: US Embassy/Consulate reference monitors from 1 January 2020 until the feed stopped on 4 March 2025. Lahore also has a Clarity monitor from November 2023. The low-cost networks start later: AirGradient from May-June 2025 (Karachi from October 2024), Hawanama from November 2025. Faisalabad and Multan have nothing before June 2025. The low-cost sensors are still reporting today, and the live forecast uses them.
+
 **Why split by time instead of randomly?**
 The target is a 24-hour mean, so neighbouring hours overlap. A random split would put 10:00 in training and 11:00 in test: the model would effectively see the answer. Forecasting also means predicting the future, so the test must lie after the training period.
 
