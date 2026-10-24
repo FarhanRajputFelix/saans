@@ -24,15 +24,32 @@ st.set_page_config(page_title="SAANS smog forecast", page_icon="🌫️", layout
 
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
-try:  # Streamlit Cloud secrets -> environment, before any saans module reads the keys
-    for _k in ["OPENAQ_API_KEY", "FIRMS_MAP_KEY", "GEMINI_API_KEY", "GROQ_API_KEY"]:
-        if _k in st.secrets and not os.getenv(_k):
-            os.environ[_k] = st.secrets[_k]
-except Exception:
-    pass  # no secrets configured: the Live tab falls back to the snapshot
+KEY_NAMES = ["OPENAQ_API_KEY", "FIRMS_MAP_KEY", "GEMINI_API_KEY", "GROQ_API_KEY"]
+
+
+def secret(name: str) -> str:
+    """A key from Streamlit secrets, at the top level or inside any [section]; '' if absent."""
+    try:
+        if name in st.secrets:
+            return str(st.secrets[name]).strip()
+        for section in st.secrets.values():
+            if hasattr(section, "keys") and name in section:
+                return str(section[name]).strip()
+    except Exception:
+        pass  # no secrets file at all (local run uses .env instead)
+    return ""
+
+
+for _k in KEY_NAMES:  # Streamlit Cloud secrets -> environment, on every run (keys can be added while the app is up)
+    if secret(_k):
+        os.environ[_k] = secret(_k)
 
 from saans import advisory, config  # noqa: E402
 from saans.aqi import HAZARDOUS_PM25, pm25_to_aqi, risk_level  # noqa: E402
+
+# saans.config read the keys when the process first started; refresh its copies so keys added later take effect
+config.OPENAQ_API_KEY = os.getenv("OPENAQ_API_KEY", "") or config.OPENAQ_API_KEY
+config.FIRMS_MAP_KEY = os.getenv("FIRMS_MAP_KEY", "") or config.FIRMS_MAP_KEY
 
 DATA = ROOT / "app" / "data"
 REPORTS = ROOT / "reports"
@@ -213,6 +230,10 @@ with tab_live:
                 st.warning(f"Live run failed ({type(e).__name__}); showing the latest snapshot instead.")
     if res is None:
         res, mode = load_snapshot(), "snapshot"
+    if not HAVE_KEYS:
+        seen = {k: bool(os.getenv(k)) for k in KEY_NAMES}
+        st.caption("API keys the app can see: " + " · ".join(f"{k} {'found' if v else 'missing'}" for k, v in seen.items())
+                   + ". The live forecast needs OPENAQ_API_KEY (FIRMS_MAP_KEY adds fire data; GEMINI/GROQ write the advisory).")
     if res is None or res["forecasts"].empty:
         st.error("No live forecast available: add API keys in the app's secrets (see About).")
     else:
@@ -339,7 +360,7 @@ with tab_about:
 * **LLM:** Gemini (Groq fallback) extracts the event calendar from headlines and writes the bilingual advisories. It only rewords the model's numbers, and every number it writes is checked.
 * **Limits:** attribution is statistical, not chemical; Faisalabad and Multan have sensors only from June 2025; the live mode depends on the APIs answering.
 
-**Enable the live forecast on Streamlit Cloud:** app menu → Settings → Secrets, then paste:
+**Enable the live forecast on Streamlit Cloud:** app menu → Settings → Secrets, then paste (one per line, values in quotes, no section header needed):
 ```
 OPENAQ_API_KEY = "your key"
 FIRMS_MAP_KEY = "your key"
