@@ -45,7 +45,7 @@ All four downloaders follow the same pattern: request in small pieces, save **ev
 | Step 1: find sensors | `GET /v3/locations?coordinates=<lat>,<lon>&radius=25000` per city (25 km is the API maximum) → **248 sensors**, of which **200 PM2.5 sensors** overlap the study period; saved as `data/interim/openaq_sensors.csv` |
 | Step 2: hourly values | `GET /v3/sensors/<id>/hours?datetime_from=<month start>&datetime_to=<month end>&limit=1000` |
 | Split | **One month per request** (a month is at most 744 hours, so one page). Whole-year requests needed deep paging, which became slow (page 5 took 12 s) and timed out (HTTP 408) |
-| Speed and limits | Free key: 60 requests/minute. Four parallel workers paced on OpenAQ's rate-limit headers; HTTP 408/429/5xx and dropped connections are retried |
+| Speed and limits | **1,274 requests** (1,269 sensor-months + 5 location searches). Free key: 60 requests/minute; four parallel workers paced on OpenAQ's rate-limit headers; HTTP 408/429/5xx and dropped connections are retried |
 | Saved | `data/raw/openaq/hours/sensor_<id>.json` (205 files) → `data/interim/openaq_hourly.parquet` |
 | Received | **587,969 PM2.5 sensor-hours** from 200 sensors; **5,904 PM10 sensor-hours** from the only 5 PM10 sensors; **NO2: no sensor exists** near any of the five cities |
 | Commands | `python -m saans.ingest.openaq coverage`, `... hours`, `... pm10` |

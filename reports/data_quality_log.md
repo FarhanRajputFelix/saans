@@ -19,17 +19,17 @@ The numeric before/after statistics for every cleaning step are in the generated
 | A4 | OpenAQ's `percentComplete` is wrong for the Clarity monitor | Clarity reports every 15-20 min (3-4 readings/hour); OpenAQ assumes 12, so every good hour shows 25% | Completeness judged against each sensor's own typical count; this saved Lahore's only reference-quality record after Mar 2025 |
 | A5 | Lahore US monitor stuck at 67.0 ug/m3 | 105 consecutive hours, 29 May to 1 Jun 2024 | Stuck-run rule (6+ identical hours) removes it |
 | A6 | Islamabad's two reference "monitors" are one monitor published twice (StateAir and AirNow) | 15,925 overlapping hours, 87% identical, r = 0.978 | Averaged into one series |
-| A7 | AirGradient's OpenAQ data is already humidity-corrected | Raw mean 35.9 vs reference 34.0; EPA correction would drop it to 18.6 and raise MAE from 9.8 to 15.6 | Correction applied per provider only where it helps (Hawanama); skipped for AirGradient and Clarity |
-| A8 | Clarity reads ~32% below the reference monitor | 6,333 overlapping hours: 83.6 vs 122.6 ug/m3 | Not corrected (no reliable formula); see L1 |
-| A9 | Sensor dropouts: readings that fall to near zero for one hour in the middle of heavy smog | Found on the deployed dashboard: Lahore showed 0 ug/m3 at 10:00 on 3 Nov 2024 (Clarity reported 0.0 between 374 and 334 while the reference monitor was offline). Dozens of exact-zero city-hours elsewhere | Three rules added in step 3/5: readings below 1 ug/m3 dropped (instrument floor); sensor-level dropout test (1,124 readings in the first pass); a second dropout pass on the combined city series |
+| A7 | AirGradient's OpenAQ data is already humidity-corrected | Raw mean 36.0 vs reference 34.0; EPA correction would drop it to 18.6 and raise MAE from 9.8 to 15.6 | Correction applied per provider only where it helps (Hawanama); skipped for AirGradient and Clarity |
+| A8 | Clarity reads ~32% below the reference monitor | 6,331 overlapping hours: 83.6 vs 122.4 ug/m3 | Not corrected (no reliable formula); see L1 |
+| A9 | Sensor dropouts: readings that fall to near zero for one hour in the middle of heavy smog | Found on the deployed dashboard: Lahore showed 0 ug/m3 at 10:00 on 3 Nov 2024 (Clarity reported 0.0 between 374 and 334 while the reference monitor was offline). Dozens of exact-zero city-hours elsewhere | Three rules added in step 3/5: readings below 1 ug/m3 dropped (instrument floor); sensor-level dropout test (1,114 readings) and 1,020 zero readings; a second dropout pass on the combined city series |
 | A10 | NO2 does not exist in OpenAQ near the five cities; PM10 barely does | Coverage table: 0 NO2 sensors, 5 PM10 sensors (2 Clarity, 3 short-lived AirGradient) | PM10 downloaded (5,904 hours), cleaned and added to the master table as context; NO2 reported as unavailable |
 
 ## Fires (NASA FIRMS)
 
 | ID | Finding | Evidence | Fix |
 |---|---|---|---|
-| F1 | Industrial heat sources and offshore flares in the fire data | NASA `type` 2 and 3: 36,098 detections | Kept only `type = 0` (vegetation fires) |
-| F2 | The same fire is seen by several satellite passes | 139,298 fires seen by more than one pass | One fire per ~1 km cell, day and day/night pass (strongest FRP kept) |
+| F1 | Industrial heat sources and offshore flares in the fire data | NASA `type` 2 and 3: 36,311 detections | Kept only `type = 0` (vegetation fires) |
+| F2 | The same fire is seen by several satellite passes | 139,394 fires seen by more than one pass | One fire per ~1 km cell, day and day/night pass (strongest FRP kept) |
 | F3 | FIRMS answers "Invalid MAP_KEY" when the 5,000-per-10-minutes quota is used up | Key status read 4,886/5,000 at the time of the error | Downloader waits and retries instead of stopping |
 | F5 | One month of VIIRS (Aug 2023, 1,019 detections) finished downloading after the fire table was first built | Raw file on disk, absent from the first `firms_fires.parquet` (1,184,817 rows) | Fixed in the re-evaluation: table rebuilt (1,185,836 detections) and the whole pipeline re-run |
 | F6 | NASA FIRMS stopped accepting connections from the development machine on 24 Oct 2026, after the archive downloads | Connection timeouts on every FIRMS URL while other NASA sites answered | The live forecast reports "no fresh fire data" on screen instead of silently assuming no fires; the deployed app runs from a different network |

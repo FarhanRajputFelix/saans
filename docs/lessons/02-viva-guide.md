@@ -100,7 +100,7 @@ It never predicts. It only receives our numbers and must reuse them exactly, and
 It is a strict score: type, place and date must all be supported by the headline. The errors are understandable (it missed "lift" and "reopen", and guessed places), and the events are a minor feature. Reporting the honest number is the point of the check; the fix (rules for "lift/reopen" headlines) is future work.
 
 **Why did you not apply the humidity correction to all low-cost sensors?**
-We tested it against a reference monitor first. AirGradient's data matched the reference raw (35.9 vs 34.0) but fell to 18.6 after correction, so AirGradient evidently publishes corrected data already. Correcting twice would have halved real values. The rule became: correct only where evidence shows it helps.
+We tested it against a reference monitor first. AirGradient's data matched the reference raw (36.0 vs 34.0) but fell to 18.6 after correction, so AirGradient evidently publishes corrected data already. Correcting twice would have halved real values. The rule became: correct only where evidence shows it helps.
 
 **Why did Lahore do badly in 2025-26?**
 The US monitor feed stopped in March 2025, so Lahore's data switched to low-cost networks that read differently (Clarity reads 32% below the reference). The model, trained on the reference monitor, over-forecasts by about 25 ug/m3. It is a data-equity finding: losing a reference monitor makes forecasts worse.
