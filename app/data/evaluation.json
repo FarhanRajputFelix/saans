@@ -1,0 +1,70 @@
+{
+ "regression": [
+  {
+   "season": "2024-25 season",
+   "horizon": "24 h",
+   "MAE_model": 28.0,
+   "MAE_persistence": 32.7,
+   "MAE_seasonal": 48.2,
+   "skill_vs_persistence": 0.144
+  },
+  {
+   "season": "2024-25 season",
+   "horizon": "48 h",
+   "MAE_model": 38.0,
+   "MAE_persistence": 44.1,
+   "MAE_seasonal": 48.0,
+   "skill_vs_persistence": 0.138
+  },
+  {
+   "season": "2025-26 season",
+   "horizon": "24 h",
+   "MAE_model": 25.4,
+   "MAE_persistence": 25.8,
+   "MAE_seasonal": 68.5,
+   "skill_vs_persistence": 0.016
+  },
+  {
+   "season": "2025-26 season",
+   "horizon": "48 h",
+   "MAE_model": 34.6,
+   "MAE_persistence": 36.1,
+   "MAE_seasonal": 69.6,
+   "skill_vs_persistence": 0.042
+  }
+ ],
+ "classifier": [
+  {
+   "season": "2024-25 season",
+   "method": "SAANS classifier",
+   "hazardous_hours": 1332,
+   "hit_rate": 0.919,
+   "false_alarm_ratio": 0.332,
+   "F1": 0.774
+  },
+  {
+   "season": "2024-25 season",
+   "method": "Persistence (last 24 h >= 225.5)",
+   "hazardous_hours": 1332,
+   "hit_rate": 0.755,
+   "false_alarm_ratio": 0.244,
+   "F1": 0.755
+  },
+  {
+   "season": "2025-26 season",
+   "method": "SAANS classifier",
+   "hazardous_hours": 2913,
+   "hit_rate": 0.922,
+   "false_alarm_ratio": 0.331,
+   "F1": 0.775
+  },
+  {
+   "season": "2025-26 season",
+   "method": "Persistence (last 24 h >= 225.5)",
+   "hazardous_hours": 2913,
+   "hit_rate": 0.761,
+   "false_alarm_ratio": 0.233,
+   "F1": 0.764
+  }
+ ]
+}

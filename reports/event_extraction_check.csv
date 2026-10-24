@@ -1,0 +1,21 @@
+hid,date_pkt,title,event_type,place,start_date,duration_days,correct,reviewer_note
+2183,2025-12-11,"Air pollution and dense fog grip major cities , several motorway sections shut down",traffic_restriction,Other,2025-12-11,,1,"motorway sections shut: a traffic restriction; cities unnamed, so Other is right"
+558,2021-12-11,SEPA seals steels mills over emitting hazardous smoke,construction_or_industry_ban,Other,2021-12-11,,1,"industry sealed for smoke; city not named, Other is right"
+1109,2023-11-02,Punjab Makes Wearing Face Masks Mandatory in Schools,other_measure,Punjab-wide,2023-11-02,,1,mandatory masks in Punjab schools
+279,2021-10-12,Section 144 imposed to check smog - Newspaper,other_measure,Punjab-wide,2021-10-12,,0,"type fine, but Punjab-wide is inferred: the headline names no place"
+1789,2024-12-09,12 cases registered over smog SOPs breach,other_measure,Punjab-wide,2024-12-09,,0,"enforcement cases; Punjab-wide is inferred, not stated"
+1744,2024-12-02,LHC orders seizing unfit vehicles to combat smog,traffic_restriction,Punjab-wide,2024-12-02,,1,Lahore High Court order on unfit vehicles; Punjab jurisdiction
+966,2022-12-27,LHC orders govt to extend winter vacation by 7 days due to smog,school_closure,Lahore,2022-12-27,7.0,1,"7-day school holiday extension, duration correct"
+965,2022-12-27,LHC orders one - week extension in winter holidays for schools,school_closure,Lahore,2022-12-27,7.0,1,same event as 966 from another outlet; extraction correct
+2178,2025-12-07,Punjab extends smog alert,smog_emergency,Punjab-wide,2025-12-07,,1,smog alert extended in Punjab
+973,2022-12-27,LHC orders one week extension in winter holidays due to smog,school_closure,Lahore,2022-12-27,7.0,1,same event as 966; correct
+2113,2025-11-15,Faisalabad gets first mobile fuel lab,other_measure,Faisalabad,2025-11-15,,0,a new fuel-testing lab is not a smog event
+512,2021-12-03,"Motorway closed across various points as fog envelops Punjab , KP",traffic_restriction,Punjab-wide,2021-12-03,,1,motorway closures in Punjab (fog); a traffic restriction
+1165,2023-11-11,Punjab decides to lift smog lockdown as rain improves air quality,lockdown_or_office_closure,Punjab-wide,2023-11-11,,0,meaning inverted: the lockdown was LIFTED
+1682,2024-11-19,"Barring Lahore and Multan , schools reopen in Punjab",school_closure,Punjab-wide,2024-11-19,,0,meaning inverted: schools REOPEN except Lahore and Multan; place should be those two cities
+355,2021-11-17,Punjab govt bans sale of Euro - 2 fuel in Lahore to combat air pollution,traffic_restriction,Lahore,2021-11-17,,1,fuel ban in Lahore; acceptable as a traffic measure
+916,2022-12-14,"LHC orders closure of markets , restaurants in smog - hit Lahore by 10pm on weekdays - Pakistan",lockdown_or_office_closure,Lahore,2022-12-14,,1,market and restaurant closures in Lahore
+1455,2024-01-15,Brick kilns converted to cleaner Zig - Zag technology in Islamabad,construction_or_industry_ban,Islamabad,2024-01-15,,0,"kiln technology upgrade, not a ban"
+539,2021-12-06,M - tag mandatory for vehicles on Islamabad - Lahore motorway,traffic_restriction,Punjab-wide,2021-12-06,,0,M-tag toll rule is not smog-related
+69,2020-10-16,Punjab Imposes a Ban on Heavy Smoke - Emitting Vehicles to Prevent Smog,traffic_restriction,Punjab-wide,2020-10-16,,1,ban on smoke-emitting vehicles in Punjab
+1519,2024-10-31,Lahore goes for  green lockdown  to tackle smog - Pakistan,lockdown_or_office_closure,Lahore,2024-10-31,,1,green lockdown in Lahore

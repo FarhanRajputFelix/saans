@@ -1,0 +1,1 @@
+{"provider": "gemini:gemini-3.5-flash-lite", "answer": "{\n  \"events\": [\n    {\n      \"hid\": 1045,\n      \"event_type\": \"construction_or_industry_ban\",\n      \"place\": \"Other\",\n      \"start_date\": \"2023-01-22\",\n      \"duration_days\": null\n    }\n  ]\n}"}

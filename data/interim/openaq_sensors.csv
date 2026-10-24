@@ -1,0 +1,249 @@
+city,location_id,location,provider,owner,is_monitor,is_mobile,lat,lon,distance_km,sensor_id,parameter,units,first_utc,last_utc,days_in_period
+faisalabad,4834565,Naimat colony,AirGradient,The Urban Unit,False,False,31.41069,73.12276,4.6,13404306,pm25,µg/m³,2025-06-23 06:00:00+00:00,2026-10-21 10:00:00+00:00,222
+faisalabad,4837114,FDA-01,AirGradient,The Urban Unit,False,False,31.41949,73.09359,5.2,13406424,pm25,µg/m³,2025-06-23 09:00:00+00:00,2026-10-12 05:00:00+00:00,222
+faisalabad,4837166,Amin town,AirGradient,The Urban Unit,False,False,31.44492,73.12673,1.0,13406749,pm25,µg/m³,2025-06-23 12:00:00+00:00,2026-07-11 11:00:00+00:00,222
+faisalabad,4845647,K-Block Gulistan colony,AirGradient,The Urban Unit,False,False,31.43736,73.10685,3.0,13413540,pm25,µg/m³,2025-06-24 05:00:00+00:00,2026-10-24 07:00:00+00:00,221
+faisalabad,4846143,WASA OFFICE ,AirGradient,The Urban Unit,False,False,31.44949,73.08397,4.9,13414776,pm25,µg/m³,2025-06-24 07:00:00+00:00,2026-09-14 10:00:00+00:00,221
+faisalabad,4847174,University Town,AirGradient,The Urban Unit,False,False,31.49787,73.08318,7.2,13414786,pm25,µg/m³,2025-06-24 07:00:00+00:00,2026-10-24 07:00:00+00:00,221
+faisalabad,4847175,FDA-02,AirGradient,The Urban Unit,False,False,31.50891,73.07458,8.7,13414791,pm25,µg/m³,2025-06-24 08:00:00+00:00,2026-10-23 22:00:00+00:00,221
+faisalabad,4848174,GC university,AirGradient,The Urban Unit,False,False,31.41622,73.06798,7.4,13415384,pm25,µg/m³,2025-06-24 10:00:00+00:00,2026-10-24 04:00:00+00:00,221
+faisalabad,4852891,University of Education ,AirGradient,The Urban Unit,False,False,31.39636,73.06871,8.7,13423775,pm25,µg/m³,2025-06-25 07:00:00+00:00,2026-10-12 01:00:00+00:00,220
+faisalabad,4854007,Ayub Agriculture Research Institute,AirGradient,The Urban Unit,False,False,31.40698,73.05388,9.1,13425262,pm25,µg/m³,2025-06-25 09:00:00+00:00,2026-09-22 08:00:00+00:00,220
+faisalabad,4854008,Punjab Food Authority,AirGradient,The Urban Unit,False,False,31.4367245,73.0355178,9.6,13425267,pm25,µg/m³,2025-06-25 09:00:00+00:00,2026-10-24 07:00:00+00:00,220
+faisalabad,4854514,Riphah International University,AirGradient,The Urban Unit,False,False,31.38127,73.12783,7.7,13426457,pm25,µg/m³,2025-06-25 13:00:00+00:00,2026-10-24 07:00:00+00:00,220
+faisalabad,4865063,University of Agriculture ,AirGradient,The Urban Unit,False,False,31.43452,73.07072,6.4,13434404,pm25,µg/m³,2025-06-26 09:00:00+00:00,2026-10-24 07:00:00+00:00,219
+faisalabad,4866055,Faisalabad Chamber of Commerce ,AirGradient,The Urban Unit,False,False,31.44599,73.14291,0.9,13435006,pm25,µg/m³,2025-06-26 12:00:00+00:00,2026-09-18 10:00:00+00:00,219
+faisalabad,4867094,NFC Institute of Engineering ,AirGradient,The Urban Unit,False,False,31.40823,73.1205,4.9,13435868,pm25,µg/m³,2025-06-26 13:00:00+00:00,2026-10-19 09:00:00+00:00,219
+faisalabad,4876581,GC Women University ,AirGradient,The Urban Unit,False,False,31.41808,73.12049,3.8,13443447,pm25,µg/m³,2025-06-27 09:00:00+00:00,2026-08-08 03:00:00+00:00,218
+faisalabad,4877120,"people Colony, Small d Ground",AirGradient,The Urban Unit,False,False,31.41484,73.10411,4.9,13444328,pm25,µg/m³,2025-06-27 11:00:00+00:00,2026-10-24 07:00:00+00:00,218
+faisalabad,4837116,PHA Office,AirGradient,The Urban Unit,False,False,31.42893,73.08995,4.9,14152945,pm25,µg/m³,2025-09-19 00:00:00+00:00,2026-10-24 07:00:00+00:00,135
+faisalabad,4875553,"Imdad Town, Manawala",AirGradient,The Urban Unit,False,False,31.46174,73.1286,1.4,14153010,pm25,µg/m³,2025-09-19 00:00:00+00:00,2026-08-06 07:00:00+00:00,135
+faisalabad,6098269,WWF-03 PU EpicAir,AirGradient,Unknown Person,False,False,31.402589724356766,73.08485474417827,7.1,14398129,pm25,µg/m³,2025-10-17 06:00:00+00:00,2026-10-24 07:00:00+00:00,106
+faisalabad,6098490,WWF-04 PU EpicAir,AirGradient,Unknown Person,False,False,31.49561494306249,73.0738203,7.7,14400322,pm25,µg/m³,2025-10-17 13:00:00+00:00,2026-10-24 07:00:00+00:00,106
+faisalabad,6098527,WWF-01 PU EpicAir,AirGradient,Unknown Person,False,False,31.4431323,73.1281507,1.0,14400044,pm25,µg/m³,2025-10-17 10:00:00+00:00,2026-10-24 07:00:00+00:00,106
+faisalabad,6101815,WWF-02 PU EpicAir,AirGradient,Unknown Person,False,False,31.50108058091762,73.21786779575491,9.7,14424342,pm25,µg/m³,2025-10-20 11:00:00+00:00,2026-10-24 07:00:00+00:00,103
+faisalabad,6101816,WWF-05 PU EpicAir,AirGradient,Unknown Person,False,False,31.447314465409107,73.09399532328688,3.9,14424347,pm25,µg/m³,2025-10-20 09:00:00+00:00,2026-10-24 07:00:00+00:00,103
+faisalabad,6106468,WWF-06 PU EpicAir,AirGradient,Unknown Person,False,False,31.416074095194894,73.09168107453422,5.6,14458706,pm25,µg/m³,2025-10-24 07:00:00+00:00,2026-10-21 09:00:00+00:00,99
+faisalabad,6114241,WWF-10 PU EpicAir,AirGradient,Unknown Person,False,False,31.418678993750948,73.08426867116434,6.0,14514739,pm25,µg/m³,2025-10-31 11:00:00+00:00,2026-10-24 07:00:00+00:00,92
+faisalabad,6122104,WWF-07 PU EpicAir,AirGradient,Unknown Person,False,False,31.590673998023338,73.1725861767131,16.0,14573151,pm25,µg/m³,2025-11-07 04:00:00+00:00,2026-10-24 07:00:00+00:00,85
+faisalabad,6122105,WWF-08 PU EpicAir,AirGradient,Unknown Person,False,False,31.49718608460766,73.27105128650696,13.9,14573156,pm25,µg/m³,2025-11-07 04:00:00+00:00,2026-10-24 07:00:00+00:00,85
+faisalabad,6122106,WWF-09 PU EpicAir,AirGradient,Unknown Person,False,False,31.38939081099395,73.02624342698606,12.4,14573161,pm25,µg/m³,2025-11-07 04:00:00+00:00,2026-10-24 07:00:00+00:00,85
+faisalabad,6135429,WWF-05 PU EpicAir,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.447314,73.093995,3.9,14681897,pm25,µg/m³,2025-11-20 00:00:00+00:00,2026-10-24 00:00:00+00:00,73
+faisalabad,6135456,Riphah International University,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.38127,73.12783,7.7,14719907,pm25,µg/m³,2025-11-25 06:00:00+00:00,2026-10-24 01:00:00+00:00,67
+faisalabad,6135511,University of Education,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.39636,73.06871,8.7,14738103,pm25,µg/m³,2025-11-27 09:00:00+00:00,2026-10-12 01:00:00+00:00,65
+faisalabad,6135465,Wwf,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.443132,73.128151,1.0,14673712,pm25,µg/m³,2025-11-18 23:00:00+00:00,2025-11-25 01:00:00+00:00,6
+faisalabad,6135492,WWF-04 IQ Air,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.495615,73.07382,7.7,14673715,pm25,µg/m³,2025-11-18 22:00:00+00:00,2025-11-25 01:00:00+00:00,6
+faisalabad,6135530,WWF-06 PU EpicAir,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.49714,73.271212,13.9,14815358,pm25,µg/m³,2025-12-06 08:00:00+00:00,2025-12-09 20:00:00+00:00,3
+faisalabad,6135501,WWF-03 IQ Air,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.40259,73.084855,7.1,14673716,pm25,µg/m³,2025-11-18 22:00:00+00:00,2025-11-20 01:00:00+00:00,1
+faisalabad,4834608,GC Women University ,AirGradient,AirGradient,False,False,31.41805,73.1205,3.8,13404616,pm25,µg/m³,2025-06-23 07:00:00+00:00,2025-06-23 07:00:00+00:00,0
+faisalabad,4838124,Faisalabad Chamber of commerce,AirGradient,AirGradient,False,False,31.44577,73.14266,0.9,13407064,pm25,µg/m³,2025-06-23 13:00:00+00:00,2025-06-23 18:00:00+00:00,0
+faisalabad,6318819,Faisalabad People’s Colony B,Hawanama,OpenAQ admin,False,False,31.4109,73.1039,5.3,16034751,pm25,µg/m³,2026-04-23 05:00:00+00:00,2026-06-12 06:00:00+00:00,0
+faisalabad,6318823,Faisalabad Gatwala Canal Rd A,Hawanama,OpenAQ admin,False,False,31.4624,73.1797,4.5,16034755,pm25,µg/m³,2026-04-23 05:00:00+00:00,2026-10-24 02:00:00+00:00,0
+faisalabad,6318850,Faisalabad Raza Garden B,Hawanama,OpenAQ admin,False,False,31.4539,73.1599,2.4,16034782,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-10-23 10:00:00+00:00,0
+faisalabad,6346777,Faisalabad Civil Lines B,Hawanama,OpenAQ admin,False,False,31.4324,73.0811,5.5,16242906,pm25,µg/m³,2026-05-12 22:00:00+00:00,2026-10-24 02:00:00+00:00,0
+islamabad,8634,US Diplomatic Post: Islamabad,StateAir Islamabad,Unknown Governmental Organization,True,False,33.7235,73.11822,7.8,25066,pm25,µg/m³,2019-05-22 22:00:00+00:00,2025-03-04 12:00:00+00:00,1889
+islamabad,233470,Islamabad,AirNow,Unknown Governmental Organization,True,False,33.725614,73.11602,7.8,1343270,pm25,µg/m³,2021-08-26 15:00:00+00:00,2026-02-16 13:00:00+00:00,1619
+islamabad,4515644,"F-7, Islamabad",AirGradient,Homer Simpson,False,False,33.7213352,73.0560998,4.2,13137731,pm25,µg/m³,2025-05-24 17:00:00+00:00,2026-10-24 07:00:00+00:00,252
+islamabad,4554236,Rawalpindi Women University,AirGradient,The Urban Unit,False,False,33.6452478,73.0646181,4.6,13181992,pm25,µg/m³,2025-05-29 07:00:00+00:00,2026-10-24 07:00:00+00:00,247
+islamabad,4556719,"Wasa 3, OHR Office ",AirGradient,The Urban Unit,False,False,33.650973,73.0788731,4.7,13183766,pm25,µg/m³,2025-05-29 12:00:00+00:00,2026-10-24 07:00:00+00:00,247
+islamabad,4565419,Social Welfare Department,AirGradient,The Urban Unit,False,False,33.6278837,73.0924564,7.5,13190424,pm25,µg/m³,2025-05-30 06:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4565932,WASA Head Office 1,AirGradient,The Urban Unit,False,False,33.6022915,73.0560117,9.1,13190993,pm25,µg/m³,2025-05-30 07:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4566426,Punjab Food Authority,AirGradient,The Urban Unit,False,False,33.6304566,73.0729694,6.4,13191310,pm25,µg/m³,2025-05-30 08:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4567363,Public Health Engineering,AirGradient,The Urban Unit,False,False,33.6335684,73.0614477,5.8,13191604,pm25,µg/m³,2025-05-30 09:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4567364,"Conservator of Forest, North zone",AirGradient,The Urban Unit,False,False,33.540583,73.116917,17.2,13191609,pm25,µg/m³,2025-05-30 09:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4567932,PHA Head Office,AirGradient,The Urban Unit,False,False,33.6055187,73.0611438,8.8,13192453,pm25,µg/m³,2025-05-30 11:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4568424,E11/4 Sector Islamabad,AirGradient,The Urban Unit,False,False,33.698979,72.981907,6.3,13192751,pm25,µg/m³,2025-05-30 12:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,4579733,WASA 2 (Sufaid tanki),AirGradient,The Urban Unit,False,False,33.6386254,73.069351,5.5,13201383,pm25,µg/m³,2025-05-31 11:00:00+00:00,2026-10-24 07:00:00+00:00,245
+islamabad,4608422,Park Road F-8/1 Sector Islamabad,AirGradient,The Urban Unit,False,False,33.7102628,73.0312832,3.3,13229202,pm25,µg/m³,2025-06-03 09:00:00+00:00,2026-10-24 07:00:00+00:00,242
+islamabad,4616262,District Health Authority,AirGradient,The Urban Unit,False,False,33.6333084,73.0488857,5.7,13236697,pm25,µg/m³,2025-06-04 07:00:00+00:00,2026-10-20 07:00:00+00:00,241
+islamabad,4884063,"Govt. Graduate College, Asghar Mall,",AirGradient,The Urban Unit,False,False,33.6291031,73.0559127,6.2,13451278,pm25,µg/m³,2025-06-28 05:00:00+00:00,2026-10-24 07:00:00+00:00,217
+islamabad,4917341,NASTP,AirGradient,The Urban Unit,False,False,33.6079232,73.0974891,9.6,13493758,pm25,µg/m³,2025-07-02 19:00:00+00:00,2026-10-24 07:00:00+00:00,213
+islamabad,5325356,DC Office Sialkot,AirGradient,The Urban Unit,False,False,33.64338,73.06828,4.9,13784055,pm25,µg/m³,2025-08-05 10:00:00+00:00,2026-10-24 07:00:00+00:00,179
+islamabad,6135297,Islamabad Station,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.725614,73.11602,7.8,14671472,pm25,µg/m³,2025-11-18 16:00:00+00:00,2026-02-16 11:00:00+00:00,74
+islamabad,6135304,"Street 8, Sector F-7/3, Islamabad",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.72330703652273,73.06369427797755,4.6,14671479,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135307,"Dr Abuzar - Bahria Town, Phase 5",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.56133269087068,73.13082876647323,15.7,14671482,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135310,Bahria Town Phase 2,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.5541,73.1214,16.0,14671485,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135327,"Mughal Village, Islamabad (Zone 5)",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.5555,73.2535,23.8,14671502,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135332,Islamabad H11 A,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.6457,73.005,5.9,14671507,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135335,"Street # 1, F-6/3",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.73059733465364,73.0811549096957,6.0,14671510,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135338,"F7-2, Street 20",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.71676391147882,73.04410436289685,3.6,14671513,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-04-17 02:00:00+00:00,74
+islamabad,6135345,house street22 e7,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.73177792849695,73.04807978323018,5.3,14671520,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-07-10 22:00:00+00:00,74
+islamabad,6135352,Westridge1,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.610966,73.026855,8.4,14671527,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-04-15 19:00:00+00:00,74
+islamabad,6135359,Rawalpindi A GT Road,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.5482,73.1017,15.9,14671534,pm25,µg/m³,2025-11-18 16:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,6135514,Fair Finance Pakistan Islamabad,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.6347,73.0169,6.2,14673718,pm25,µg/m³,2025-11-18 19:00:00+00:00,2026-04-15 10:00:00+00:00,74
+islamabad,6135470,NASTP,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.607923,73.097489,9.6,14680875,pm25,µg/m³,2025-11-19 21:00:00+00:00,2026-10-24 00:00:00+00:00,73
+islamabad,6135474,PHA Head Office,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.605519,73.061144,8.8,14686629,pm25,µg/m³,2025-11-20 12:00:00+00:00,2026-10-23 23:00:00+00:00,72
+islamabad,6135510,Punjab Food Authority,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.630457,73.072969,6.4,14686636,pm25,µg/m³,2025-11-20 13:00:00+00:00,2026-10-24 00:00:00+00:00,72
+islamabad,6135529,WASA 2 (Sufaid tanki),Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.638625,73.069351,5.5,14719910,pm25,µg/m³,2025-11-25 07:00:00+00:00,2026-10-24 01:00:00+00:00,67
+islamabad,5371016,DC office ,AirGradient,AirGradient,False,False,33.64336,73.06817,4.9,13817565,pm25,µg/m³,2025-08-09 11:00:00+00:00,2025-08-25 03:00:00+00:00,15
+islamabad,4296966,Buraq integrated solutions,AirGradient,AirGradient,False,False,33.643208,73.068119,4.9,12960851,pm25,µg/m³,2025-05-06 07:00:00+00:00,2025-05-17 08:00:00+00:00,11
+islamabad,6135441,"Device 1, Suraj Gali",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,33.84235730774117,72.91881025023744,21.2,14683997,pm25,µg/m³,2025-11-19 23:00:00+00:00,2025-11-20 08:00:00+00:00,0
+islamabad,6505270,North,AirGradient,AirGradient,False,False,33.643878736141936,73.20225403065598,15.0,17367962,pm25,µg/m³,2026-08-24 20:00:00+00:00,2026-09-12 11:00:00+00:00,0
+islamabad,6509912,Gulberg Greens Isb,AirGradient,Sensor,False,False,33.609859,73.163319,13.5,17401726,pm25,µg/m³,2026-08-27 11:00:00+00:00,2026-10-24 07:00:00+00:00,0
+islamabad,6509913,Central,AirGradient,Sensor,False,False,33.63886517081504,73.20389464161713,15.3,17401731,pm25,µg/m³,2026-08-27 11:00:00+00:00,2026-10-08 16:00:00+00:00,0
+karachi,1894633,"Karachi, Pakistan",Clarity,Clarity,False,False,24.811053632574033,67.05825434267292,8.0,7466369,pm10,µg/m³,2023-11-28 16:58:32+00:00,2024-02-28 12:42:56+00:00,91
+karachi,3089895,"Soomra Society, Scheme 33, Karachi",AirGradient,Unknown Person,False,False,24.960929,67.161759,19.7,10815168,pm10,µg/m³,2024-10-02 17:00:00+00:00,2024-10-25 16:00:00+00:00,22
+karachi,3213801,"Soomra Society, Scheme 33, Karachi",AirGradient,Unknown Person,False,False,24.960929,67.161759,19.7,11157401,pm10,µg/m³,2024-11-01 19:00:00+00:00,2024-11-07 13:00:00+00:00,5
+karachi,3182341,"Soomra Society, Scheme 33, Karachi",AirGradient,Unknown Person,False,False,24.960929,67.161759,19.7,11077538,pm10,µg/m³,2024-10-25 18:00:00+00:00,2024-10-28 05:00:00+00:00,2
+karachi,8156,Karachi,AirNow,Unknown Governmental Organization,True,False,24.8415,67.0091,2.3,23747,pm25,µg/m³,2019-05-22 22:00:00+00:00,2025-03-04 12:00:00+00:00,1889
+karachi,4791924,Urban Resource Center,AirGradient,The Urban Unit,False,False,24.868,67.081833,8.2,13368464,pm25,µg/m³,2025-06-19 08:00:00+00:00,2026-10-24 07:00:00+00:00,226
+karachi,4793473,NED University City Campus,AirGradient,The Urban Unit,False,False,24.85402121622299,67.01483943786194,1.6,13369654,pm25,µg/m³,2025-06-19 11:00:00+00:00,2026-09-15 10:00:00+00:00,226
+karachi,4793983,Agha Khan University IED,AirGradient,The Urban Unit,False,False,24.8920539,67.0709382,7.9,13370571,pm25,µg/m³,2025-06-19 13:00:00+00:00,2026-09-23 09:00:00+00:00,226
+karachi,4804767,Karachi Zoo,AirGradient,The Urban Unit,False,False,24.8761487,67.0230529,2.8,13378900,pm25,µg/m³,2025-06-20 10:00:00+00:00,2026-07-03 09:00:00+00:00,225
+karachi,4808325,Aman Khan kaka khail,AirGradient,The Urban Unit,False,False,24.95317,67.063716,12.0,13381251,pm25,µg/m³,2025-06-20 16:00:00+00:00,2026-09-01 11:00:00+00:00,225
+karachi,4814327,Zafar Memon DHA,AirGradient,The Urban Unit,False,False,24.814741,67.067062,8.4,13387396,pm25,µg/m³,2025-06-21 09:00:00+00:00,2026-09-01 10:00:00+00:00,224
+karachi,4815820,DG House DHA 5,AirGradient,The Urban Unit,False,False,24.795611,67.04812,8.6,13388480,pm25,µg/m³,2025-06-21 10:00:00+00:00,2026-04-14 13:00:00+00:00,224
+karachi,4837113,Aga khan University Main Campus,AirGradient,The Urban Unit,False,False,24.892402,67.074663,8.2,13406419,pm25,µg/m³,2025-06-23 09:00:00+00:00,2026-10-24 07:00:00+00:00,222
+karachi,4837117,NED Main Campus,AirGradient,The Urban Unit,False,False,24.9337634173323,67.11354155158995,13.9,13406434,pm25,µg/m³,2025-06-23 11:00:00+00:00,2026-10-24 07:00:00+00:00,222
+karachi,4838122,Urban Unit Karachi,AirGradient,The Urban Unit,False,False,24.86414,67.07087,7.1,13407059,pm25,µg/m³,2025-06-23 13:00:00+00:00,2026-03-26 07:00:00+00:00,222
+karachi,4838712,Asif Gulistan-e-Johar,AirGradient,The Urban Unit,False,False,24.916229,67.131546,14.5,13408226,pm25,µg/m³,2025-06-23 16:00:00+00:00,2026-10-24 07:00:00+00:00,222
+karachi,4840233,"Engr Muzaffar Malir Cantonment, Askari 5",AirGradient,The Urban Unit,False,False,24.939636,67.180983,20.2,13409122,pm25,µg/m³,2025-06-23 18:00:00+00:00,2026-10-24 06:00:00+00:00,222
+karachi,4847173,Orangi Pilot Project,AirGradient,The Urban Unit,False,False,24.9373111,67.0189743,8.7,13414781,pm25,µg/m³,2025-06-24 07:00:00+00:00,2026-10-21 12:00:00+00:00,221
+karachi,4932783,Climate Action Center,AirGradient,The Urban Unit,False,False,24.86377,67.056642,5.6,13490916,pm25,µg/m³,2025-07-02 12:00:00+00:00,2026-10-24 07:00:00+00:00,213
+karachi,4985886,G3 Engineering Consultants karachi,AirGradient,The Urban Unit,False,False,24.80697,67.03319,6.8,13533643,pm25,µg/m³,2025-07-07 05:00:00+00:00,2026-10-24 07:00:00+00:00,208
+karachi,5188633,Lyari Dream House,AirGradient,AirGradient,False,False,24.866596,66.99636,0.8,13682783,pm25,µg/m³,2025-07-24 10:00:00+00:00,2026-10-03 00:00:00+00:00,191
+karachi,5417948,Solid waste Management ,AirGradient,The Urban Unit,False,False,24.851826700159624,67.00896024947859,1.3,13850279,pm25,µg/m³,2025-08-13 12:00:00+00:00,2026-10-24 07:00:00+00:00,171
+karachi,4803209,Karachi Metropolitan corporation ,AirGradient,The Urban Unit,False,False,24.855514,66.9252887,7.7,13377694,pm25,µg/m³,2025-06-20 07:00:00+00:00,2025-10-14 14:00:00+00:00,116
+karachi,1894633,"Karachi, Pakistan",Clarity,Clarity,False,False,24.811053632574033,67.05825434267292,8.0,7466370,pm25,µg/m³,2023-11-28 16:58:32+00:00,2024-02-28 12:42:56+00:00,91
+karachi,6135302,WWF-Pakistan Karachi Office,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.8654,67.0745,7.4,14671477,pm25,µg/m³,2025-11-18 15:00:00+00:00,2026-10-24 02:00:00+00:00,74
+karachi,6135311,Korangi Sector 15,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.835349273134295,67.1020030975342,10.6,14671486,pm25,µg/m³,2025-11-18 15:00:00+00:00,2026-10-24 02:00:00+00:00,74
+karachi,6135314,NED University City Campus,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.853927,67.014382,1.5,14671489,pm25,µg/m³,2025-11-18 15:00:00+00:00,2026-08-17 11:00:00+00:00,74
+karachi,6135321,Dawlance Pvt Ltd,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.8543,67.2237,22.5,14671496,pm25,µg/m³,2025-11-18 15:00:00+00:00,2026-10-24 02:00:00+00:00,74
+karachi,6135347,TPL Insurance,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.8577,67.0541,5.4,14671522,pm25,µg/m³,2025-11-18 15:00:00+00:00,2026-08-31 11:00:00+00:00,74
+karachi,6135442,Urban Unit Karachi,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.86414,67.07087,7.1,14686623,pm25,µg/m³,2025-11-20 12:00:00+00:00,2026-03-18 19:00:00+00:00,72
+karachi,6135505,Asif Gulistan-e-Johar,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.916229,67.131546,14.5,14686633,pm25,µg/m³,2025-11-20 12:00:00+00:00,2026-10-24 00:00:00+00:00,72
+karachi,6135443,Engr Muzaffar Sir,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.939636,67.180983,20.2,14721548,pm25,µg/m³,2025-11-25 08:00:00+00:00,2026-09-15 20:00:00+00:00,67
+karachi,6135463,DG House DHA 5,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.795611,67.04812,8.6,14719908,pm25,µg/m³,2025-11-25 06:00:00+00:00,2026-03-19 09:00:00+00:00,67
+karachi,6135472,Climate Action Center,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.86377,67.056642,5.6,14721008,pm25,µg/m³,2025-11-25 12:00:00+00:00,2026-10-24 01:00:00+00:00,67
+karachi,6135426,Aga khan University Main Campus,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.892402,67.074663,8.2,14744851,pm25,µg/m³,2025-11-28 06:00:00+00:00,2026-10-24 00:00:00+00:00,64
+karachi,6135298,Kerry Freight Pakistan Pvt Ltd,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.88964636103564,67.08061342550339,8.7,14671473,pm25,µg/m³,2025-11-18 15:00:00+00:00,2025-12-12 06:00:00+00:00,23
+karachi,3089895,"Soomra Society, Scheme 33, Karachi",AirGradient,Unknown Person,False,False,24.960929,67.161759,19.7,10815113,pm25,µg/m³,2024-10-02 17:00:00+00:00,2024-10-25 16:00:00+00:00,22
+karachi,4906700,"CHS, Aga Khan University",AirGradient,AirGradient,False,False,24.891757,67.07182,7.9,13470590,pm25,µg/m³,2025-06-30 07:00:00+00:00,2025-07-22 11:00:00+00:00,22
+karachi,4814287,G3 Engineering Consultants,AirGradient,AirGradient,False,False,24.806776,67.0332484,6.8,13387131,pm25,µg/m³,2025-06-21 08:00:00+00:00,2025-07-04 05:00:00+00:00,12
+karachi,3213801,"Soomra Society, Scheme 33, Karachi",AirGradient,Unknown Person,False,False,24.960929,67.161759,19.7,11157382,pm25,µg/m³,2024-11-01 19:00:00+00:00,2024-11-07 13:00:00+00:00,5
+karachi,6135520,Agha Khan University,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.892054,67.070938,7.9,14686637,pm25,µg/m³,2025-11-20 12:00:00+00:00,2025-11-24 14:00:00+00:00,4
+karachi,3182341,"Soomra Society, Scheme 33, Karachi",AirGradient,Unknown Person,False,False,24.960929,67.161759,19.7,11077530,pm25,µg/m³,2024-10-25 18:00:00+00:00,2024-10-28 05:00:00+00:00,2
+karachi,4805271,Bagh Ibn e Qasim,AirGradient,AirGradient,False,False,24.8319874,66.9968234,3.2,13379213,pm25,µg/m³,2025-06-20 11:00:00+00:00,2025-06-21 00:00:00+00:00,0
+karachi,4808369,Gulistan-e-Johar,AirGradient,AirGradient,False,False,24.9199655,67.1366526,15.2,13381836,pm25,µg/m³,2025-06-20 18:00:00+00:00,2025-06-21 14:00:00+00:00,0
+karachi,4986945,Solid waste Management ,AirGradient,AirGradient,False,False,24.8514342,66.9265802,7.6,13534804,pm25,µg/m³,2025-07-07 08:00:00+00:00,2025-07-07 10:00:00+00:00,0
+karachi,6135449,TDF MagnifiScience Centre,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,24.84656534821976,67.0029981,1.6,15904590,pm25,µg/m³,2026-04-08 23:00:00+00:00,2026-10-24 02:00:00+00:00,0
+karachi,6318824,HHS IMC Jamshed Campus,Hawanama,OpenAQ admin,False,False,24.8809,67.0466,5.1,16034756,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-05-06 05:00:00+00:00,0
+karachi,6318828,TIP City Office - LIH,Hawanama,OpenAQ admin,False,False,24.818095393631435,67.05294147133827,7.1,16034760,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-10-24 02:00:00+00:00,0
+karachi,6318833,HHS Clifton,Hawanama,OpenAQ admin,False,False,24.8157,67.0058,5.0,16034765,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-05-06 05:00:00+00:00,0
+karachi,6318849,HHS Tariq Road karachi,Hawanama,OpenAQ admin,False,False,24.8686,67.0596,6.0,16034781,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-05-06 05:00:00+00:00,0
+karachi,6346773,Tariq Road C KHI,Hawanama,OpenAQ admin,False,False,24.8686,67.0596,6.0,16242902,pm25,µg/m³,2026-05-12 23:00:00+00:00,2026-10-24 02:00:00+00:00,0
+karachi,6346774,Faisal Cantonment A KHI,Hawanama,OpenAQ admin,False,False,24.8909,67.1748,17.9,16242903,pm25,µg/m³,2026-05-12 23:00:00+00:00,2026-10-24 02:00:00+00:00,0
+karachi,6346779,Old Clifton Seven Towers,Hawanama,OpenAQ admin,False,False,24.8158,67.0306,5.8,16242908,pm25,µg/m³,2026-05-12 23:00:00+00:00,2026-10-24 02:00:00+00:00,0
+karachi,6346780,Clifton Block 1 C KHI,Hawanama,OpenAQ admin,False,False,24.8157,67.0058,5.0,16242909,pm25,µg/m³,2026-05-12 23:00:00+00:00,2026-10-24 02:00:00+00:00,0
+karachi,6346782,Jamshed Road C KHI,Hawanama,OpenAQ admin,False,False,24.8809,67.0466,5.1,16242911,pm25,µg/m³,2026-05-13 01:00:00+00:00,2026-06-12 06:00:00+00:00,0
+karachi,6416741,Welkin Hitech Instruments Pvt. Ltd.,AirGradient,AirGradient,False,False,24.917377745382414,67.0963326615362,11.5,16719735,pm25,µg/m³,2026-06-24 10:00:00+00:00,2026-08-02 13:00:00+00:00,0
+karachi,6544882,Maqsood Memon Clifton ,AirGradient,The Urban Unit,False,False,24.810257,67.032087,6.4,17658506,pm25,µg/m³,2026-09-17 10:00:00+00:00,2026-10-24 07:00:00+00:00,0
+lahore,1894641,Lahore,Clarity,Clarity,False,False,31.54815,74.34396,0.2,7466364,pm10,µg/m³,2023-11-28 16:58:05+00:00,2026-08-31 20:03:02+00:00,795
+lahore,8664,US Diplomatic Post: Lahore,StateAir Lahore,Unknown Governmental Organization,True,False,31.560078,74.33589,1.4,25135,pm25,µg/m³,2019-05-22 22:00:00+00:00,2025-03-04 12:00:00+00:00,1889
+lahore,1894641,Lahore,Clarity,Clarity,False,False,31.54815,74.34396,0.2,7466365,pm25,µg/m³,2023-11-28 16:58:05+00:00,2026-08-31 20:03:02+00:00,795
+lahore,4515157,"Barki, Lahore",AirGradient,Homer Simpson,False,False,31.4591591,74.5396309,21.2,13137726,pm25,µg/m³,2025-05-24 17:00:00+00:00,2026-10-24 07:00:00+00:00,252
+lahore,4527035,Civil Secretariat,AirGradient,The Urban Unit,False,False,31.565942,74.2993626,4.6,13153587,pm25,µg/m³,2025-05-26 07:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,4527173,Learning Alliance Intl. DHA,AirGradient,The Urban Unit,False,False,31.525621,74.436078,9.2,13154528,pm25,µg/m³,2025-05-26 09:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,4527306,FOOT & MOUTH DISEASE RESEARCH CENTRE,AirGradient,The Urban Unit,False,False,31.53574,74.43538,8.9,13155469,pm25,µg/m³,2025-05-26 11:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,4527402,"HBFC Society, DHA Phase 5 (Hussainy House)",AirGradient,The Urban Unit,False,False,31.4571645,74.4106586,12.1,13156083,pm25,µg/m³,2025-05-26 13:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,4535267,Gajju Matta (Kahna),AirGradient,The Urban Unit,False,False,31.377378,74.350574,19.1,13163333,pm25,µg/m³,2025-05-27 07:00:00+00:00,2026-10-06 07:00:00+00:00,249
+lahore,4554729,Sandha Road,AirGradient,The Urban Unit,False,False,31.562302,74.3027031,4.1,13182280,pm25,µg/m³,2025-05-29 08:00:00+00:00,2026-10-24 07:00:00+00:00,247
+lahore,4555745,Ravi Road,AirGradient,The Urban Unit,False,False,31.602875,74.300927,7.2,13183459,pm25,µg/m³,2025-05-29 11:00:00+00:00,2026-10-24 07:00:00+00:00,247
+lahore,4557686,Shalimar Town,AirGradient,The Urban Unit,False,False,31.574289,74.447898,10.3,13184347,pm25,µg/m³,2025-05-29 13:00:00+00:00,2026-10-24 07:00:00+00:00,247
+lahore,4565933,"IEEE, Punjab University, LHR",AirGradient,The Urban Unit,False,False,31.495322,74.295056,7.6,13190998,pm25,µg/m³,2025-05-30 07:00:00+00:00,2026-10-24 07:00:00+00:00,246
+lahore,4568423,Model Town,AirGradient,The Urban Unit,False,False,31.491676,74.313288,7.0,13192746,pm25,µg/m³,2025-05-30 12:00:00+00:00,2026-10-24 07:00:00+00:00,246
+lahore,4605119,College Road,AirGradient,The Urban Unit,False,False,31.421799,74.274837,15.6,13223107,pm25,µg/m³,2025-06-02 18:00:00+00:00,2026-10-24 07:00:00+00:00,243
+lahore,4609353,Kahna Hospital ,AirGradient,The Urban Unit,False,False,31.371023502439286,74.36487268127355,19.9,13230942,pm25,µg/m³,2025-06-03 14:00:00+00:00,2026-10-24 07:00:00+00:00,242
+lahore,4618814,Gulberg III,AirGradient,The Urban Unit,False,False,31.508051,74.337544,4.7,13238783,pm25,µg/m³,2025-06-04 12:00:00+00:00,2026-10-24 07:00:00+00:00,241
+lahore,4698865,Cantonment,AirGradient,The Urban Unit,False,False,31.539422,74.413792,6.8,13300980,pm25,µg/m³,2025-06-11 08:00:00+00:00,2026-10-24 07:00:00+00:00,234
+lahore,4700982,Samanabad,AirGradient,The Urban Unit,False,False,31.541983,74.298065,4.4,13302769,pm25,µg/m³,2025-06-11 14:00:00+00:00,2026-10-24 07:00:00+00:00,234
+lahore,4757305,Forman Christian College & Chartered University,AirGradient,The Urban Unit,False,False,31.521146,74.333954,3.3,13341452,pm25,µg/m³,2025-06-16 10:00:00+00:00,2026-10-24 07:00:00+00:00,229
+lahore,4566427,Johar Town,AirGradient,The Urban Unit,False,False,31.460056,74.280672,11.6,13191315,pm25,µg/m³,2025-05-30 08:00:00+00:00,2026-01-08 05:00:00+00:00,222
+lahore,5371017,Thokar Niaz Baig,AirGradient,The Urban Unit,False,False,31.473135638585408,74.23981655978756,13.0,13817570,pm25,µg/m³,2025-08-09 11:00:00+00:00,2026-10-24 07:00:00+00:00,175
+lahore,4699919,Pak Arab,AirGradient,The Urban Unit,False,False,31.418387,74.345283,14.6,14152835,pm25,µg/m³,2025-09-19 00:00:00+00:00,2026-10-24 07:00:00+00:00,135
+lahore,6125629,"ARC, Lahore",AirGradient,The Urban Unit,False,False,31.522056,74.314944,4.1,14599816,pm25,µg/m³,2025-11-10 12:00:00+00:00,2026-10-24 07:00:00+00:00,82
+lahore,6135289,Bedian Thethar Rd LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4139,74.4581,18.6,14671464,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135293,"B Block, Phase 5, DHA",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4646,74.4204,11.9,14671468,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135295,Pakistan Engineering Services (Pvt) Ltd.,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4671,74.4169,11.5,14671470,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135299,Yani Home,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4788,74.4726,14.6,14671474,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135301,Grand Charter School,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4721,74.3192,8.9,14671476,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-08-05 09:00:00+00:00,74
+lahore,6135306,Askari 10,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5353,74.4172,7.2,14671481,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135309,Scarsdale International School,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4637,74.3749,10.0,14671484,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135313,Ghazi Road Interchange,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.489402,74.4176706,9.7,14671488,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135316,FF Pakistan,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4714,74.2879,10.2,14671491,pm25,µg/m³,2025-11-18 15:00:00+00:00,2026-03-04 23:00:00+00:00,74
+lahore,6135318,WWF-PAKISTAN,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4853,74.3415,7.1,14671493,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-07-31 11:00:00+00:00,74
+lahore,6135319,Revenue Employees Coop Housing Society,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4485,74.288,12.4,14671494,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135320,Model Town A LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4784,74.3238,8.1,14671495,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135323,Gurumangat Rd B LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5047,74.358,5.2,14671498,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135324,Shadman Market B LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5406,74.331,1.6,14671499,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135326,Ferozepur Rd A LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4766,74.344,8.1,14671501,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135328,Honda Gateway,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4515,74.2098,16.7,14671503,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135329,LAS Lahore,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5466,74.3538,1.0,14671504,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135330,University of Central Punjab,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4469,74.2677,13.5,14671505,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135333,Trinity School Lahore,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4746,74.2786,10.4,14671508,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135336,Syed Maratib Ali Road,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5287712,74.3454402,2.3,14671511,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135340,Tufail Road near Rahat Bakery,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5298,74.3776,3.9,14671515,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135343,Powerzone head office,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.393,74.2408,19.9,14671518,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-04-28 00:00:00+00:00,74
+lahore,6135344,Kickstart MM Alam,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5051,74.3486,5.0,14671519,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-06 18:00:00+00:00,74
+lahore,6135348,HC - Askari 10,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5307,74.4115,6.8,14671523,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-23 06:00:00+00:00,74
+lahore,6135349,Diamond Paint industries PVT LTD.,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4598,74.329,10.1,14671524,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135350,NPPMCL,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5182,74.3508,3.6,14671525,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-15 02:00:00+00:00,74
+lahore,6135351,Hiking & Mountaineering Club GCU Lahore,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5741,74.308,4.3,14671526,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135353,The University of Lahore,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.3912,74.2414,20.1,14671528,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135356,W.R,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4761,74.405,10.0,14671531,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-05-07 14:00:00+00:00,74
+lahore,6135357,VTS,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5083,74.321,5.1,14671532,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135360,Allama Iqbal Town B LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5169,74.2849,6.7,14671535,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135364,CERP Office,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5236,74.3524,3.0,14671539,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-20 11:00:00+00:00,74
+lahore,6135366,Phase8-DHA,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.52903121887204,74.4381257796822,9.3,14671541,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-08-08 05:00:00+00:00,74
+lahore,6135368,FF Pakistan - 1,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4551,74.437,13.7,14671543,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-08-26 02:00:00+00:00,74
+lahore,6135370,Burki Rd B LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5332,74.4504,10.3,14671545,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-04-14 05:00:00+00:00,74
+lahore,6135374,"Near Ada Plot, Raiwind Road",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.3766,74.2379,21.7,14671549,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135377,Johar Town B LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.47,74.2611,11.8,14671552,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,6135421,Model Town B LHE,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4824,74.308,8.2,14677802,pm25,µg/m³,2025-11-19 08:00:00+00:00,2026-10-23 10:00:00+00:00,73
+lahore,6135457,GENERATION Pvt ltd,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4081,74.3584,15.8,14675087,pm25,µg/m³,2025-11-19 06:00:00+00:00,2026-10-24 02:00:00+00:00,73
+lahore,6135493,Samanabad,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.541983,74.298065,4.4,14686631,pm25,µg/m³,2025-11-20 12:00:00+00:00,2026-10-24 01:00:00+00:00,72
+lahore,6135507,"Model Town, CD Ground",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.491676,74.313288,7.0,14686635,pm25,µg/m³,2025-11-20 12:00:00+00:00,2026-10-24 01:00:00+00:00,72
+lahore,6135458,Valancia Town Lahore,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4096,74.2617,17.4,14723649,pm25,µg/m³,2025-11-25 13:00:00+00:00,2026-06-13 14:00:00+00:00,67
+lahore,4608421,"Assistant Commissioner Office, Allama Iqbal ",AirGradient,AirGradient,False,False,31.47188,74.239512,13.1,13229197,pm25,µg/m³,2025-06-03 09:00:00+00:00,2025-08-01 10:00:00+00:00,59
+lahore,6135533,University of Management and Technology,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4515,74.2943,11.9,14828965,pm25,µg/m³,2025-12-07 23:00:00+00:00,2026-09-13 11:00:00+00:00,55
+lahore,6135528,"Abdullah Khokhar, House Johar Town",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.460056,74.280672,11.6,14686639,pm25,µg/m³,2025-11-20 12:00:00+00:00,2025-12-25 04:00:00+00:00,34
+lahore,6135473,"BAM,  Civil Secretariat",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.565942,74.299363,4.6,14686628,pm25,µg/m³,2025-11-20 12:00:00+00:00,2025-12-23 08:00:00+00:00,32
+lahore,6135373,Climate Finance Pakistan (PakAirQuality),Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.5378,74.3441,1.3,14671548,pm25,µg/m³,2025-11-18 14:00:00+00:00,2025-12-09 08:00:00+00:00,20
+lahore,6135496,SOS Johar Town LHR,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.4544,74.2825,12.1,14806380,pm25,µg/m³,2025-12-05 08:00:00+00:00,2025-12-10 12:00:00+00:00,5
+lahore,6135466,"The Bank of Punjab, Head Office, BOP Tower, Gulberg III.",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.508051,74.337544,4.7,14686625,pm25,µg/m³,2025-11-20 12:00:00+00:00,2025-11-24 14:00:00+00:00,4
+lahore,6135476,"AC OFFICE NISHTAR, GAJUMATA",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,31.377378,74.350574,19.1,14686630,pm25,µg/m³,2025-11-20 12:00:00+00:00,2025-11-23 19:00:00+00:00,3
+lahore,6093552,Test Device,AirGradient,AirGradient,False,False,31.485304,74.341333,7.1,14363855,pm25,µg/m³,2025-10-13 07:00:00+00:00,2025-10-14 10:00:00+00:00,1
+lahore,6236626,Bahria Town ,AirGradient,The Urban Unit,False,False,31.378524,74.183937,24.3,15420347,pm25,µg/m³,2026-02-11 17:00:00+00:00,2026-10-24 07:00:00+00:00,0
+lahore,6318813,Upper Mall Road LHR,Hawanama,OpenAQ admin,False,False,31.5418,74.3541,1.3,16034745,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-05-06 05:00:00+00:00,0
+lahore,6318816,Burki Rd Paragon B LHE,Hawanama,OpenAQ admin,False,False,31.5332,74.4504,10.3,16034748,pm25,µg/m³,2026-04-23 05:00:00+00:00,2026-10-24 02:00:00+00:00,0
+lahore,6318817,DHA Phase 6 B LHE,Hawanama,OpenAQ admin,False,False,31.4698,74.4471,13.2,16034749,pm25,µg/m³,2026-04-23 07:00:00+00:00,2026-10-23 10:00:00+00:00,0
+lahore,6318826,Model Town Link Rd B LHE,Hawanama,OpenAQ admin,False,False,31.4638,74.3154,9.9,16034758,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-10-24 02:00:00+00:00,0
+lahore,6318842,Muslim Town LHE B,Hawanama,OpenAQ admin,False,False,31.5123,74.3074,5.4,16034774,pm25,µg/m³,2026-04-23 05:00:00+00:00,2026-09-19 06:00:00+00:00,0
+lahore,6346781,Icchra Maqbool Rd LHE,Hawanama,OpenAQ admin,False,False,31.5274,74.3113,3.9,16242910,pm25,µg/m³,2026-05-12 23:00:00+00:00,2026-10-24 02:00:00+00:00,0
+lahore,6346785,Tajpura,Hawanama,OpenAQ admin,False,False,31.5584,74.3998,5.4,16242914,pm25,µg/m³,2026-05-12 23:00:00+00:00,2026-10-17 09:00:00+00:00,0
+lahore,6472254,Rehmanpura ,AirGradient,AirGradient,False,False,31.523668,74.319444,3.7,17125528,pm25,µg/m³,2026-08-03 06:00:00+00:00,2026-08-03 09:00:00+00:00,0
+lahore,6509914,DHA Phase 8 Lahore,AirGradient,AirGradient,False,False,31.500497067407178,74.4319484308154,10.0,17401736,pm25,µg/m³,2026-08-27 11:00:00+00:00,2026-10-01 08:00:00+00:00,0
+lahore,6551277,"Sina NGO,  Machar Colony",AirGradient,AirGradient,False,False,31.571931198356047,74.3165582549792,3.6,17766073,pm25,µg/m³,2026-09-26 08:00:00+00:00,2026-09-26 09:00:00+00:00,0
+lahore,6551466,Test Location 1,AirGradient,AirGradient,False,False,31.562349,74.333348,1.7,17766876,pm25,µg/m³,,,0
+lahore,6551600,QIE EMERGENCY SERVICE CENTER,AirGradient,The Urban Unit,False,False,31.44093,74.32252,12.2,17767545,pm25,µg/m³,2026-10-20 11:00:00+00:00,2026-10-24 07:00:00+00:00,0
+lahore,6551611,QIE Indus Plus Pvt. Ltd.,AirGradient,AirGradient,False,False,31.45346,74.3265,10.8,17767597,pm25,µg/m³,2026-10-21 12:00:00+00:00,2026-10-23 04:00:00+00:00,0
+multan,4755317,Walled cities Authority office ,AirGradient,AirGradient,False,False,30.19881,71.46818,7.1,13339963,pm25,µg/m³,2025-06-16 06:00:00+00:00,2026-09-22 11:00:00+00:00,229
+multan,4760841,Metropolitan corporation office ,AirGradient,The Urban Unit,False,False,30.17631,71.48861,4.1,13343943,pm25,µg/m³,2025-06-16 17:00:00+00:00,2026-10-24 07:00:00+00:00,229
+multan,4769229,women university,AirGradient,The Urban Unit,False,False,30.2515,71.57288,11.4,13350036,pm25,µg/m³,2025-06-17 09:00:00+00:00,2026-10-24 07:00:00+00:00,228
+multan,4770827,Muhammad Nawaz Sharif University of  Agriculture,AirGradient,The Urban Unit,False,False,30.1477,71.44326,7.9,13351517,pm25,µg/m³,2025-06-17 13:00:00+00:00,2026-10-24 07:00:00+00:00,228
+multan,4771378,Cantt Public School & College,AirGradient,The Urban Unit,False,False,30.1827,71.43621,9.0,13352101,pm25,µg/m³,2025-06-17 14:00:00+00:00,2026-10-24 07:00:00+00:00,228
+multan,4779254,District officer Industries / Registrar of Firms,AirGradient,The Urban Unit,False,False,30.207826,71.439894,9.9,13358109,pm25,µg/m³,2025-06-18 06:00:00+00:00,2026-10-24 07:00:00+00:00,227
+multan,4779736,"WASA office, Chungi #09",AirGradient,The Urban Unit,False,False,30.20654,71.4762,7.2,13358409,pm25,µg/m³,2025-06-18 07:00:00+00:00,2026-10-24 07:00:00+00:00,227
+multan,4780772,"UC office, khushal colony",AirGradient,The Urban Unit,False,False,30.20817,71.49625,6.3,13359286,pm25,µg/m³,2025-06-18 08:00:00+00:00,2026-01-30 10:00:00+00:00,226
+multan,4767239,NFC IET Multan,AirGradient,The Urban Unit,False,False,30.22382,71.53613,7.4,14152885,pm25,µg/m³,2025-09-19 00:00:00+00:00,2026-10-24 07:00:00+00:00,135
+multan,4758328,Multan Industrial Estate,AirGradient,The Urban Unit,False,False,30.12714,71.38146,14.2,14182582,pm25,µg/m³,2025-09-22 08:00:00+00:00,2026-10-24 03:00:00+00:00,131
+multan,6135363,Multan Cantonment,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,30.17751723817062,71.41959164251618,10.4,14671538,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+multan,6135365,Khanewal Road near Shamsabad Colony,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,30.2093,71.4758,7.4,14671540,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-14 07:00:00+00:00,74
+multan,6135367,WWF-Pakistan Multan Office,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,30.2366,71.4832,9.6,14671542,pm25,µg/m³,2025-11-18 14:00:00+00:00,2026-10-02 15:00:00+00:00,74
+multan,6135477,Muhammad Nawaz Sharif University of  Agriculture,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,30.1477,71.44326,7.9,14673713,pm25,µg/m³,2025-11-18 22:00:00+00:00,2026-10-24 00:00:00+00:00,74
+multan,6135522,Walled cities Authority office,Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,30.19881,71.46818,7.1,14796851,pm25,µg/m³,2025-12-04 08:00:00+00:00,2026-09-22 09:00:00+00:00,58
+multan,6135445,"UC office, khushal colony",Hawanama,Pakistan Air Quality Initiative (PAQI پاکی),False,False,30.20817,71.49625,6.3,14697986,pm25,µg/m³,2025-11-22 07:00:00+00:00,2025-11-26 13:00:00+00:00,4
+multan,4756281,"WASA office, Chungi #09",AirGradient,AirGradient,False,False,30.20645,71.47604,7.2,13340552,pm25,µg/m³,2025-06-16 08:00:00+00:00,2025-06-16 09:00:00+00:00,0
+multan,4757794,"Multan Industrial EState, Board of Management",AirGradient,AirGradient,False,False,30.12721,71.38191,14.2,13341736,pm25,µg/m³,2025-06-16 11:00:00+00:00,2025-06-16 11:00:00+00:00,0
+multan,6318822,Multan Northern Bypass B,Hawanama,OpenAQ admin,False,False,30.2426,71.534,9.5,16034754,pm25,µg/m³,2026-04-23 06:00:00+00:00,2026-10-23 08:00:00+00:00,0
+multan,6318844,Multan Industrial Estate A,Hawanama,OpenAQ admin,False,False,30.1351,71.3995,12.3,16034776,pm25,µg/m³,2026-04-23 08:00:00+00:00,2026-10-24 02:00:00+00:00,0

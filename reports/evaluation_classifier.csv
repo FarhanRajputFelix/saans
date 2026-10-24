@@ -1,0 +1,5 @@
+season,method,hazardous_hours,hit_rate,false_alarm_ratio,F1
+2024-25 season,SAANS classifier,1332,0.919,0.332,0.774
+2024-25 season,Persistence (last 24 h >= 225.5),1332,0.755,0.244,0.755
+2025-26 season,SAANS classifier,2913,0.922,0.331,0.775
+2025-26 season,Persistence (last 24 h >= 225.5),2913,0.761,0.233,0.764

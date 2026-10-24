@@ -1,0 +1,57 @@
+{
+ "groups": {
+  "Recent pollution": [
+   "pm25_now",
+   "pm25_lag1h",
+   "pm25_lag3h",
+   "pm25_lag6h",
+   "pm25_lag24h",
+   "pm25_lag48h",
+   "pm25_24h",
+   "pm25_max24h",
+   "pm25_trend24h"
+  ],
+  "Weather": [
+   "temperature_2m",
+   "relative_humidity_2m",
+   "dewpoint_depression",
+   "precipitation",
+   "surface_pressure",
+   "cloud_cover",
+   "wind_speed_10m",
+   "u_10m",
+   "v_10m",
+   "u_100m",
+   "v_100m",
+   "shortwave_radiation",
+   "boundary_layer_height",
+   "ventilation",
+   "ventilation_24h",
+   "blh_24h",
+   "rh_24h",
+   "temp_24h",
+   "wind_24h",
+   "rain_24h",
+   "pressure_change24h",
+   "stagnation_index"
+  ],
+  "Upwind fires": [
+   "ufi_24_72h",
+   "ufi_0_24h",
+   "fires_300km_72h"
+  ],
+  "Calendar": [
+   "hour_pkt",
+   "day_of_week",
+   "month",
+   "doy_sin",
+   "doy_cos",
+   "rice_burning_window",
+   "wheat_burning_window",
+   "measures_active",
+   "crop_burning_ban_active",
+   "fireworks_night"
+  ]
+ },
+ "ufi_L_km": 50.0
+}

@@ -33,24 +33,31 @@ OUT = INTERIM / "openaq_hourly.parquet"
 PARAMETERS = {"pm25", "pm10", "no2"}
 RADIUS_M = 25_000  # the API maximum
 PAGE = 1000
-# Free keys allow 60 requests a minute and 2,000 an hour; 1.9 s apart stays under both.
-PAUSE_S = 1.9
+RETRY_CODES = {408, 429, 500, 502, 503, 504}
 
 session = requests.Session()
 
 
 def get(path: str, **params) -> dict:
+    """GET with the key, pacing on OpenAQ's rate-limit headers (free tier: 60 a minute)."""
     if not OPENAQ_API_KEY:
         raise SystemExit("OPENAQ_API_KEY is empty: paste your key into .env")
-    for attempt in range(6):
-        r = session.get(f"{API}{path}", params=params, headers={"X-API-Key": OPENAQ_API_KEY}, timeout=120)
-        time.sleep(PAUSE_S)
-        if r.status_code == 429 or r.status_code >= 500:
-            wait = int(r.headers.get("x-ratelimit-reset", 60)) + 1 if r.status_code == 429 else 30
+    for attempt in range(8):
+        try:
+            r = session.get(f"{API}{path}", params=params, headers={"X-API-Key": OPENAQ_API_KEY}, timeout=120)
+        except (requests.ConnectionError, requests.Timeout) as e:  # a dropped connection is retried, not fatal
+            print(f"    network error ({type(e).__name__}), retrying in 30 s")
+            time.sleep(30)
+            continue
+        reset = int(r.headers.get("x-ratelimit-reset", 60)) + 1
+        if r.status_code in RETRY_CODES:
+            wait = reset if r.status_code == 429 else 15 * (attempt + 1)
             print(f"    HTTP {r.status_code}, waiting {wait} s")
             time.sleep(wait)
             continue
         r.raise_for_status()
+        if int(r.headers.get("x-ratelimit-remaining", 10)) < 2:
+            time.sleep(reset)  # minute budget used up: wait for the window to reset
         return r.json()
     raise RuntimeError(f"OpenAQ kept failing on {path}")
 
@@ -111,18 +118,21 @@ def coverage() -> pd.DataFrame:
 
 
 # ---------- stage 2: hourly values ----------
-def download_sensor(sensor_id: int) -> Path:
+def download_sensor(sensor_id: int, first_utc: pd.Timestamp, last_utc: pd.Timestamp) -> Path:
+    """Fetch one month per request. A month (<= 744 hours) fits on one page; deep paging is slow
+    (page 5 of a year takes ~12 s against ~3.4 s for a month) and over six years it times out."""
     path = HOURS_DIR / f"sensor_{sensor_id}.json"
     if path.exists():
         return path
-    results, page = [], 1
-    while True:
-        payload = get(f"/sensors/{sensor_id}/hours", datetime_from=f"{START_DATE}T00:00:00Z",
-                      datetime_to=f"{END_DATE}T23:59:59Z", limit=PAGE, page=page)
+    start = max(pd.Timestamp(START_DATE, tz="UTC"), first_utc.floor("D"))
+    end = min(pd.Timestamp(f"{END_DATE} 23:59:59", tz="UTC"), last_utc)
+    results = []
+    for m_from in pd.date_range(start.replace(day=1), end, freq="MS"):
+        m_to = min(end, m_from + pd.offsets.MonthEnd(1) + pd.Timedelta(hours=23, minutes=59, seconds=59))
+        payload = get(f"/sensors/{sensor_id}/hours", limit=PAGE,
+                      datetime_from=max(m_from, start).strftime("%Y-%m-%dT%H:%M:%SZ"),
+                      datetime_to=m_to.strftime("%Y-%m-%dT%H:%M:%SZ"))
         results += payload["results"]
-        if len(payload["results"]) < PAGE:
-            break
-        page += 1
     path.write_text(json.dumps(results), encoding="utf-8")
     return path
 
@@ -140,14 +150,32 @@ def load_sensor(path: Path) -> pd.DataFrame:
     })
 
 
-def hours() -> pd.DataFrame:
+def pm25_sensors() -> pd.DataFrame:
+    """PM2.5 sensors that overlap the study period, most valuable first:
+    reference monitors, then the longest-running low-cost sensors."""
+    s = pd.read_csv(SENSORS_CSV, parse_dates=["first_utc", "last_utc"])
+    s = s[(s.parameter == "pm25") & (s.days_in_period > 0)].drop_duplicates("sensor_id")
+    return s.sort_values(["is_monitor", "days_in_period"], ascending=False)
+
+
+def hours(worker: int = 0, workers: int = 1) -> pd.DataFrame | None:
+    """Each request takes 3-5 s, so one process uses only ~12 of the 60 requests a minute the key
+    allows. `hours 0 4` ... `hours 3 4` split the sensors across four parallel workers."""
     HOURS_DIR.mkdir(parents=True, exist_ok=True)
-    sensors = pd.read_csv(SENSORS_CSV)
-    todo = sensors[(sensors.parameter == "pm25") & (sensors.days_in_period > 0)].drop_duplicates("sensor_id")
+    todo = pm25_sensors()
     for i, s in enumerate(todo.itertuples(), 1):
+        if i % workers != worker:
+            continue
         print(f"  [{i}/{len(todo)}] {s.city} sensor {s.sensor_id} ({s.location}, {s.days_in_period} days)")
-        download_sensor(s.sensor_id)
-    frames = [load_sensor(HOURS_DIR / f"sensor_{sid}.json") for sid in todo.sensor_id]
+        download_sensor(s.sensor_id, s.first_utc, s.last_utc)
+    return build() if workers == 1 else None
+
+
+def build() -> pd.DataFrame:
+    """Combine every sensor file downloaded so far into one table."""
+    todo = pm25_sensors()
+    files = [HOURS_DIR / f"sensor_{sid}.json" for sid in todo.sensor_id]
+    frames = [load_sensor(p) for p in files if p.exists()]
     df = pd.concat([f for f in frames if not f.empty], ignore_index=True)
     df = df.merge(todo[["sensor_id", "city", "location_id", "is_monitor"]], on="sensor_id", how="left")
     df.to_parquet(OUT, index=False)
@@ -160,4 +188,5 @@ def hours() -> pd.DataFrame:
 
 if __name__ == "__main__":
     stage = sys.argv[1] if len(sys.argv) > 1 else "coverage"
-    {"coverage": coverage, "hours": hours}[stage]()
+    args = [int(a) for a in sys.argv[2:]]
+    {"coverage": coverage, "hours": hours, "build": build}[stage](*args)

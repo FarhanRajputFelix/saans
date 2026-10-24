@@ -1,9 +1,10 @@
 """Satellite fire detections from NASA FIRMS (free MAP_KEY in .env as FIRMS_MAP_KEY).
 
-Three instruments, each a separate satellite pass:
-    VIIRS_SNPP_SP    VIIRS on Suomi-NPP, 375 m pixels
-    VIIRS_NOAA20_SP  VIIRS on NOAA-20, 375 m pixels, orbits ~50 minutes behind Suomi-NPP
-    MODIS_SP         MODIS on Terra and Aqua, 1 km pixels
+Two instruments (the proposal's VIIRS and MODIS):
+    VIIRS_SNPP_SP    VIIRS on Suomi-NPP, 375 m pixels, passes ~01:30 and ~13:30 local time
+    MODIS_SP         MODIS on Terra (~10:30) and Aqua (~13:30), 1 km pixels
+VIIRS on NOAA-20 was tried too, but the server returned it ~3x slower (an estimated 5 hours),
+so it was dropped; a partial year would have biased the fire features toward 2020.
 "_SP" is the standard (science-quality) archive. The area API returns at most 5 days per call,
 so each month is fetched in 5-day chunks and saved as one CSV.
 
@@ -18,6 +19,7 @@ Writes:
     data/interim/firms_fires.parquet        all detections in one table, UTC
 """
 import io
+import sys
 import time
 from datetime import date, timedelta
 
@@ -27,7 +29,7 @@ import requests
 from saans.config import END_DATE, FIRMS_MAP_KEY, INTERIM, RAW, ROOT, START_DATE
 
 API = "https://firms.modaps.eosdis.nasa.gov/api"
-SOURCES = ["VIIRS_SNPP_SP", "VIIRS_NOAA20_SP", "MODIS_SP"]
+SOURCES = ["VIIRS_SNPP_SP", "MODIS_SP"]
 BBOX = (66.0, 24.0, 78.0, 34.0)  # west, south, east, north
 RAW_DIR = RAW / "firms"
 OUT = INTERIM / "firms_fires.parquet"
@@ -50,18 +52,17 @@ def availability() -> pd.DataFrame:
 def fetch_chunk(source: str, start: date, days: int) -> str:
     area = ",".join(str(v) for v in BBOX)
     url = f"{API}/area/csv/{key()}/{source}/{area}/{days}/{start.isoformat()}"
-    for attempt in range(5):
+    for attempt in range(8):
         r = requests.get(url, timeout=180)
         time.sleep(PAUSE_S)
         text = r.text
         if r.status_code == 200 and (text.startswith("latitude") or not text.strip()):
             return text  # a CSV, possibly just the header when there were no fires
-        # FIRMS reports some errors as plain text with HTTP 200, so the body is checked too
-        if "invalid" in text.lower():
-            raise SystemExit(f"FIRMS rejected the request: {text[:200]}")
-        print(f"    {source} {start}: HTTP {r.status_code} {text[:100]!r}, waiting 60 s")
-        time.sleep(60)
-    raise RuntimeError(f"FIRMS kept failing on {source} {start}")
+        # FIRMS reports errors as plain text with HTTP 200. Over the 5,000-per-10-minutes quota it
+        # answers "Invalid MAP_KEY" (observed on 2026-10-24 at 4,886/5,000), so wait for the window.
+        print(f"    {source} {start}: HTTP {r.status_code} {text[:100]!r}, waiting 120 s")
+        time.sleep(120)
+    raise RuntimeError(f"FIRMS kept failing on {source} {start} (key valid? quota?)")
 
 
 def months(start: str, end: str):
@@ -106,13 +107,22 @@ def build_table() -> pd.DataFrame:
     return df.sort_values("time_utc").reset_index(drop=True)
 
 
-def main() -> None:
+def main(args: list[str]) -> None:
+    """Download the given sources (all by default), then rebuild the combined table.
+    `python -m saans.ingest.firms MODIS_SP` fetches one source, so sources can run in parallel;
+    adding `--reverse` walks the months backwards, so a second worker can start from the end;
+    `python -m saans.ingest.firms build` only rebuilds the table from files already on disk."""
     INTERIM.mkdir(parents=True, exist_ok=True)
-    print(availability().to_string(index=False))
-    for source in SOURCES:
-        for first, last in months(START_DATE, END_DATE):
-            print(f"  {source} {first:%Y-%m}")
-            download_month(source, first, last)
+    reverse = "--reverse" in args
+    sources = [a for a in args if a != "--reverse"]
+    if sources != ["build"]:
+        for source in sources or SOURCES:
+            month_list = list(months(START_DATE, END_DATE))
+            for first, last in reversed(month_list) if reverse else month_list:
+                print(f"  {source} {first:%Y-%m}")
+                download_month(source, first, last)
+        if sources:
+            return  # one source of a parallel run: build once at the end with `build`
     df = build_table()
     df.to_parquet(OUT, index=False)
     print(f"\n{len(df):,} fire detections")
@@ -121,4 +131,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])

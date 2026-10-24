@@ -1,8 +1,10 @@
 # secrets
 .env
 
-# data is rebuilt from the scripts; it is too large for git
-data/
+# raw API responses are large and re-downloadable (python -m saans.ingest.*);
+# interim/processed tables, the LLM cache and models ARE committed so every notebook runs in Colab
+data/raw/
+data/logs/
 
 # python
 __pycache__/
