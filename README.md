@@ -12,6 +12,8 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 
 ## Where to find everything
 
+**How the data was fetched and cleaned** (sources, API calls, date ranges, every cleaning step with counts): [`docs/DATA_PIPELINE.md`](docs/DATA_PIPELINE.md), also in the dashboard tab **How the data was made**.
+
 | You are looking for | It is here |
 |---|---|
 | **Today's forecast** | Dashboard, tab **Live forecast** (from data fetched now); how it works: [notebook 07](notebooks/07_live_forecast.ipynb) |

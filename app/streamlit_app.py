@@ -212,8 +212,16 @@ st.markdown("## SAANS · Smog forecast for Pakistan's cities, and why")
 st.caption("24- and 48-hour PM2.5 forecasts for Lahore, Faisalabad, Multan, Islamabad and Karachi, explained with SHAP and "
            "translated into English and Urdu advice. Built from OpenAQ sensors, NASA FIRMS fires, ERA5/Open-Meteo weather and an LLM news calendar.")
 daily, hourly, advisories, evaluation = load_replay()
-tab_live, tab_replay, tab_data, tab_dq, tab_perf, tab_about = st.tabs(
-    ["Live forecast", "Replay: test seasons", "Cleaned data", "Data quality", "Model performance", "About"])
+tab_live, tab_replay, tab_how, tab_data, tab_dq, tab_perf, tab_about = st.tabs(
+    ["Live forecast", "Replay: test seasons", "How the data was made", "Cleaned data", "Data quality", "Model performance", "About"])
+
+with tab_how:
+    import re
+    doc = (ROOT / "docs" / "DATA_PIPELINE.md").read_text(encoding="utf-8")
+    doc = re.sub(r"```mermaid.*?```", "**Flow:** APIs → `data/raw/` (untouched responses) → `data/interim/` (one table per source) → "
+                 "notebook 02, nine cleaning steps → `data/processed/` (master table + CSVs) and the Data Quality Report", doc, flags=re.S)
+    doc = re.sub(r"\]\(\.\./", "](https://github.com/FarhanRajputFelix/saans/blob/main/", doc)  # links point at the repository
+    st.markdown(doc)
 
 with tab_live:
     res, mode = None, None
