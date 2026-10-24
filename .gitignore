@@ -1,0 +1,17 @@
+# secrets
+.env
+
+# data is rebuilt from the scripts; it is too large for git
+data/
+
+# python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# editor / OS
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
