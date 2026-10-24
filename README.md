@@ -6,7 +6,7 @@ SAANS forecasts PM2.5 24 and 48 hours ahead for five Pakistani cities, warns of 
 
 Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407). Submitted to Sir Ahsan Nisar.
 
-**Live dashboard:** _link added after deployment_ · **Notebooks:** open any of them below on GitHub (outputs are saved) or in Colab with the badge at the top of each.
+**Live dashboard:** _link added after deployment_ · **Final report:** [SAANS_Final_Report.docx](reports/SAANS_Final_Report.docx) · **Slides:** [SAANS_Presentation.pptx](reports/SAANS_Presentation.pptx) · **Notebooks:** open any of them below on GitHub (outputs are saved) or in Colab with the badge at the top of each.
 
 ![SAANS dashboard: Lahore on 6 Nov 2024](reports/figures/dashboard_top.png)
 

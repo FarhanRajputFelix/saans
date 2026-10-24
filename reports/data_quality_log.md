@@ -29,6 +29,7 @@ The numeric before/after statistics for every cleaning step are in the generated
 | F1 | Industrial heat sources and offshore flares in the fire data | NASA `type` 2 and 3: 36,098 detections | Kept only `type = 0` (vegetation fires) |
 | F2 | The same fire is seen by several satellite passes | 139,298 fires seen by more than one pass | One fire per ~1 km cell, day and day/night pass (strongest FRP kept) |
 | F3 | FIRMS answers "Invalid MAP_KEY" when the 5,000-per-10-minutes quota is used up | Key status read 4,886/5,000 at the time of the error | Downloader waits and retries instead of stopping |
+| F5 | One month of VIIRS (Aug 2023, 1,019 detections) finished downloading after the fire table was built, so it is not in the analysis | Raw file on disk, absent from `firms_fires.parquet` (1,184,817 rows) | 0.09% of detections, a monsoon month with almost no crop burning, inside the training period and far from both test seasons, so results are unaffected. Run `python -m saans.ingest.firms build` before any full re-run |
 | F4 | VIIRS on NOAA-20 was ~3x slower to download (an estimated 5 hours) | 7 months in 30 minutes | Dropped; VIIRS S-NPP + MODIS kept (as in the proposal). A partial year would have biased the fire index |
 
 ## News and LLM
