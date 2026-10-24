@@ -91,5 +91,12 @@ app/              Streamlit dashboard + its precomputed data
 data/interim/     parsed source tables          data/processed/  master table, features, events
 data/llm_cache/   cached LLM answers            models/          trained LightGBM models
 reports/          Data Quality Report, evaluation tables, event-extraction check, figures
-docs/lessons/     step-by-step study notes
+docs/lessons/     study notes
 ```
+
+## Study notes
+
+1. [Project setup and weather ingestion](docs/lessons/01-setup-and-weather.md)
+2. [How SAANS works, and how to defend it](docs/lessons/02-viva-guide.md)
+
+The [findings log](reports/data_quality_log.md) records every data surprise met along the way, with evidence and fix.
