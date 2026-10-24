@@ -100,6 +100,9 @@ Of the hazardous periods that happened, 92% were warned. Of the warnings issued,
 **Why is Karachi's skill zero?**
 Karachi's air is cleaner and steadier (sea breeze, high boundary layer, far from the burning belt), so persistence is already very good there. There is little left to predict.
 
+**Is the what-if slider trustworthy?**
+It is a model estimate, not a simulation, and it has one known flaw: tree models do not enforce "more fire means more smoke", so in a few cases (e.g. one Multan day) removing fires nudges the forecast up by a few ug/m3. The fix is a monotone constraint on the fire features in LightGBM, listed as future work.
+
 **What would you do with more time?**
 Feed weather *forecasts* instead of only observed weather; recalibrate the low-cost networks against reference data; run SAANS live for the 2026 season; add Sentinel-5P satellite data for cities without sensors.
 

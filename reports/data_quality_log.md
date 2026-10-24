@@ -45,4 +45,5 @@ The numeric before/after statistics for every cleaning step are in the generated
 | ID | Finding | Evidence | Fix |
 |---|---|---|---|
 | L1 | Lahore 2025-26 forecasts run high | Mean bias +26 ug/m3 when Lahore's data switched to the low-cost networks (A1, A8) | Reported as a limitation: losing a reference monitor degrades forecasts. Recalibration on the new network is future work |
+| L3 | The what-if on fires is not always monotonic | Multan 2025-26: removing 100% of fires raised one forecast by 5 ug/m3. Tree models do not enforce "more fire, more smoke" | Labelled as an estimate on the dashboard; fix is LightGBM monotone constraints on the fire features (future work) |
 | L2 | Predicting PM2.5 levels directly clipped the record days | 6 Nov 2024: forecast 283 vs observed 510 | Models predict the change from the last 24 h instead; same day now 390, overall skill vs persistence up from 6% to 13.5% (2024-25, 24 h) |

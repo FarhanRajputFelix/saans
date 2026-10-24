@@ -8,6 +8,8 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 
 **Live dashboard:** _link added after deployment_ · **Notebooks:** open any of them below on GitHub (outputs are saved) or in Colab with the badge at the top of each.
 
+![SAANS dashboard: Lahore on 6 Nov 2024](reports/figures/dashboard_top.png)
+
 ## Results at a glance
 
 Models trained on 1 Jan 2020 to 28 Sep 2024; tested on two held-out smog seasons (October to January). Every number below is computed in [notebook 05](notebooks/05_models_shap.ipynb).

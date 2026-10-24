@@ -25,6 +25,7 @@ CITIES = {"lahore": ("Lahore", "لاہور", 31.5497, 74.3436), "faisalabad": ("
 STATUS = {"good": "#0ca30c", "warning": "#fab219", "serious": "#ec835a", "critical": "#d03b3b"}
 RISK_ROLE = {"Green": "good", "Yellow": "warning", "Orange": "serious", "Red": "critical"}
 RISK_ICON = {"Green": "●", "Yellow": "▲", "Orange": "◆", "Red": "■"}
+RISK_SYMBOL = {"Green": "circle", "Yellow": "triangle-up", "Orange": "diamond", "Red": "square"}  # shape, not colour alone
 DRIVERS = {"Recent pollution": "#2a78d6", "Weather": "#eb6834", "Upwind fires": "#1baf7a", "Calendar": "#eda100"}
 DRIVERS_UR = {"Recent pollution": "حالیہ آلودگی", "Weather": "موسم اور ہوا کا جمود",
               "Upwind fires": "ہوا کے رخ پر فصلوں کی آگ", "Calendar": "موسم اور تہوار کا کیلنڈر"}
@@ -102,22 +103,28 @@ with tab_fc:
     for col, (c, r) in zip(tiles, today.iterrows()):
         level = r.risk_level
         col.markdown(f"**{CITIES[c][0]}**<br><span style='font-size:1.6em'>{r.forecast_24h:.0f}</span> µg/m³<br>"
-                     f"AQI {int(pm25_to_aqi(r.forecast_24h))} · {badge(level)}", unsafe_allow_html=True)
+                     f"AQI {int(pm25_to_aqi(r.forecast_24h))} · {badge(level)}<br>"
+                     f"<span style='color:{INK_2};font-size:0.9em'>Chance of AQI &gt; 300: {r.hazard_prob:.0%}</span>",
+                     unsafe_allow_html=True)
 
     left, right = st.columns([1, 1.4])
     with left:
+        # Scattergeo draws its own borders: no WebGL, no tile server, works offline (safe for a live demo)
         fig = go.Figure()
         for level in ["Green", "Yellow", "Orange", "Red"]:
             sub = today[today.risk_level == level]
-            fig.add_trace(go.Scattermap(
+            fig.add_trace(go.Scattergeo(
                 lat=[CITIES[c][2] for c in sub.index], lon=[CITIES[c][3] for c in sub.index], mode="markers+text",
-                marker=dict(size=22, color=STATUS[RISK_ROLE[level]]), name=f"{RISK_ICON[level]} {level}",
-                text=[CITIES[c][0] for c in sub.index], textposition="top right", textfont=dict(color=INK, size=12),
+                marker=dict(size=20, color=STATUS[RISK_ROLE[level]], symbol=RISK_SYMBOL[level], line=dict(color="#ffffff", width=2)),
+                name=f"{level}", text=[CITIES[c][0] for c in sub.index], textposition="middle right",
+                textfont=dict(color=INK, size=13),
                 customdata=np.stack([sub.forecast_24h.round(0), [int(pm25_to_aqi(v)) for v in sub.forecast_24h]], axis=-1) if len(sub) else None,
                 hovertemplate="<b>%{text}</b><br>Next 24 h: %{customdata[0]} µg/m³<br>AQI %{customdata[1]}<extra></extra>"))
-        fig.update_layout(map=dict(style="carto-positron", center=dict(lat=29.6, lon=71), zoom=4.3),
-                          margin=dict(l=0, r=0, t=30, b=0), height=430, title=dict(text="Forecast risk, next 24 hours", x=0),
-                          legend=dict(orientation="h", y=-0.02, x=0))
+        fig.update_geos(lataxis_range=[23.5, 35.5], lonaxis_range=[64, 78.5], showcountries=True, countrycolor="#c3c2b7",
+                        showcoastlines=True, coastlinecolor="#c3c2b7", showland=True, landcolor="#f3f2ee",
+                        showocean=True, oceancolor="#e8f0fa", showframe=False, resolution=50)
+        fig.update_layout(margin=dict(l=0, r=0, t=30, b=0), height=430, title=dict(text="Forecast risk, next 24 hours", x=0),
+                          legend=dict(orientation="h", y=-0.02, x=0), paper_bgcolor="#fcfcfb")
         st.plotly_chart(fig, width="stretch")
 
     # ---------- 48 h chart ----------
@@ -158,18 +165,18 @@ with tab_fc:
                                text=[f"{vals[i]:+.0f}" for i in order], textposition="outside",
                                hovertemplate="%{y}: %{x:+.0f} µg/m³<extra></extra>"))
         fig.update_layout(height=250, margin=dict(l=10, r=40, t=10, b=10), plot_bgcolor="#fcfcfb",
-                          xaxis=dict(title="µg/m³ above or below the average forecast", gridcolor=GRID, zeroline=True, zerolinecolor="#c3c2b7"))
+                          xaxis=dict(title="µg/m³ above or below the typical level", gridcolor=GRID, zeroline=True, zerolinecolor="#c3c2b7"))
         st.plotly_chart(fig, width="stretch")
         top = json.loads(row.top_drivers)
-        st.caption(f"Average forecast {row.shap_base:.0f} µg/m³ + driver contributions = {row.forecast_24h:.0f} µg/m³. "
+        st.caption(f"Typical level {row.shap_base:.0f} µg/m³ + driver contributions = {row.forecast_24h:.0f} µg/m³. "
                    "Strongest single factors: " + "; ".join(f"{d['label']} ({d['ug_m3']:+.0f})" for d in top) +
                    ". SHAP shows what the model relied on, which is statistical, not a chemical source measurement.")
     with whatif:
         st.markdown("#### What if there were fewer crop fires?")
         cut = st.slider("Reduce upwind crop fires by", 0, 100, 0, step=10, format="%d%%")
         new = row[f"whatif_{cut}"]
-        st.metric("Forecast, next 24 h", f"{new:.0f} µg/m³", delta=f"{new - row.forecast_24h:+.0f} µg/m³ vs actual fire levels",
-                  delta_color="inverse")
+        st.metric("Forecast, next 24 h", f"{new:.0f} µg/m³",
+                  delta=f"{new - row.forecast_24h:+.0f} µg/m³ vs actual fire levels" if cut else None, delta_color="inverse")
         st.caption(f"AQI {int(pm25_to_aqi(new))}, {risk_level(new)[0]}. A model-based estimate: the fire features are scaled down "
                    "and the forecast recomputed, holding everything else fixed.")
 
