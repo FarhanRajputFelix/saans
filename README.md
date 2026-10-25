@@ -43,7 +43,7 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 | AI Smog Explainer, English and Urdu, guardrails, cached | Yes: number check, template fallback, cache | notebook 06, `saans/advisory.py` |
 | Streamlit dashboard: map, 48 h chart with band, "Why today?", what-if, advisory, data-quality tab | Yes, plus live mode and a cleaned-data browser | `app/streamlit_app.py` |
 | Coverage map (uneven sensors, data equity) | Yes | notebook 01 `sensor_map.png`; dashboard Data quality tab |
-| Final report and slides | Yes (slides presented in class) | `reports/SAANS_Final_Report.docx` |
+| Final report and slides | Yes (the slides are submitted separately) | `reports/SAANS_Final_Report.docx` |
 | Publish the cleaned dataset on Kaggle | Not done (needs the author's Kaggle account); the CSVs are ready in `data/processed/csv/` | |
 
 ## Results
