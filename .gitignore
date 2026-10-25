@@ -17,3 +17,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# personal study notes and presentation slides: kept locally, not published
+docs/lessons/
+reports/*.pptx

@@ -6,7 +6,7 @@ SAANS forecasts PM2.5 for the next 24 and 48 hours in Lahore, Faisalabad, Multan
 
 Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407). Submitted to Sir Ahsan Nisar.
 
-**Live dashboard:** https://saansgit-uhebsjzld3rfqxupnygsop.streamlit.app/ · **Final report:** [SAANS_Final_Report.docx](reports/SAANS_Final_Report.docx) · **Slides:** [SAANS_Presentation.pptx](reports/SAANS_Presentation.pptx)
+**Live dashboard:** https://saansgit-uhebsjzld3rfqxupnygsop.streamlit.app/ · **Final report:** [SAANS_Final_Report.docx](reports/SAANS_Final_Report.docx)
 
 ![SAANS dashboard](reports/figures/dashboard_top.png)
 
@@ -24,7 +24,6 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 | **Every data problem found, with evidence and fix** | [`reports/data_quality_log.md`](reports/data_quality_log.md) |
 | **The LLM event calendar (JSON)** and its accuracy check | [`data/processed/events.json`](data/processed/events.json), [`reports/event_extraction_check.csv`](reports/event_extraction_check.csv), [notebook 03](notebooks/03_llm_event_calendar.ipynb) |
 | **Trained models** and their evaluation against baselines | [`models/`](models/), [`reports/evaluation_regression.csv`](reports/evaluation_regression.csv), [`reports/evaluation_classifier.csv`](reports/evaluation_classifier.csv), [notebook 05](notebooks/05_models_shap.ipynb) |
-| **Study notes / viva preparation** | [`docs/lessons/02-viva-guide.md`](docs/lessons/02-viva-guide.md) |
 
 ## Proposal checklist
 
@@ -44,7 +43,7 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 | AI Smog Explainer, English and Urdu, guardrails, cached | Yes: number check, template fallback, cache | notebook 06, `saans/advisory.py` |
 | Streamlit dashboard: map, 48 h chart with band, "Why today?", what-if, advisory, data-quality tab | Yes, plus live mode and a cleaned-data browser | `app/streamlit_app.py` |
 | Coverage map (uneven sensors, data equity) | Yes | notebook 01 `sensor_map.png`; dashboard Data quality tab |
-| Final report and slides | Yes | `reports/` |
+| Final report and slides | Yes (slides presented in class) | `reports/SAANS_Final_Report.docx` |
 | Publish the cleaned dataset on Kaggle | Not done (needs the author's Kaggle account); the CSVs are ready in `data/processed/csv/` | |
 
 ## Results
@@ -121,6 +120,6 @@ saans/            ingest/ (downloaders), features.py, live.py, advisory.py, llm.
 app/              Streamlit dashboard + its data (daily forecasts, advisories, live snapshot)
 data/             interim/ parsed sources, processed/ cleaned data + CSVs, llm_cache/ (see data/README.md)
 models/           trained LightGBM models and model card
-reports/          Data Quality Report, findings log, evaluation tables, figures, final report, slides
-docs/lessons/     study notes and viva guide
+reports/          Data Quality Report, findings log, evaluation tables, figures, final report
+docs/             how the data was fetched and cleaned (DATA_PIPELINE.md)
 ```
