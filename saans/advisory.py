@@ -10,7 +10,7 @@ import json
 import re
 
 from saans import llm
-from saans.aqi import BREAKPOINTS, pm25_to_aqi, risk_level
+from saans.aqi import category, pm25_to_aqi
 from saans.config import CITIES
 
 URDU_NAMES = {"lahore": "لاہور", "faisalabad": "فیصل آباد", "multan": "ملتان", "islamabad": "اسلام آباد", "karachi": "کراچی"}
@@ -35,19 +35,19 @@ Then write the same three lines in natural, simple Urdu (Urdu script).
 
 Return JSON: {{"en": "<three lines separated by \\n>", "ur": "<three lines separated by \\n>"}}"""
 
-ADVICE = {
-    "Green": ("Air is acceptable; normal outdoor activity is fine.", "ہوا کا معیار قابلِ قبول ہے، معمول کی سرگرمیاں جاری رکھیں۔"),
-    "Yellow": ("Children, the elderly and people with asthma should cut long outdoor activity.",
-               "بچے، بزرگ اور دمہ کے مریض طویل بیرونی سرگرمیاں کم کریں۔"),
-    "Orange": ("Everyone should limit time outdoors and wear a mask when outside.",
-               "سب لوگ باہر کم وقت گزاریں اور باہر نکلتے وقت ماسک پہنیں۔"),
-    "Red": ("Hazardous smog: stay indoors, keep windows shut and use an N95 mask if you must go out.",
-            "خطرناک سموگ: گھر کے اندر رہیں، کھڑکیاں بند رکھیں اور باہر جانا ضروری ہو تو N95 ماسک پہنیں۔"),
+ADVICE = {  # one line of advice per US EPA category
+    "Good": ("Air quality is good; normal outdoor activity is fine.", "ہوا کا معیار اچھا ہے، معمول کی بیرونی سرگرمیاں جاری رکھیں۔"),
+    "Moderate": ("Air is acceptable; unusually sensitive people should limit long outdoor exertion.",
+                 "ہوا قابلِ قبول ہے؛ بہت حساس افراد طویل بیرونی مشقت کم کریں۔"),
+    "Unhealthy for Sensitive Groups": ("Children, the elderly and people with asthma or heart disease should cut long or heavy outdoor activity.",
+                                       "بچے، بزرگ اور دمہ یا دل کے مریض طویل یا سخت بیرونی سرگرمی کم کریں۔"),
+    "Unhealthy": ("Everyone should limit time outdoors; sensitive groups should stay indoors and wear a mask outside.",
+                  "سب لوگ باہر کم وقت گزاریں؛ حساس افراد گھر کے اندر رہیں اور باہر ماسک پہنیں۔"),
+    "Very Unhealthy": ("Avoid outdoor activity, keep windows closed and wear an N95 mask if you must go out.",
+                       "بیرونی سرگرمیوں سے گریز کریں، کھڑکیاں بند رکھیں اور باہر جانا ضروری ہو تو N95 ماسک پہنیں۔"),
+    "Hazardous": ("Hazardous smog: stay indoors, keep windows shut and use an N95 mask if you must go out.",
+                  "خطرناک سموگ: گھر کے اندر رہیں، کھڑکیاں بند رکھیں اور باہر جانا ضروری ہو تو N95 ماسک پہنیں۔"),
 }
-
-
-def category(f: float) -> str:
-    return next((c for lo, hi, a, b, c in BREAKPOINTS if f <= hi + 0.05), "Hazardous")
 
 
 def facts(city: str, date: str, forecast: float, hazard_prob: float, top_drivers: str) -> dict:
@@ -65,7 +65,7 @@ def numbers_ok(text: str, fx: dict) -> bool:
 
 
 def template(city: str, fx: dict) -> dict:
-    level = risk_level(fx["f"])[0]
+    level = fx["category"]
     groups = list(dict.fromkeys(fx["groups"]))[:2] or ["Recent pollution"]
     en_why = " and ".join(g.lower() for g in groups)
     ur_why = " اور ".join(URDU_GROUPS[g] for g in groups)

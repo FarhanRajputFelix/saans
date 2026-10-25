@@ -1,0 +1,48 @@
+# Runs the live forecast on GitHub's servers and saves it as the dashboard's instant-load snapshot.
+# Needs repository secrets (Settings > Secrets and variables > Actions): OPENAQ_API_KEY and FIRMS_MAP_KEY,
+# optionally GEMINI_API_KEY / GROQ_API_KEY for the LLM advisory. Without them the job skips quietly.
+name: Refresh live forecast snapshot
+
+on:
+  schedule:
+    - cron: "0 2 * * *"   # daily at 02:00 UTC = 07:00 Pakistan time
+  workflow_dispatch: {}   # or run it by hand: Actions tab > Refresh live forecast snapshot > Run workflow
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    env:
+      OPENAQ_API_KEY: ${{ secrets.OPENAQ_API_KEY }}
+      FIRMS_MAP_KEY: ${{ secrets.FIRMS_MAP_KEY }}
+      GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+      GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+    steps:
+      - name: Skip if the keys are not set up yet
+        id: keys
+        run: |
+          if [ -z "$OPENAQ_API_KEY" ]; then echo "OPENAQ_API_KEY secret missing: skipping."; echo "ok=false" >> "$GITHUB_OUTPUT"; else echo "ok=true" >> "$GITHUB_OUTPUT"; fi
+      - uses: actions/checkout@v4
+        if: steps.keys.outputs.ok == 'true'
+      - uses: actions/setup-python@v5
+        if: steps.keys.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: app/requirements.txt
+      - name: Install
+        if: steps.keys.outputs.ok == 'true'
+        run: pip install -r app/requirements.txt
+      - name: Run the live forecast and save the snapshot
+        if: steps.keys.outputs.ok == 'true'
+        run: python -m saans.live
+      - name: Commit the new snapshot
+        if: steps.keys.outputs.ok == 'true'
+        run: |
+          git config user.name "saans-snapshot-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add app/data/live_snapshot
+          if git diff --cached --quiet; then echo "No change."; else git commit -m "Refresh live forecast snapshot" && git push; fi

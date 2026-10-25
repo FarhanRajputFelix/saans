@@ -34,7 +34,10 @@ MAX_SENSORS = 10
 MODELS = ROOT / "models"
 CARD = json.loads((MODELS / "model_card.json").read_text())
 LABELS = json.loads((ROOT / "saans" / "feature_labels.json").read_text(encoding="utf-8"))
-NO_CORRECTION = {"AirGradient", "Clarity"}  # notebook 02: the EPA correction made these providers worse
+# Providers whose readings get the EPA humidity correction: only those notebook 02 showed it helps
+# (decided on pre-test data and saved there, so live and training always clean the same way)
+_CORR = PROCESSED / "humidity_correction.json"
+CORRECTED = set(json.loads(_CORR.read_text())["corrected_providers"]) if _CORR.exists() else set()
 FIRE_COLS = features.GROUPS["Upwind fires"]
 EMPTY_FIRES = pd.DataFrame({"latitude": [], "longitude": [], "frp": [], "hour_utc": pd.to_datetime([], utc=True)})
 
@@ -120,7 +123,7 @@ def fetch_pm25(city: str, start: pd.Timestamp, end: pd.Timestamp, wx: pd.DataFra
     drop = (aq.value < 0.25 * prev_v) & (aq.value < 0.25 * next_v) & (np.minimum(prev_v, next_v) > 60)
     aq = aq[~(spike | drop)]
     aq = aq.merge(wx[["time_utc", "relative_humidity_2m"]], on="time_utc", how="left")
-    fix = ~aq.is_monitor & ~aq.provider.isin(NO_CORRECTION)
+    fix = ~aq.is_monitor & aq.provider.isin(CORRECTED)
     aq.loc[fix, "value"] = (0.524 * aq.loc[fix, "value"] - 0.0862 * aq.loc[fix, "relative_humidity_2m"] + 5.75).clip(lower=0)
     ref = aq[aq.is_monitor].groupby("time_utc").value.mean()
     low = aq[~aq.is_monitor].groupby("time_utc").value.median()
@@ -242,19 +245,41 @@ def forecast() -> dict:
         status["cities"][city] = info
     fc = predict(pd.concat(rows, ignore_index=True)) if rows else pd.DataFrame()  # one row per city, unique index
     obs = pd.concat(observed, ignore_index=True) if observed else pd.DataFrame(columns=["time_utc", "pm25", "city"])
-    return {"forecasts": fc, "observed": obs, "status": status}
+    return {"forecasts": fc, "observed": obs, "status": status,
+            "fires": fires[["latitude", "longitude", "frp", "hour_utc"]].reset_index(drop=True)}
 
 
 def save_snapshot(result: dict, folder=ROOT / "app" / "data" / "live_snapshot") -> None:
-    """Freeze one live run, so the dashboard can show it when no API keys are configured."""
+    """Freeze one live run, so the dashboard can show it instantly and when no API keys are configured."""
     folder.mkdir(parents=True, exist_ok=True)
     result["forecasts"].to_parquet(folder / "forecasts.parquet", index=False)
     result["observed"].to_parquet(folder / "observed.parquet", index=False)
+    result["fires"].to_parquet(folder / "fires.parquet", index=False)
     (folder / "status.json").write_text(json.dumps(result["status"], indent=1, default=str))
 
 
 def load_snapshot(folder=ROOT / "app" / "data" / "live_snapshot") -> dict | None:
     if not (folder / "forecasts.parquet").exists():
         return None
+    fires = pd.read_parquet(folder / "fires.parquet") if (folder / "fires.parquet").exists() else EMPTY_FIRES
     return {"forecasts": pd.read_parquet(folder / "forecasts.parquet"), "observed": pd.read_parquet(folder / "observed.parquet"),
-            "status": json.loads((folder / "status.json").read_text())}
+            "status": json.loads((folder / "status.json").read_text()), "fires": fires}
+
+
+if __name__ == "__main__":  # python -m saans.live  -> one live run, saved as the dashboard snapshot (used by the scheduled job)
+    import os
+    import sys
+    from saans import advisory
+    res = forecast()
+    print(res["status"]["run_utc"], {c: v.get("result") for c, v in res["status"]["cities"].items()},
+          "| fires fresh:", res["status"]["fires"]["fresh"])
+    if res["forecasts"].empty:
+        sys.exit("No forecast issued; the existing snapshot is kept.")
+    use_llm = bool(os.getenv("GEMINI_API_KEY") or os.getenv("GROQ_API_KEY"))
+    advice = {}
+    for r in res["forecasts"].itertuples():
+        d = r.time_pkt.strftime("%Y-%m-%d")
+        advice[f"{r.city}|{d}"] = advisory.write(r.city, d, r.forecast_24h, r.hazard_prob, r.top_drivers, use_llm=use_llm)
+    save_snapshot(res)
+    (ROOT / "app" / "data" / "live_snapshot" / "advisories.json").write_text(json.dumps(advice, ensure_ascii=False, indent=1), encoding="utf-8")
+    print("snapshot saved")

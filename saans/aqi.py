@@ -17,9 +17,11 @@ BREAKPOINTS = [
 ]
 HAZARDOUS_PM25 = 225.5  # a 24-hour mean at or above this is AQI > 300, the project's "hazardous day"
 
-# The dashboard's four forecast risk levels (upper PM2.5 bound, label, status colour role)
-RISK_LEVELS = [(35.4, "Green", "good"), (125.4, "Yellow", "warning"),
-               (225.4, "Orange", "serious"), (np.inf, "Red", "critical")]
+# EPA's official colour for each category. Everything that shows a risk level (tiles, map, advisory)
+# uses these six categories, so a forecast can never be "Yellow" on a tile and "Unhealthy" in its advice.
+CATEGORY_COLORS = {"Good": "#00e400", "Moderate": "#ffff00", "Unhealthy for Sensitive Groups": "#ff7e00",
+                   "Unhealthy": "#ff0000", "Very Unhealthy": "#8f3f97", "Hazardous": "#7e0023"}
+SHORT_NAMES = {"Unhealthy for Sensitive Groups": "Unhealthy (sensitive)"}
 
 
 def pm25_to_aqi(conc):
@@ -34,9 +36,12 @@ def pm25_to_aqi(conc):
     return np.round(aqi)
 
 
+def category(pm25_24h: float) -> str:
+    """EPA category name for a 24-hour mean PM2.5."""
+    return next((c for lo, hi, a, b, c in BREAKPOINTS if pm25_24h <= hi + 0.05), "Hazardous")
+
+
 def risk_level(pm25_24h: float) -> tuple[str, str]:
-    """(label, status colour role) for a 24-hour mean PM2.5 forecast."""
-    for upper, label, role in RISK_LEVELS:
-        if pm25_24h <= upper:
-            return label, role
-    return RISK_LEVELS[-1][1], RISK_LEVELS[-1][2]
+    """(EPA category, official colour) for a 24-hour mean PM2.5 forecast."""
+    c = category(pm25_24h)
+    return c, CATEGORY_COLORS[c]
