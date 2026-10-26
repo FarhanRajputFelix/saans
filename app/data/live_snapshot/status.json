@@ -1,45 +1,45 @@
 {
- "run_utc": "2026-10-24 11:00:00+00:00",
+ "run_utc": "2026-10-26 01:00:00+00:00",
  "cities": {
   "lahore": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 694,
-   "sensor_hours_kept": 694,
-   "hours_with_pm25_last_24h": 23,
+   "sensor_hours_received": 746,
+   "sensor_hours_kept": 746,
+   "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-24 11:00:00+00:00"
+   "issued_at_utc": "2026-10-26 01:00:00+00:00"
   },
   "faisalabad": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 859,
-   "sensor_hours_kept": 851,
-   "hours_with_pm25_last_24h": 23,
+   "sensor_hours_received": 842,
+   "sensor_hours_kept": 832,
+   "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-24 11:00:00+00:00"
+   "issued_at_utc": "2026-10-26 01:00:00+00:00"
   },
   "multan": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 693,
-   "sensor_hours_kept": 693,
-   "hours_with_pm25_last_24h": 23,
+   "sensor_hours_received": 674,
+   "sensor_hours_kept": 674,
+   "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-24 11:00:00+00:00"
+   "issued_at_utc": "2026-10-26 01:00:00+00:00"
   },
   "islamabad": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 914,
-   "sensor_hours_kept": 914,
-   "hours_with_pm25_last_24h": 23,
+   "sensor_hours_received": 939,
+   "sensor_hours_kept": 939,
+   "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-24 11:00:00+00:00"
+   "issued_at_utc": "2026-10-26 01:00:00+00:00"
   },
   "karachi": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 760,
-   "sensor_hours_kept": 759,
-   "hours_with_pm25_last_24h": 23,
+   "sensor_hours_received": 773,
+   "sensor_hours_kept": 772,
+   "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-24 11:00:00+00:00"
+   "issued_at_utc": "2026-10-26 01:00:00+00:00"
   }
  },
  "fires": {

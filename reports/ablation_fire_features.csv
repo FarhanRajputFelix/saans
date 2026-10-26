@@ -1,0 +1,5 @@
+season,subset,hours,MAE_with_fires,MAE_without_fires,RMSE_with_fires,RMSE_without_fires,MAE_change_from_fires
+2024-25 season,all test hours,7498,28.28,28.22,46.96,46.86,0.06
+2024-25 season,Oct-Nov only,3920,27.07,27.09,49.35,49.29,-0.02
+2025-26 season,all test hours,14488,25.13,27.11,34.88,37.6,-1.98
+2025-26 season,Oct-Nov only,7143,19.77,21.03,28.95,30.88,-1.26

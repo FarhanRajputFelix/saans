@@ -37,8 +37,10 @@ def pm25_to_aqi(conc):
 
 
 def category(pm25_24h: float) -> str:
-    """EPA category name for a 24-hour mean PM2.5."""
-    return next((c for lo, hi, a, b, c in BREAKPOINTS if pm25_24h <= hi + 0.05), "Hazardous")
+    """EPA category name for a 24-hour mean PM2.5, truncated like pm25_to_aqi so the name always matches
+    the AQI number (55.46 is AQI 150, "Unhealthy for Sensitive Groups", not "Unhealthy")."""
+    c = np.floor(pm25_24h * 10) / 10
+    return next((name for lo, hi, a, b, name in BREAKPOINTS if c <= hi), "Hazardous")
 
 
 def risk_level(pm25_24h: float) -> tuple[str, str]:

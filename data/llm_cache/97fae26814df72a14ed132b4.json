@@ -1,0 +1,1 @@
+{"provider": "gemini:gemini-3.5-flash-lite", "answer": "{\n  \"events\": [\n    {\n      \"hid\": 797,\n      \"event_type\": \"traffic_restriction\",\n      \"place\": \"Unspecified\",\n      \"start_date\": \"2022-11-07\",\n      \"duration_days\": null\n    }\n  ]\n}"}

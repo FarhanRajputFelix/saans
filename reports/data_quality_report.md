@@ -34,17 +34,17 @@ Total raw records received: **2,048,724**.
 | 4 | OpenAQ | readings stuck at the sensor's maximum removed | 559,644 | 559,644 | 0 |  |
 | 5 | OpenAQ | single-sensor spikes removed (neighbour and isolated tests) | 559,644 | 558,080 | 1,564 | 1539 neighbour, 25 isolated |
 | 5 | OpenAQ | single-sensor dropouts removed (sudden falls to near zero) | 558,080 | 556,966 | 1,114 | added after the dashboard showed Lahore at 0 ug/m3 on 3 Nov 2024 |
-| 6 | OpenAQ | EPA humidity correction applied to low-cost sensors | 556,966 | 556,966 | 0 | 66,224 sensor-hours corrected; skipped for AirGradient, Clarity |
+| 6 | OpenAQ | EPA humidity correction applied only where a pre-test check shows it helps | 556,966 | 556,966 | 0 | 0 sensor-hours corrected; raw: AirGradient, Clarity, Hawanama |
 | 7 | FIRMS | low-confidence detections dropped | 1,185,836 | 1,036,047 | 149,789 |  |
 | 7 | FIRMS | static industrial sources and offshore detections dropped (type != 0) | 1,036,047 | 999,736 | 36,311 |  |
 | 7 | FIRMS | repeat detections of the same fire merged (one per 1 km cell, day and pass) | 999,736 | 815,434 | 184,302 | 139,394 fires were seen by more than one pass |
-| 5 | PM2.5 city series | city-level dropouts removed (second pass after combining sensors) | 134,663 | 134,657 | 6 |  |
-| 8 | PM2.5 city series | short gaps (<=3 h) interpolated outside the test seasons | 134,657 | 134,657 | 0 | 2,937 city-hours filled; test seasons untouched |
+| 5 | PM2.5 city series | city-level dropouts removed (second pass after combining sensors) | 134,663 | 134,659 | 4 |  |
+| 8 | PM2.5 city series | short gaps (<=3 h) interpolated outside the test seasons | 134,659 | 134,659 | 0 | 2,937 city-hours filled; test seasons untouched |
 | 8 | PM2.5 city series | remaining gaps flagged with their length (long_gap = more than 3 h) | 266,760 | 266,760 | 0 | 129,011 city-hours sit inside long gaps (no target, never filled) |
 | 8 | Weather | missing boundary layer height (Jan-Jun 2024) imputed with LightGBM | 266,760 | 266,760 | 0 | 21,840 values imputed; validation MAE 148 m, r = 0.91 on hidden Jan-Jun 2023 |
 | 3 | OpenAQ PM10 | null, negative and >2,000 ug/m3 readings dropped | 5,904 | 5,903 | 1 |  |
 | 4 | OpenAQ PM10 | stuck runs (same value 6+ hours) removed | 5,903 | 5,903 | 0 |  |
-| 9 | All sources | merged into one hourly master table (city x hour) | 266,760 | 266,760 | 0 | 29 columns; 137,594 city-hours with PM2.5 |
+| 9 | All sources | merged into one hourly master table (city x hour) | 266,760 | 266,760 | 0 | 29 columns; 137,596 city-hours with PM2.5 |
 
 ## Sensors received, kept and rejected
 
@@ -78,7 +78,7 @@ Each low-cost provider vs a reference monitor in the same city and hour (test se
 | islamabad | 45,473 | 85% | 453 | 7,863 |
 | karachi | 38,412 | 72% | 1,136 | 14,882 |
 | lahore | 42,938 | 80% | 1,314 | 10,378 |
-| multan | 5,473 | 10% | 18 | 47,860 |
+| multan | 5,475 | 10% | 18 | 47,860 |
 
 ## Where the cleaned data is
 

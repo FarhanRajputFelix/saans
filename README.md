@@ -32,14 +32,14 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 | Ingestion scripts for the free sources, 2020-2025 | Yes: Open-Meteo, OpenAQ (PM2.5 and PM10), NASA FIRMS, GDELT news; 1 Jan 2020 to 31 Jan 2026 | `saans/ingest/`, notebook 01 |
 | Clean 200,000+ raw records into one hourly master table | Yes: **2,048,724** raw records; 266,760-row hourly master table | notebook 02, `data/processed/` |
 | Data Quality Report with before/after statistics | Yes, generated from the cleaning log, incl. sensors received/kept/rejected | `reports/data_quality_report.md` |
-| The nine cleaning steps | Yes, all nine, plus dropout and zero-reading rules added after review | notebook 02 |
+| The nine cleaning steps | Yes, all nine, plus dropout and zero-reading rules added after review; the humidity-correction rule was fixed after an external review found it distorted Lahore ([finding A11](reports/data_quality_log.md)) | notebook 02 |
 | PM2.5, PM10 and NO2 | PM2.5 and PM10 yes; **NO2 does not exist** in OpenAQ near these cities (0 sensors) | notebook 01, finding A10 |
 | Forecast PM2.5 24 and 48 h ahead, five cities | Yes, on two held-out seasons **and live for today** | notebooks 05, 07; dashboard |
 | Hazard classifier (AQI > 300) beating persistence | Yes: hit rate, false alarm ratio **and** false alarm rate, F1 | notebook 05 |
 | Train 2020-23, test 2024 and 2025 seasons | Yes (training runs to Sep 2024; test seasons Oct-Jan never touched) | notebook 05 |
 | UFI, stagnation index, lags, calendar features | Yes; UFI decay L tuned on training data (50 km) | notebook 04 |
 | SHAP grouped into four driver categories | Yes | notebook 05; dashboard "Why this forecast?" |
-| LLM event extraction, 20-record manual check | Yes: 425 events from 2,255 headlines; 65% fully correct on 20 | notebook 03 |
+| LLM event extraction, 20-record manual check | Yes, enlarged to 50: 387 events from 2,255 headlines; 76% fully correct on a random 50 (95% interval 64-88%) | notebook 03 |
 | AI Smog Explainer, English and Urdu, guardrails, cached | Yes: number check, template fallback, cache | notebook 06, `saans/advisory.py` |
 | Streamlit dashboard: map, 48 h chart with band, "Why today?", what-if, advisory, data-quality tab | Yes, plus live mode and a cleaned-data browser | `app/streamlit_app.py` |
 | Coverage map (uneven sensors, data equity) | Yes | notebook 01 `sensor_map.png`; dashboard Data quality tab |
@@ -54,29 +54,31 @@ Models trained on 1 Jan 2020 to 28 Sep 2024 and tested on two held-out smog seas
 
 | Test season | Cities | SAANS | Persistence | Seasonal average | Skill vs persistence |
 |---|---|---|---|---|---|
-| 2024-25, record season | Lahore, Islamabad, Karachi | **28.4** | 32.8 | 48.3 | **+13.4%** |
-| 2025-26 | all five, incl. Faisalabad and Multan (never in training) | **25.4** | 26.1 | 68.4 | +2.7% |
+| 2024-25, record season | Lahore, Islamabad, Karachi | **28.3** | 32.8 | 48.3 | **+13.7%** |
+| 2025-26 | all five, incl. Faisalabad and Multan (never in training) | **25.1** | 26.9 | 61.4 | **+6.7%** |
 
-The 48-hour forecast: 37.9 vs 44.2 (+14.3%) in 2024-25 and 36.0 vs 36.5 (+1.4%) in 2025-26.
+The 48-hour forecast: 37.5 vs 44.2 (+15.2%) in 2024-25 and 34.2 vs 37.4 (+8.6%) in 2025-26.
 
-* **Lahore, 2024-25:** +16% over persistence. On 6 Nov 2024, when schools closed in 18 districts, SAANS forecast 383 ug/m3 a day ahead (observed: 510).
-* **Unseen cities:** Faisalabad +13%, Multan +11%, with no training data from either city.
-* **Weak spot:** Lahore 2025-26 (-32%). After the US monitor feed stopped in March 2025, Lahore's data come from low-cost networks that read differently, and the model over-forecasts by about 25 ug/m3 ([finding L1](reports/data_quality_log.md)).
+* **Lahore, 2024-25:** +16.5% over persistence. On 6 Nov 2024, when schools closed in 18 districts, SAANS forecast 392 ug/m3 a day ahead (observed: 510).
+* **Unseen cities:** Faisalabad +15%, Multan +10%, with no training data from either city.
+* **Weak spot:** Lahore 2025-26 (-12.6%). After the US monitor feed stopped in March 2025, Lahore's data come only from low-cost networks that read differently from the monitor the model learned Lahore from, and the model over-forecasts by about 21 ug/m3 (in 2024-25, on the monitor: -1.7) ([finding L1](reports/data_quality_log.md)). A cleaning bug first made this look much worse (-33%); it is fixed ([finding A11](reports/data_quality_log.md)).
 
 **Hazard warnings** (will the next 24 hours exceed AQI 300?)
 
 | Test season | Method | Hit rate | False alarm ratio | False alarm rate | F1 |
 |---|---|---|---|---|---|
-| 2024-25 | SAANS classifier | **92.6%** | 33.5% | 10.1% | **0.774** |
+| 2024-25 | SAANS classifier | **91.7%** | 32.3% | 9.5% | **0.779** |
 | 2024-25 | Persistence | 75.5% | 24.4% | 5.3% | 0.755 |
-| 2025-26 | SAANS classifier | **92.5%** | 33.9% | 12.2% | **0.771** |
-| 2025-26 | Persistence | 75.8% | 23.6% | 6.0% | 0.761 |
+| 2025-26 | SAANS classifier | **92.1%** | 32.9% | 15.0% | **0.777** |
+| 2025-26 | Persistence | 75.4% | 24.1% | 8.0% | 0.756 |
 
-SAANS warns of about 9 in 10 hazardous periods against 3 in 4 for persistence, at the cost of more false alarms, and 96% of those false alarms were still "Very Unhealthy" days (median 202 ug/m3).
+SAANS warns of about 9 in 10 hazardous periods against 3 in 4 for persistence, at the cost of more false alarms. This is a deliberate trade-off: the warning threshold (probability 0.30) was chosen on the 2023-24 validation season, because for an early warning a missed hazardous day costs more than a false alarm ([threshold chart](reports/figures/hazard_threshold_choice.png)). 96% of the false alarms were still "Very Unhealthy" days (median 197 ug/m3).
 
-**Other measured results:** weighting fires by wind direction raises the fire index's correlation with next-day PM2.5 from 0.29 to 0.38; boundary-layer-height imputation scores r = 0.91 on a hidden half-year; LLM event extraction is 65% fully correct on a hand-checked 20; the live code reproduces the training features exactly (0.0 difference over 266,760 rows).
+**Do the fire features help?** The same 24 h model was trained without the three fire features ([ablation](reports/ablation_fire_features.csv)). In 2024-25 they made no measurable difference (MAE 28.28 with, 28.22 without); in 2025-26 they cut the error by 7% (25.13 vs 27.11). SHAP agrees that fires are a modest driver: 3.7% of the whole forecast, or 10.5% of the predicted change ([SHAP shares](reports/shap_group_shares.csv)).
 
-**Live forecast on the deployed dashboard, Sat 24 Oct 2026, 18:00 PKT** (next 24-hour mean, ug/m3), from 10 sensors per city, 2,237 fresh fire detections and fresh weather: Lahore 74, Faisalabad 58, Multan 122, Islamabad 34, Karachi 39 (all Yellow except Islamabad, Green). An earlier 16:00 run from the development machine had no fire data, because NASA FIRMS had stopped answering that machine after the archive downloads; the dashboard says so whenever that happens.
+**Other measured results:** weighting fires by wind direction raises the fire index's correlation with next-day PM2.5 from 0.29 to 0.38; boundary-layer-height imputation scores r = 0.91 on a hidden half-year; LLM event extraction is 76% fully correct on a hand-checked random 50 (a first prompt scored 65% on 20; each of its error types became a prompt rule); the live code reproduces the training features exactly (0.0 difference over 266,760 rows).
+
+**Live forecast on the deployed dashboard, Sat 24 Oct 2026, 18:00 PKT** (next 24-hour mean, ug/m3), from 10 sensors per city, 2,237 fresh fire detections and fresh weather: Lahore 74, Faisalabad 58, Multan 122 (US EPA: Unhealthy), Karachi 39 (Unhealthy for Sensitive Groups), Islamabad 34 (Moderate). An earlier 16:00 run from the development machine had no fire data, because NASA FIRMS had stopped answering that machine after the archive downloads; the dashboard says so whenever that happens.
 
 ## The notebooks
 
@@ -84,7 +86,7 @@ SAANS warns of about 9 in 10 hazardous periods against 3 in 4 for persistence, a
 |---|---|---|
 | 01 | [Data ingestion](notebooks/01_data_ingestion.ipynb) | What arrived from each source: sensor coverage and map, fires per month, headlines, raw record counts |
 | 02 | [Data cleaning](notebooks/02_data_cleaning.ipynb) | The nine cleaning steps with before/after counts; writes the master table, CSVs and the Data Quality Report |
-| 03 | [LLM event calendar](notebooks/03_llm_event_calendar.ipynb) | Gemini turns 2,255 headlines into 425 events; 20 checked by hand |
+| 03 | [LLM event calendar](notebooks/03_llm_event_calendar.ipynb) | Gemini turns 2,255 headlines into 387 events; 50 checked by hand |
 | 04 | [Features](notebooks/04_features.ipynb) | Upwind Fire Exposure Index, Stagnation Index, lags, calendar; no future information |
 | 05 | [Models and SHAP](notebooks/05_models_shap.ipynb) | Baselines, LightGBM 24/48 h with an 80% band, hazard classifier, SHAP, what-if |
 | 06 | [AI Smog Explainer](notebooks/06_llm_advisories.ipynb) | Bilingual advisories for every city-day: LLM for the key days (31, within the proposal's "few dozen calls"), template for the rest, all with the number guardrail |

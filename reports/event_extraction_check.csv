@@ -1,21 +1,51 @@
 hid,date_pkt,title,event_type,place,start_date,duration_days,correct,reviewer_note
-2183,2025-12-11,"Air pollution and dense fog grip major cities , several motorway sections shut down",traffic_restriction,Other,2025-12-11,,1,"motorway sections shut: a traffic restriction; cities unnamed, so Other is right"
-558,2021-12-11,SEPA seals steels mills over emitting hazardous smoke,construction_or_industry_ban,Other,2021-12-11,,1,"industry sealed for smoke; city not named, Other is right"
-1109,2023-11-02,Punjab Makes Wearing Face Masks Mandatory in Schools,other_measure,Punjab-wide,2023-11-02,,1,mandatory masks in Punjab schools
-279,2021-10-12,Section 144 imposed to check smog - Newspaper,other_measure,Punjab-wide,2021-10-12,,0,"type fine, but Punjab-wide is inferred: the headline names no place"
-1789,2024-12-09,12 cases registered over smog SOPs breach,other_measure,Punjab-wide,2024-12-09,,0,"enforcement cases; Punjab-wide is inferred, not stated"
-1744,2024-12-02,LHC orders seizing unfit vehicles to combat smog,traffic_restriction,Punjab-wide,2024-12-02,,1,Lahore High Court order on unfit vehicles; Punjab jurisdiction
-966,2022-12-27,LHC orders govt to extend winter vacation by 7 days due to smog,school_closure,Lahore,2022-12-27,7.0,1,"7-day school holiday extension, duration correct"
-965,2022-12-27,LHC orders one - week extension in winter holidays for schools,school_closure,Lahore,2022-12-27,7.0,1,same event as 966 from another outlet; extraction correct
-2178,2025-12-07,Punjab extends smog alert,smog_emergency,Punjab-wide,2025-12-07,,1,smog alert extended in Punjab
-973,2022-12-27,LHC orders one week extension in winter holidays due to smog,school_closure,Lahore,2022-12-27,7.0,1,same event as 966; correct
-2113,2025-11-15,Faisalabad gets first mobile fuel lab,other_measure,Faisalabad,2025-11-15,,0,a new fuel-testing lab is not a smog event
-512,2021-12-03,"Motorway closed across various points as fog envelops Punjab , KP",traffic_restriction,Punjab-wide,2021-12-03,,1,motorway closures in Punjab (fog); a traffic restriction
-1165,2023-11-11,Punjab decides to lift smog lockdown as rain improves air quality,lockdown_or_office_closure,Punjab-wide,2023-11-11,,0,meaning inverted: the lockdown was LIFTED
-1682,2024-11-19,"Barring Lahore and Multan , schools reopen in Punjab",school_closure,Punjab-wide,2024-11-19,,0,meaning inverted: schools REOPEN except Lahore and Multan; place should be those two cities
-355,2021-11-17,Punjab govt bans sale of Euro - 2 fuel in Lahore to combat air pollution,traffic_restriction,Lahore,2021-11-17,,1,fuel ban in Lahore; acceptable as a traffic measure
-916,2022-12-14,"LHC orders closure of markets , restaurants in smog - hit Lahore by 10pm on weekdays - Pakistan",lockdown_or_office_closure,Lahore,2022-12-14,,1,market and restaurant closures in Lahore
-1455,2024-01-15,Brick kilns converted to cleaner Zig - Zag technology in Islamabad,construction_or_industry_ban,Islamabad,2024-01-15,,0,"kiln technology upgrade, not a ban"
-539,2021-12-06,M - tag mandatory for vehicles on Islamabad - Lahore motorway,traffic_restriction,Punjab-wide,2021-12-06,,0,M-tag toll rule is not smog-related
-69,2020-10-16,Punjab Imposes a Ban on Heavy Smoke - Emitting Vehicles to Prevent Smog,traffic_restriction,Punjab-wide,2020-10-16,,1,ban on smoke-emitting vehicles in Punjab
-1519,2024-10-31,Lahore goes for  green lockdown  to tackle smog - Pakistan,lockdown_or_office_closure,Lahore,2024-10-31,,1,green lockdown in Lahore
+1657,2024-11-15,"Punjab announces complete lockdown in Lahore , Multan to tackle smog",lockdown_or_office_closure,Lahore,2024-11-15,,1,correct; Multan is also named but only Lahore was extracted
+964,2022-12-27,"LHC orders extension in winter vacation of schools , colleges as smog worsens",school_closure,Punjab-wide,2022-12-27,,1,"type, place and date supported by the headline"
+677,2021-12-29,"Punjab bans fireworks , concerts and aerial firing on New Year night",fireworks_night,Punjab-wide,2021-12-29,,0,"fireworks BAN read as a fireworks night; date should be 31 Dec (New Year night), not publication day"
+1506,2024-10-23,Punjab announces new school timings,school_closure,Punjab-wide,2024-10-23,,0,new school timings are not a closure
+1197,2023-11-17,34 factories sealed during anti - smog drive in Faisalabad,construction_or_industry_ban,Faisalabad,2023-11-17,,1,"type, place and date supported by the headline"
+1609,2024-11-11,"M2 , M3 and other motorways closed at these points due to fog",traffic_restriction,Unspecified,2024-11-11,,1,"motorway closure (fog) counted as a traffic restriction, as in v1"
+610,2021-12-17,Punjab govt announces winter holidays from Dec 23,school_closure,Punjab-wide,2021-12-17,,0,headline says from Dec 23; start date set to publication day
+760,2022-10-27,12 pyrolysis plants in Lahore demolished for causing air pollution - Pakistan,construction_or_industry_ban,Lahore,2022-10-27,,1,"type, place and date supported by the headline"
+1573,2024-11-08,All activities in Lahore schools suspended amid smog holidays,school_closure,Lahore,2024-11-08,,1,"type, place and date supported by the headline"
+339,2021-11-14,5 anti - smog squads formed to curb pollution in Lahore - Pakistan,other_measure,Lahore,2021-11-14,,1,"type, place and date supported by the headline"
+605,2021-12-17,Winter vacations : NCOC decides to close educational institutions from Jan 3,school_closure,Unspecified,2021-12-17,,0,headline says from Jan 3; start date set to publication day
+638,2021-12-21,What is the winter vacation schedule in Punjab ? ,school_closure,Punjab-wide,2021-12-21,,0,"a question headline, not an event"
+1248,2023-11-24,Punjab imposes new restrictions in smog - hit districts ; check details,other_measure,Punjab-wide,2023-11-24,,1,"type, place and date supported by the headline"
+381,2021-11-18,Smog : LHC directs private offices to allow work from home for 50pc employees,lockdown_or_office_closure,Punjab-wide,2021-11-18,,1,"type, place and date supported by the headline"
+2043,2025-10-31,Vehicles sans green stickers banned,traffic_restriction,Unspecified,2025-10-31,,1,"type, place and date supported by the headline"
+1353,2023-12-17,Lahore gets  first - ever artificial rain  to clear smog,other_measure,Lahore,2023-12-17,,1,"type, place and date supported by the headline"
+1767,2024-12-06,Punjab Makes Fitness Certificates Mandatory for All Vehicles to Control Smog . ,traffic_restriction,Punjab-wide,2024-12-06,,1,"type, place and date supported by the headline"
+602,2021-12-17,"Punjab smog : Schools closed , flight operations cancelled",school_closure,Punjab-wide,2021-12-17,,1,"type, place and date supported by the headline"
+1343,2023-12-16,LHC orders private offices to work from home for two days,lockdown_or_office_closure,Punjab-wide,2023-12-16,2.0,1,"type, place and date supported by the headline"
+1870,2024-12-31,Ban Imposed On Fireworks In Lahore On Eve Of New Year Night,fireworks_night,Lahore,2024-12-31,,0,fireworks BAN read as a fireworks night
+432,2021-11-22,Toxic smog leads to closure of Lahore schools three days a week,school_closure,Lahore,2021-11-22,,1,"type, place and date supported by the headline"
+1066,2023-10-12,Mid - week day off announced in city,other_measure,Unspecified,2023-10-12,,1,"city not named, Unspecified is right"
+1249,2023-11-24,Schools and colleges to remain closed on Friday in 12 Punjab districts,school_closure,Punjab-wide,2023-11-24,1.0,1,"type, place and date supported by the headline"
+69,2020-10-16,Punjab Imposes a Ban on Heavy Smoke - Emitting Vehicles to Prevent Smog,traffic_restriction,Punjab-wide,2020-10-16,,1,"type, place and date supported by the headline"
+1206,2023-11-19,Punjab govt makes wearing face masks mandatory in smog - hit districts - Pakistan,other_measure,Punjab-wide,2023-11-19,,1,"type, place and date supported by the headline"
+92,2020-10-29,Usman Buzdar Approves a Proposal for Electric Vehicles to Prevent Smog,traffic_restriction,Unspecified,2020-10-29,,0,approving an electric-vehicle proposal is not a traffic restriction
+1683,2024-11-19,"Anti - smog operation intensifies in Punjab as dozens of brick kilns , industrial units demolished",construction_or_industry_ban,Punjab-wide,2024-11-19,,1,"type, place and date supported by the headline"
+967,2022-12-27,LHC directs govt to extend winter vacations by 7 more days in smog - hit Lahore,school_closure,Lahore,2022-12-27,7.0,1,"type, place and date supported by the headline"
+1576,2024-11-08,Punjab govt shuts down public spaces amid smog crisis,lockdown_or_office_closure,Punjab-wide,2024-11-08,,1,"type, place and date supported by the headline"
+12,2020-01-06,Winter holidays for Punjab schools extended until Jan 12 - Pakistan,school_closure,Punjab-wide,2020-01-06,6.0,1,"type, place and date supported by the headline"
+2180,2025-12-08,"Over 1 , 000 vehicles inspected , 80 seized as Pak - EPA steps up anti - smog drive",traffic_restriction,Unspecified,2025-12-08,,1,"type, place and date supported by the headline"
+608,2021-12-17,Smog in Lahore : Punjab to close schools from Dec 23,school_closure,Lahore,2021-12-17,,0,headline says from Dec 23; start date set to publication day
+228,2021-01-02,"Motorway closed , flights cancelled as thick fog dwells in Punjab",traffic_restriction,Punjab-wide,2021-01-02,,1,"motorway closure (fog) counted as a traffic restriction, as in v1"
+874,2022-12-07,"Schools in Lahore to remain closed every Friday , Saturday",school_closure,Lahore,2022-12-07,,1,"type, place and date supported by the headline"
+876,2022-12-07,Chief Minister Imposes Environmental - Emergency in Lahore,smog_emergency,Lahore,2022-12-07,,1,"type, place and date supported by the headline"
+1948,2025-10-15,Punjab directs restaurants to install suction hoods ahead of smog season,construction_or_industry_ban,Punjab-wide,2025-10-15,,0,"a directive to install hoods, not a ban"
+433,2021-11-23,"Worsening smog condition : Educational institutes , private offices to remain shut for three days a week in Lahore",school_closure,Lahore,2021-11-23,,1,"type, place and date supported by the headline"
+867,2022-12-07,Lahore schools to remain closed thrice a week amid smog,school_closure,Lahore,2022-12-07,,1,"type, place and date supported by the headline"
+1759,2024-12-05,Two booked over smog SOPs breach,other_measure,Unspecified,2024-12-05,,1,"type, place and date supported by the headline"
+1778,2024-12-07,Four booked for defying smog regulations,other_measure,Unspecified,2024-12-07,,1,"type, place and date supported by the headline"
+378,2021-11-18,50pc staff in Lahore told to work from home amid high AQI,lockdown_or_office_closure,Lahore,2021-11-18,,1,"type, place and date supported by the headline"
+395,2021-11-19,50 % attendance at offices ordered,lockdown_or_office_closure,Unspecified,2021-11-19,,1,"type, place and date supported by the headline"
+2243,2026-01-16,Commercial Activities Banned in Lahore Parks,other_measure,Lahore,2026-01-16,,0,commercial activity in parks: not a smog measure
+1614,2024-11-11,"Punjab directs closure of markets by 8pm in Lahore , other smog - hit districts",lockdown_or_office_closure,Lahore,2024-11-11,,1,"type, place and date supported by the headline"
+865,2022-12-07,Environmental emergency imposed in Punjab,smog_emergency,Punjab-wide,2022-12-07,,1,"type, place and date supported by the headline"
+863,2022-12-06,Punjab govt imposes  environmental emergency  in smog - hit Lahore - Pakistan,smog_emergency,Lahore,2022-12-06,,1,"type, place and date supported by the headline"
+2052,2025-11-02,Smog dilemma : School timings changed across Punjab,school_closure,Punjab-wide,2025-11-02,,0,changed school timings are not a closure
+431,2021-11-22,"Lahore schools , offices to remain shut thrice a week as smog worsens",school_closure,Lahore,2021-11-22,,1,"type, place and date supported by the headline"
+190,2020-12-09,Burning garbage prohibited in Pindi | The Express Tribune,other_measure,Other,2020-12-09,,1,"type, place and date supported by the headline"
+280,2021-10-12,"Smog : Punjab to act against industries , motorists polluting air",construction_or_industry_ban,Punjab-wide,2021-10-12,,0,"a statement of intent (to act), not a concrete ban"

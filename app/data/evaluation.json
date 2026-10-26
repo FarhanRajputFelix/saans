@@ -3,34 +3,34 @@
   {
    "season": "2024-25 season",
    "horizon": "24 h",
-   "MAE_model": 28.4,
+   "MAE_model": 28.3,
    "MAE_persistence": 32.8,
    "MAE_seasonal": 48.3,
-   "skill_vs_persistence": 0.134
+   "skill_vs_persistence": 0.137
   },
   {
    "season": "2024-25 season",
    "horizon": "48 h",
-   "MAE_model": 37.9,
+   "MAE_model": 37.5,
    "MAE_persistence": 44.2,
    "MAE_seasonal": 48.1,
-   "skill_vs_persistence": 0.143
+   "skill_vs_persistence": 0.152
   },
   {
    "season": "2025-26 season",
    "horizon": "24 h",
-   "MAE_model": 25.4,
-   "MAE_persistence": 26.1,
-   "MAE_seasonal": 68.4,
-   "skill_vs_persistence": 0.027
+   "MAE_model": 25.1,
+   "MAE_persistence": 26.9,
+   "MAE_seasonal": 61.4,
+   "skill_vs_persistence": 0.067
   },
   {
    "season": "2025-26 season",
    "horizon": "48 h",
-   "MAE_model": 36.0,
-   "MAE_persistence": 36.5,
-   "MAE_seasonal": 69.5,
-   "skill_vs_persistence": 0.014
+   "MAE_model": 34.2,
+   "MAE_persistence": 37.4,
+   "MAE_seasonal": 62.3,
+   "skill_vs_persistence": 0.086
   }
  ],
  "classifier": [
@@ -38,10 +38,10 @@
    "season": "2024-25 season",
    "method": "SAANS classifier",
    "hazardous_hours": 1332,
-   "hit_rate": 0.926,
-   "false_alarm_ratio": 0.335,
-   "false_alarm_rate": 0.101,
-   "F1": 0.774
+   "hit_rate": 0.917,
+   "false_alarm_ratio": 0.323,
+   "false_alarm_rate": 0.095,
+   "F1": 0.779
   },
   {
    "season": "2024-25 season",
@@ -55,20 +55,20 @@
   {
    "season": "2025-26 season",
    "method": "SAANS classifier",
-   "hazardous_hours": 2959,
-   "hit_rate": 0.925,
-   "false_alarm_ratio": 0.339,
-   "false_alarm_rate": 0.122,
-   "F1": 0.771
+   "hazardous_hours": 3623,
+   "hit_rate": 0.921,
+   "false_alarm_ratio": 0.329,
+   "false_alarm_rate": 0.15,
+   "F1": 0.777
   },
   {
    "season": "2025-26 season",
    "method": "Persistence (last 24 h >= 225.5)",
-   "hazardous_hours": 2959,
-   "hit_rate": 0.758,
-   "false_alarm_ratio": 0.236,
-   "false_alarm_rate": 0.06,
-   "F1": 0.761
+   "hazardous_hours": 3623,
+   "hit_rate": 0.754,
+   "false_alarm_ratio": 0.241,
+   "false_alarm_rate": 0.08,
+   "F1": 0.756
   }
  ]
 }

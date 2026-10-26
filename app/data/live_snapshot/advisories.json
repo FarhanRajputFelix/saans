@@ -1,27 +1,27 @@
 {
- "lahore|2026-10-24": {
-  "en": "The forecast 24-hour mean PM2.5 is 75 micrograms per cubic metre, and the US EPA AQI is 165, which is Unhealthy, with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nThis is mainly due to a rise in pm2.5 since yesterday, air pressure, and peak pm2.5 in the last 24 hours.\nPeople should limit outdoor activities, especially children, the elderly, and people with asthma.",
-  "ur": "اگلے 24 گھنٹوں کے لیے PM2.5 کی اوسط پیشگوئی 75 माइक्रोग्राम فی مکعب میٹر ہے، اور US EPA AQI 165 ہے جو کہ غیر صحت بخش ہے، جبکہ اگلے 24 گھنٹوں کے خطرناک (AQI 300 سے زیادہ) ہونے کا امکان 0% ہے۔\nاس کی بنیادی وجوہات کل کے مقابلے میں PM2.5 میں اضافہ، ہوا کا دباؤ، اور پچھلے 24 گھنٹوں میں PM2.5 کی بلند ترین سطح ہیں۔\nلوگ باہر کی سرگرمیاں محدود کریں، خاص طور پر بچے، بزرگ اور دمہ کے مریض احتیاط کریں۔",
+ "lahore|2026-10-26": {
+  "en": "The forecast 24-hour mean PM2.5 is 97 micrograms per cubic metre, and the US EPA AQI is 180 (Unhealthy), with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nThis is mainly driven by the average pm2.5 over the last 24 hours, air pressure, and peak pm2.5 in the last 24 hours.\nPeople should limit outdoor activity, and children, the elderly, and people with asthma must take extra care.",
+  "ur": "اگلے 24 گھنٹوں کے لیے PM2.5 کی اوسط پیشگوئی 97 مائیکرو گرام فی مکعب میٹر ہے، اور US EPA AQI 180 (غیر صحت بخش) ہے، جبکہ اگلے 24 گھنٹوں کے خطرناک (AQI 300 سے اوپر) ہونے کا امکان 0% ہے۔\nاس کی بنیادی وجوہات پچھلے 24 گھنٹوں کے دوران اوسط pm2.5، ہوا کا دباؤ، اور پچھلے 24 گھنٹوں میں سب سے زیادہ pm2.5 ہیں۔\nلوگ باہر کی سرگرمیاں محدود کریں، اور بچوں، بزرگوں اور دمے کے مریضوں کو خصوصی احتیاط کرنی چاہیے۔",
   "source": "gemini:gemini-3.5-flash-lite"
  },
- "faisalabad|2026-10-24": {
-  "en": "Faisalabad forecast 24-hour mean PM2.5 is 55 micrograms per cubic metre, giving a US EPA AQI of 149, which is Unhealthy for Sensitive Groups, and there is a 0% chance that the next 24 hours are hazardous with an AQI above 300.\nThis is mainly driven by air pressure, peak pm2.5 in the last 24 hours, and the time of year.\nChildren, the elderly, and people with asthma should limit outdoor exertion, while the general public should take it easy outside.",
-  "ur": "فیصل آباد میں اگلے 24 گھنٹے کے لیے PM2.5 کی اوسط پیش گوئی 55 مائیکرو گرام فی مکعب میٹر ہے، جو کہ 149 کا US EPA AQI بنتا ہے (حساس گروہوں کے لیے غیر صحت بخش)، اور اس بات کا 0% امکان ہے کہ اگلے 24 گھنٹے خطرناک ہوں گے جہاں AQI 300 سے زیادہ ہو۔\nاس کی بنیادی وجوہات فضائی دباؤ، پچھلے 24 گھنٹوں میں سب سے زیادہ PM2.5، اور سال کا یہ وقت ہیں۔\nبچوں، بزرگوں، اور دمے کے مریضوں کو باہر کی سخت سرگرمیوں سے گریز کرنا چاہیے، جبکہ عام لوگوں کو بھی باہر احتیاط کرنی چاہیے۔",
+ "faisalabad|2026-10-26": {
+  "en": "The forecast 24-hour mean PM2.5 is 76 micrograms per cubic metre, and the US EPA AQI is 165 (Unhealthy), with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nThis is mainly due to air pressure, peak pm2.5 in the last 24 hours, and cloud cover.\nResidents, especially children, the elderly, and people with asthma, should limit outdoor activities and keep windows closed.",
+  "ur": "اگلے 24 گھنٹوں کے لیے PM2.5 کی اوسط پیشگوئی 76 مائیکرو گرام فی مکعب میٹر ہے، اور یو ایس ای پی اے AQI 165 (غیر صحت بخش) ہے، جبکہ اگلے 24 گھنٹوں کے خطرناک (AQI 300 سے اوپر) ہونے کا امکان 0% ہے۔\nاس کی بنیادی وجوہات میں ہوا کا دباؤ، پچھلے 24 گھنٹوں میں PM2.5 کی بلند ترین سطح، اور بادلوں کی موجودگی شامل ہیں۔\nرہائشیوں، خاص طور پر بچوں، بزرگوں، اور دمہ کے مریضوں کو باہر کی سرگرمیاں محدود کرنی چاہئیں اور کھڑکیاں بند رکھنی چاہئیں۔",
   "source": "gemini:gemini-3.5-flash-lite"
  },
- "multan|2026-10-24": {
-  "en": "The forecast 24-hour mean PM2.5 is 118 micrograms per cubic metre, making the US EPA AQI 194 which is Unhealthy, with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nThis is mainly due to the average pm2.5 over the last 24 hours, air pressure, and wind speed.\nEveryone, especially children, the elderly, and people with asthma, should limit outdoor activities and keep windows closed.",
-  "ur": "اگلے 24 گھنٹوں کے لیے PM2.5 کی اوسط پیشگوئی 118 مائیکرو گرام فی مکعب میٹر ہے، جس سے US EPA AQI 194 یعنی غیر صحت بخش ہے، اور اس بات کا 0% امکان ہے کہ اگلے 24 گھنٹے خطرناک (AQI 300 سے اوپر) ہوں گے۔\nاس کی بنیادی وجوہات پچھلے 24 گھنٹوں کے دوران اوسط pm2.5، ہوا کا دباؤ، اور ہوا کی رفتار ہیں۔\nسب لوگ، خاص طور پر بچے، بزرگ، اور دمے کے مریض، باہر کی سرگرمیاں محدود کریں اور کھڑکیاں بند رکھیں۔",
+ "multan|2026-10-26": {
+  "en": "The forecast 24-hour mean PM2.5 in Multan is 134 micrograms per cubic metre, reaching a US EPA AQI of 209, which is Very Unhealthy, with a 1% chance of reaching hazardous levels.\nThis is mainly driven by the average pm2.5 over the last 24 hours, air pressure, and cloud cover.\nEveryone should avoid outdoor exercise, while children, the elderly, and people with asthma must stay indoors and keep their rescue inhalers ready.",
+  "ur": "ملتان میں اگلے 24 گھنٹوں کے دوران PM2.5 کی اوسط پیشگوئی 134 مائیکرو گرام فی مکعب میٹر ہے، جو کہ 209 US EPA AQI کے ساتھ انتہائی غیر صحت بخش ہے، اور اس کے خطرناک سطح تک پہنچنے کا امکان 1 فیصد ہے۔\nاس کی بنیادی وجوہات پچھلے 24 گھنٹوں کے دوران اوسط pm2.5، ہوا کا دباؤ، اور بادلوں کی کثافت ہیں۔\nسب کو باہر ورزش کرنے سے گریز کرنا چاہیے، جبکہ بچوں، بزرگوں، اور دمہ کے مریضوں کو گھر کے اندر رہنا چاہیے اور اپنے انہیلر تیار رکھنے چاہئیں۔",
   "source": "gemini:gemini-3.5-flash-lite"
  },
- "islamabad|2026-10-24": {
-  "en": "Islamabad's forecast for the next 24 hours shows a mean PM2.5 of 34 micrograms per cubic metre, with a US EPA AQI of 97 (Moderate).\nThe main reasons are peak pm2.5 in the last 24 hours, rise in pm2.5 since yesterday, and the time of year, with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nAir quality is generally acceptable, but children, the elderly, and people with asthma should consider limiting prolonged outdoor exertion if they feel sensitive.",
-  "ur": "اگلے 24 گھنٹوں کے لیے اسلام آباد کی پیشگوئی میں PM2.5 کی اوسط مقدار 34 माइक्रोग्राम فی مکعب میٹر اور US EPA AQI 97 (معتدل) ہے۔\nاس کی بنیادی وجوہات پچھلے 24 گھنٹوں میں PM2.5 کا عروج، کل سے PM2.5 میں اضافہ، اور سال کا یہ وقت ہیں، جب کہ اگلے 24 گھنٹوں کے خطرناک (AQI 300 سے اوپر) ہونے کا امکان 0% ہے۔\nہوا کا معیار عام طور پر قابل قبول ہے، لیکن بچوں، بزرگوں اور دمے کے مریضوں کو حساسیت محسوس ہونے پر باہر زیادہ دیر تک محنت طلب کام کرنے سے گریز کرنا چاہیے۔",
-  "source": "gemini:gemini-3.5-flash-lite"
+ "islamabad|2026-10-26": {
+  "source": "template",
+  "en": "Islamabad: the next 24 hours are forecast to average 59 µg/m³ of PM2.5 (AQI 153, Unhealthy).\nMain drivers: recent pollution and weather.\nEveryone should limit time outdoors; sensitive groups should stay indoors and wear a mask outside.",
+  "ur": "اسلام آباد میں آئندہ 24 گھنٹوں کے دوران PM2.5 کی اوسط سطح 59 مائیکروگرام فی مکعب میٹر (AQI 153) متوقع ہے۔\nبڑی وجوہات: حالیہ آلودگی اور موسم اور ہوا کا جمود۔\nسب لوگ باہر کم وقت گزاریں؛ حساس افراد گھر کے اندر رہیں اور باہر ماسک پہنیں۔"
  },
- "karachi|2026-10-24": {
-  "en": "The forecast 24-hour mean PM2.5 is 42 micrograms per cubic metre, and the US EPA AQI is 117 (Unhealthy for Sensitive Groups), with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nThis is mainly driven by peak pm2.5 in the last 24 hours, time of year, and air pressure.\nChildren, the elderly, and people with asthma should limit outdoor exertion.",
-  "ur": "اگلے 24 گھنٹوں کے لیے PM2.5 کی اوسط پیشگوئی 42 مائیکرو گرام فی مکعب میٹر ہے، اور US EPA AQI 117 (حساس گروہوں کے لیے غیر صحت مند) ہے، جبکہ اگلے 24 گھنٹوں کے خطرناک (AQI 300 سے زیادہ) ہونے کا امکان 0% ہے۔\nاس کی بنیادی وجوہات پچھلے 24 گھنٹوں میں PM2.5 کا عروج، سال کا یہ وقت، اور ہوا کا دباؤ ہیں۔\nبچوں، بزرگوں اور دمے کے مریضوں کو باہر سخت محنت سے گریز کرنا چاہیے۔",
+ "karachi|2026-10-26": {
+  "en": "The forecast 24-hour mean PM2.5 is 69 micrograms per cubic metre, and the US EPA AQI is 160, which is Unhealthy.\nThis is mainly due to peak pm2.5 in the last 24 hours, air pressure, and cloud cover, with a 0% chance that the next 24 hours are hazardous (AQI above 300).\nResidents should limit outdoor exertion, and children, the elderly, and people with asthma should take extra care.",
+  "ur": "اگلے 24 گھنٹوں کے لیے PM2.5 کی اوسط پیش گوئی 69 مائیکرو گرام فی مکعب میٹر ہے، اور US EPA AQI 160 ہے، جو کہ غیر صحت بخش ہے۔\nاس کی بنیادی وجوہات پچھلے 24 گھنٹوں میں چوٹی کا PM2.5، ہوا کا دباؤ، اور بادل ہیں، جبکہ اگلے 24 گھنٹوں کے خطرناک (AQI 300 سے اوپر) ہونے کا امکان 0 فیصد ہے۔\nشہری باہر کی سرگرمیاں محدود کریں، اور بچوں، بزرگوں اور دمہ کے مریضوں کو اضافی احتیاط کرنی چاہیے۔",
   "source": "gemini:gemini-3.5-flash-lite"
  }
 }
