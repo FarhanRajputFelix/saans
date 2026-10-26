@@ -116,8 +116,13 @@ div[data-testid="stMetricValue"] { font-weight:800; }
 
 
 # ---------------- data ----------------
+def version(*paths):
+    """Cache key that changes with the files: a redeploy keeps st.cache_data, so new data would otherwise stay hidden."""
+    return tuple((p.name, p.stat().st_size, p.stat().st_mtime_ns) for p in paths if p.exists())
+
+
 @st.cache_data
-def load_replay():
+def load_replay(files_version):
     daily = pd.read_parquet(DATA / "forecasts_daily.parquet")
     daily["date"] = daily.time_pkt.dt.tz_convert("Asia/Karachi").dt.date
     hourly = pd.read_parquet(DATA / "observed_hourly.parquet")
@@ -127,12 +132,12 @@ def load_replay():
 
 
 @st.cache_data
-def load_master():
+def load_master(files_version):
     return pd.read_parquet(PROCESSED / "master_hourly.parquet")
 
 
 @st.cache_data
-def load_fires():
+def load_fires(files_version):
     return pd.read_parquet(PROCESSED / "fires_clean.parquet", columns=["latitude", "longitude", "frp", "hour_utc"])
 
 
@@ -304,7 +309,7 @@ def forecast_view(today: pd.DataFrame, city: str, hourly: pd.DataFrame, fires: p
 
 
 # ---------------- page ----------------
-daily, hourly, advisories, evaluation = load_replay()
+daily, hourly, advisories, evaluation = load_replay(version(*(DATA / f for f in ("forecasts_daily.parquet", "observed_hourly.parquet", "advisories.json", "evaluation.json"))))
 
 if "live" not in st.session_state:
     st.session_state.live = None
@@ -370,7 +375,7 @@ with tab_live:
             fires = fires[(fires.hour_utc > t0 - pd.Timedelta(hours=72)) & (fires.hour_utc <= t0)]
         forecast_view(fc, city, res["observed"], fires, res.get("advisories", {}), key="live", replay=False)
         st.caption("Known limits of the live mode: weather comes from the Open-Meteo forecast model rather than ERA5, and the news "
-                   "event calendar is not updated live (event features are zero; the calendar group is about 5% of the model's explanation).")
+                   "event calendar is not updated live (event features are zero; the calendar group is about 6% of the model's explanation).")
 
 with tab_replay:
     c1, c2, c3 = st.columns([1, 1, 2])
@@ -387,7 +392,7 @@ with tab_replay:
                "compared with what actually happened.")
     today = s[s.date == date].set_index("city")
     t0 = today.time_utc.max()
-    f_all = load_fires()
+    f_all = load_fires(version(PROCESSED / "fires_clean.parquet"))
     fires_r = f_all[(f_all.hour_utc > t0 - pd.Timedelta(hours=72)) & (f_all.hour_utc <= t0)]
     forecast_view(today, city_r, hourly, fires_r, advisories, key="replay", replay=True)
 
@@ -403,7 +408,7 @@ with tab_data:
     st.markdown("This is the dataset produced by the nine cleaning steps of notebook 02: **one row per city per hour**, "
                 "1 Jan 2020 to 31 Jan 2026, 266,760 rows. Choose a city and dates to view it, and download your selection as CSV. "
                 "The full files are in the repository under `data/processed/` (Parquet, plus one CSV per city in `data/processed/csv/`).")
-    master = load_master()
+    master = load_master(version(PROCESSED / "master_hourly.parquet"))
     c1, c2, c3 = st.columns([1, 1.4, 1])
     dcity = c1.selectbox("City", list(CITIES), format_func=lambda c: CITIES[c][0], key="data_city")
     picked = c2.date_input("Dates (Pakistan time)", value=(pd.Timestamp("2024-11-01").date(), pd.Timestamp("2024-11-07").date()),
