@@ -78,7 +78,7 @@ SAANS warns of about 9 in 10 hazardous periods against 3 in 4 for persistence, a
 
 **Other measured results:** weighting fires by wind direction raises the fire index's correlation with next-day PM2.5 from 0.29 to 0.38; boundary-layer-height imputation scores r = 0.91 on a hidden half-year; LLM event extraction is 76% fully correct on a hand-checked random 50 (a first prompt scored 65% on 20; each of its error types became a prompt rule); the live code reproduces the training features exactly (0.0 difference over 266,760 rows).
 
-**Live forecast on the deployed dashboard, Sat 24 Oct 2026, 18:00 PKT** (next 24-hour mean, ug/m3), from 10 sensors per city, 2,237 fresh fire detections and fresh weather: Lahore 74, Faisalabad 58, Multan 122 (US EPA: Unhealthy), Karachi 39 (Unhealthy for Sensitive Groups), Islamabad 34 (Moderate). An earlier 16:00 run from the development machine had no fire data, because NASA FIRMS had stopped answering that machine after the archive downloads; the dashboard says so whenever that happens.
+**Live forecast on the deployed dashboard, Mon 26 Oct 2026, 07:00 PKT** (next 24-hour mean, ug/m3), from fresh sensor, weather and NASA FIRMS fire data: Lahore 106, Faisalabad 86, Islamabad 61, Karachi 72 (US EPA: Unhealthy), Multan 147 (Very Unhealthy). A 06:00 run on the development machine had no fire data, because NASA FIRMS stopped answering that machine after the archive downloads; its forecasts were 2 to 13 ug/m3 lower, and the dashboard says so whenever fire data are missing.
 
 ## The notebooks
 
