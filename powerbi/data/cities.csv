@@ -1,4 +1,4 @@
-city,City,latitude,longitude,in_training
+city_key,City,latitude,longitude,in_training
 lahore,Lahore,31.5497,74.3436,Yes
 faisalabad,Faisalabad,31.4504,73.135,No (unseen city)
 multan,Multan,30.1575,71.5249,No (unseen city)

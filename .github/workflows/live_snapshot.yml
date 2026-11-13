@@ -39,10 +39,13 @@ jobs:
       - name: Run the live forecast and save the snapshot
         if: steps.keys.outputs.ok == 'true'
         run: python -m saans.live
+      - name: Update the Power BI tables (powerbi/data), so a Refresh in Power BI loads this snapshot
+        if: steps.keys.outputs.ok == 'true'
+        run: python powerbi/export_data.py
       - name: Commit the new snapshot
         if: steps.keys.outputs.ok == 'true'
         run: |
           git config user.name "saans-snapshot-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add app/data/live_snapshot
+          git add app/data/live_snapshot powerbi/data
           if git diff --cached --quiet; then echo "No change."; else git commit -m "Refresh live forecast snapshot" && git push; fi

@@ -18,7 +18,6 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from saans.aqi import BREAKPOINTS, CATEGORY_COLORS, SHORT_NAMES, category, pm25_to_aqi  # noqa: E402
 from saans.config import CITIES  # noqa: E402
-from saans.viz import DRIVER_COLORS  # noqa: E402
 
 APP = ROOT / "app" / "data"
 SNAP = APP / "live_snapshot"
@@ -26,6 +25,7 @@ REPORTS = ROOT / "reports"
 OUT = Path(__file__).parent / "data"
 TZ = "Asia/Karachi"
 GROUPS = ["Recent pollution", "Weather", "Upwind fires", "Calendar"]
+DRIVER_COLORS = dict(zip(GROUPS, ["#2a78d6", "#eb6834", "#1baf7a", "#eda100"]))  # as saans.viz, without importing matplotlib
 WHATIF = list(range(0, 101, 10))
 UNSEEN = {"faisalabad", "multan"}  # no training data from either city
 # dark-on-light text where the EPA colour is pale, so every tile stays readable
@@ -185,7 +185,7 @@ def main():
         "whatif": whatif_table(full),
         "chart_hourly": chart_table(full),
         "map_points": map_table(full),
-        "cities": pd.DataFrame([{"city": k, "City": v.name, "latitude": v.lat, "longitude": v.lon,
+        "cities": pd.DataFrame([{"city_key": k, "City": v.name, "latitude": v.lat, "longitude": v.lon,
                                  "in_training": "No (unseen city)" if k in UNSEEN else "Yes"} for k, v in CITIES.items()]),
         "categories": pd.DataFrame([{"category": c, "category_short": SHORT_NAMES.get(c, c), "category_order": i,
                                      "pm25_range": f"{lo:g}-{hi:g}" if i < 5 else f"{lo:g}+", "aqi_range": f"{a}-{b}" if i < 5 else "301+",
