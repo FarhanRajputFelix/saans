@@ -1,0 +1,28 @@
+order,step,source,action,rows_before,rows_after,removed,note
+0,1,OpenAQ,timestamps checked and snapped to the UTC hour,587969,587969,0,0 off-hour stamps snapped
+1,1,FIRMS,HHMM integer times parsed to UTC; hour bucket added,1185836,1185836,0,
+2,2,OpenAQ,units verified (all ug/m3); AQI to be computed from 24 h means,587969,587969,0,
+3,3,OpenAQ,duplicate sensor-hours dropped,587969,587969,0,
+4,3,OpenAQ,empty (null) readings dropped,587969,562414,25555,reference monitors' missing-hour markers
+5,3,OpenAQ,negative concentrations dropped,562414,562414,0,
+6,3,OpenAQ,zero readings dropped (below 1 ug/m3),562414,561394,1020,"below the instruments' detection floor; urban hourly PM2.5 is never truly zero, a faulting sensor reports 0"
+7,3,OpenAQ,"values above 1,000 ug/m3 dropped",561394,561394,0,
+8,3,OpenAQ,hours with <75% of the sensor's normal readings dropped,561394,559860,1534,judged per sensor; OpenAQ's percentComplete assumes 12 readings/hour for all sensors
+9,3,FIRMS,exact duplicate detections dropped,1185836,1185836,0,
+10,3,Weather,"physical range checks (humidity, wind, temperature, BLH, rain)",266760,266760,0,0 values out of range
+11,3,News,duplicate links and near-identical headlines dropped at download,2255,2255,0,de-duplicated in saans/ingest/news.py
+12,4,OpenAQ,stuck sensor runs (same value 6+ hours) removed,559860,559644,216,
+13,4,OpenAQ,readings stuck at the sensor's maximum removed,559644,559644,0,
+14,5,OpenAQ,single-sensor spikes removed (neighbour and isolated tests),559644,558080,1564,"1539 neighbour, 25 isolated"
+15,5,OpenAQ,single-sensor dropouts removed (sudden falls to near zero),558080,556966,1114,added after the dashboard showed Lahore at 0 ug/m3 on 3 Nov 2024
+16,6,OpenAQ,EPA humidity correction applied only where a pre-test check shows it helps,556966,556966,0,"0 sensor-hours corrected; raw: AirGradient, Clarity, Hawanama"
+17,7,FIRMS,low-confidence detections dropped,1185836,1036047,149789,
+18,7,FIRMS,static industrial sources and offshore detections dropped (type != 0),1036047,999736,36311,
+19,7,FIRMS,"repeat detections of the same fire merged (one per 1 km cell, day and pass)",999736,815434,184302,"139,394 fires were seen by more than one pass"
+20,5,PM2.5 city series,city-level dropouts removed (second pass after combining sensors),134663,134659,4,
+21,8,PM2.5 city series,short gaps (<=3 h) interpolated outside the test seasons,134659,134659,0,"2,937 city-hours filled; test seasons untouched"
+22,8,PM2.5 city series,remaining gaps flagged with their length (long_gap = more than 3 h),266760,266760,0,"129,011 city-hours sit inside long gaps (no target, never filled)"
+23,8,Weather,missing boundary layer height (Jan-Jun 2024) imputed with LightGBM,266760,266760,0,"21,840 values imputed; validation MAE 148 m, r = 0.91 on hidden Jan-Jun 2023"
+24,3,OpenAQ PM10,"null, negative and >2,000 ug/m3 readings dropped",5904,5903,1,
+25,4,OpenAQ PM10,stuck runs (same value 6+ hours) removed,5903,5903,0,
+26,9,All sources,merged into one hourly master table (city x hour),266760,266760,0,"29 columns; 137,596 city-hours with PM2.5"

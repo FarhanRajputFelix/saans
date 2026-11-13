@@ -1,45 +1,45 @@
 {
- "run_utc": "2026-10-26 01:00:00+00:00",
+ "run_utc": "2026-11-13 13:00:00+00:00",
  "cities": {
   "lahore": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 746,
-   "sensor_hours_kept": 746,
+   "sensor_hours_received": 930,
+   "sensor_hours_kept": 930,
    "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-26 01:00:00+00:00"
+   "issued_at_utc": "2026-11-13 13:00:00+00:00"
   },
   "faisalabad": {
-   "sensors_reporting": 10,
-   "sensor_hours_received": 842,
-   "sensor_hours_kept": 832,
+   "sensors_reporting": 8,
+   "sensor_hours_received": 488,
+   "sensor_hours_kept": 484,
    "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-26 01:00:00+00:00"
+   "issued_at_utc": "2026-11-13 13:00:00+00:00"
   },
   "multan": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 674,
-   "sensor_hours_kept": 674,
+   "sensor_hours_received": 671,
+   "sensor_hours_kept": 671,
    "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-26 01:00:00+00:00"
+   "issued_at_utc": "2026-11-13 13:00:00+00:00"
   },
   "islamabad": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 939,
-   "sensor_hours_kept": 939,
+   "sensor_hours_received": 847,
+   "sensor_hours_kept": 847,
    "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-26 01:00:00+00:00"
+   "issued_at_utc": "2026-11-13 13:00:00+00:00"
   },
   "karachi": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 773,
-   "sensor_hours_kept": 772,
+   "sensor_hours_received": 745,
+   "sensor_hours_kept": 745,
    "hours_with_pm25_last_24h": 22,
    "result": "forecast issued",
-   "issued_at_utc": "2026-10-26 01:00:00+00:00"
+   "issued_at_utc": "2026-11-13 13:00:00+00:00"
   }
  },
  "fires": {

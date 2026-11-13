@@ -1,0 +1,6 @@
+city,City,latitude,longitude,in_training
+lahore,Lahore,31.5497,74.3436,Yes
+faisalabad,Faisalabad,31.4504,73.135,No (unseen city)
+multan,Multan,30.1575,71.5249,No (unseen city)
+islamabad,Islamabad,33.6844,73.0479,Yes
+karachi,Karachi,24.8607,67.0011,Yes

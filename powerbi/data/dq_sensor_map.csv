@@ -1,0 +1,201 @@
+city,provider,type,location,lat,lon,first_utc,last_utc,days_in_period
+faisalabad,AirGradient,Low-cost sensor,Naimat colony,31.41069,73.12276,2025-06-23 06:00:00+00:00,2026-10-21 10:00:00+00:00,222
+faisalabad,AirGradient,Low-cost sensor,FDA-01,31.41949,73.09359,2025-06-23 09:00:00+00:00,2026-10-12 05:00:00+00:00,222
+faisalabad,AirGradient,Low-cost sensor,Amin town,31.44492,73.12673,2025-06-23 12:00:00+00:00,2026-07-11 11:00:00+00:00,222
+faisalabad,AirGradient,Low-cost sensor,K-Block Gulistan colony,31.43736,73.10685,2025-06-24 05:00:00+00:00,2026-10-24 07:00:00+00:00,221
+faisalabad,AirGradient,Low-cost sensor,WASA OFFICE ,31.44949,73.08397,2025-06-24 07:00:00+00:00,2026-09-14 10:00:00+00:00,221
+faisalabad,AirGradient,Low-cost sensor,University Town,31.49787,73.08318,2025-06-24 07:00:00+00:00,2026-10-24 07:00:00+00:00,221
+faisalabad,AirGradient,Low-cost sensor,FDA-02,31.50891,73.07458,2025-06-24 08:00:00+00:00,2026-10-23 22:00:00+00:00,221
+faisalabad,AirGradient,Low-cost sensor,GC university,31.41622,73.06798,2025-06-24 10:00:00+00:00,2026-10-24 04:00:00+00:00,221
+faisalabad,AirGradient,Low-cost sensor,University of Education ,31.39636,73.06871,2025-06-25 07:00:00+00:00,2026-10-12 01:00:00+00:00,220
+faisalabad,AirGradient,Low-cost sensor,Ayub Agriculture Research Institute,31.40698,73.05388,2025-06-25 09:00:00+00:00,2026-09-22 08:00:00+00:00,220
+faisalabad,AirGradient,Low-cost sensor,Punjab Food Authority,31.4367245,73.0355178,2025-06-25 09:00:00+00:00,2026-10-24 07:00:00+00:00,220
+faisalabad,AirGradient,Low-cost sensor,Riphah International University,31.38127,73.12783,2025-06-25 13:00:00+00:00,2026-10-24 07:00:00+00:00,220
+faisalabad,AirGradient,Low-cost sensor,University of Agriculture ,31.43452,73.07072,2025-06-26 09:00:00+00:00,2026-10-24 07:00:00+00:00,219
+faisalabad,AirGradient,Low-cost sensor,Faisalabad Chamber of Commerce ,31.44599,73.14291,2025-06-26 12:00:00+00:00,2026-09-18 10:00:00+00:00,219
+faisalabad,AirGradient,Low-cost sensor,NFC Institute of Engineering ,31.40823,73.1205,2025-06-26 13:00:00+00:00,2026-10-19 09:00:00+00:00,219
+faisalabad,AirGradient,Low-cost sensor,GC Women University ,31.41808,73.12049,2025-06-27 09:00:00+00:00,2026-08-08 03:00:00+00:00,218
+faisalabad,AirGradient,Low-cost sensor,"people Colony, Small d Ground",31.41484,73.10411,2025-06-27 11:00:00+00:00,2026-10-24 07:00:00+00:00,218
+faisalabad,AirGradient,Low-cost sensor,PHA Office,31.42893,73.08995,2025-09-19 00:00:00+00:00,2026-10-24 07:00:00+00:00,135
+faisalabad,AirGradient,Low-cost sensor,"Imdad Town, Manawala",31.46174,73.1286,2025-09-19 00:00:00+00:00,2026-08-06 07:00:00+00:00,135
+faisalabad,AirGradient,Low-cost sensor,WWF-03 PU EpicAir,31.402589724356766,73.08485474417827,2025-10-17 06:00:00+00:00,2026-10-24 07:00:00+00:00,106
+faisalabad,AirGradient,Low-cost sensor,WWF-04 PU EpicAir,31.49561494306249,73.0738203,2025-10-17 13:00:00+00:00,2026-10-24 07:00:00+00:00,106
+faisalabad,AirGradient,Low-cost sensor,WWF-01 PU EpicAir,31.4431323,73.1281507,2025-10-17 10:00:00+00:00,2026-10-24 07:00:00+00:00,106
+faisalabad,AirGradient,Low-cost sensor,WWF-02 PU EpicAir,31.50108058091762,73.21786779575491,2025-10-20 11:00:00+00:00,2026-10-24 07:00:00+00:00,103
+faisalabad,AirGradient,Low-cost sensor,WWF-05 PU EpicAir,31.447314465409107,73.09399532328688,2025-10-20 09:00:00+00:00,2026-10-24 07:00:00+00:00,103
+faisalabad,AirGradient,Low-cost sensor,WWF-06 PU EpicAir,31.416074095194894,73.09168107453422,2025-10-24 07:00:00+00:00,2026-10-21 09:00:00+00:00,99
+faisalabad,AirGradient,Low-cost sensor,WWF-10 PU EpicAir,31.418678993750948,73.08426867116434,2025-10-31 11:00:00+00:00,2026-10-24 07:00:00+00:00,92
+faisalabad,AirGradient,Low-cost sensor,WWF-07 PU EpicAir,31.590673998023338,73.1725861767131,2025-11-07 04:00:00+00:00,2026-10-24 07:00:00+00:00,85
+faisalabad,AirGradient,Low-cost sensor,WWF-08 PU EpicAir,31.49718608460766,73.27105128650696,2025-11-07 04:00:00+00:00,2026-10-24 07:00:00+00:00,85
+faisalabad,AirGradient,Low-cost sensor,WWF-09 PU EpicAir,31.38939081099395,73.02624342698606,2025-11-07 04:00:00+00:00,2026-10-24 07:00:00+00:00,85
+faisalabad,Hawanama,Low-cost sensor,WWF-05 PU EpicAir,31.447314,73.093995,2025-11-20 00:00:00+00:00,2026-10-24 00:00:00+00:00,73
+faisalabad,Hawanama,Low-cost sensor,Riphah International University,31.38127,73.12783,2025-11-25 06:00:00+00:00,2026-10-24 01:00:00+00:00,67
+faisalabad,Hawanama,Low-cost sensor,University of Education,31.39636,73.06871,2025-11-27 09:00:00+00:00,2026-10-12 01:00:00+00:00,65
+faisalabad,Hawanama,Low-cost sensor,Wwf,31.443132,73.128151,2025-11-18 23:00:00+00:00,2025-11-25 01:00:00+00:00,6
+faisalabad,Hawanama,Low-cost sensor,WWF-04 IQ Air,31.495615,73.07382,2025-11-18 22:00:00+00:00,2025-11-25 01:00:00+00:00,6
+faisalabad,Hawanama,Low-cost sensor,WWF-06 PU EpicAir,31.49714,73.271212,2025-12-06 08:00:00+00:00,2025-12-09 20:00:00+00:00,3
+faisalabad,Hawanama,Low-cost sensor,WWF-03 IQ Air,31.40259,73.084855,2025-11-18 22:00:00+00:00,2025-11-20 01:00:00+00:00,1
+islamabad,StateAir Islamabad,Reference monitor,US Diplomatic Post: Islamabad,33.7235,73.11822,2019-05-22 22:00:00+00:00,2025-03-04 12:00:00+00:00,1889
+islamabad,AirNow,Reference monitor,Islamabad,33.725614,73.11602,2021-08-26 15:00:00+00:00,2026-02-16 13:00:00+00:00,1619
+islamabad,AirGradient,Low-cost sensor,"F-7, Islamabad",33.7213352,73.0560998,2025-05-24 17:00:00+00:00,2026-10-24 07:00:00+00:00,252
+islamabad,AirGradient,Low-cost sensor,Rawalpindi Women University,33.6452478,73.0646181,2025-05-29 07:00:00+00:00,2026-10-24 07:00:00+00:00,247
+islamabad,AirGradient,Low-cost sensor,"Wasa 3, OHR Office ",33.650973,73.0788731,2025-05-29 12:00:00+00:00,2026-10-24 07:00:00+00:00,247
+islamabad,AirGradient,Low-cost sensor,Social Welfare Department,33.6278837,73.0924564,2025-05-30 06:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,WASA Head Office 1,33.6022915,73.0560117,2025-05-30 07:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,Punjab Food Authority,33.6304566,73.0729694,2025-05-30 08:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,Public Health Engineering,33.6335684,73.0614477,2025-05-30 09:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,"Conservator of Forest, North zone",33.540583,73.116917,2025-05-30 09:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,PHA Head Office,33.6055187,73.0611438,2025-05-30 11:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,E11/4 Sector Islamabad,33.698979,72.981907,2025-05-30 12:00:00+00:00,2026-10-24 07:00:00+00:00,246
+islamabad,AirGradient,Low-cost sensor,WASA 2 (Sufaid tanki),33.6386254,73.069351,2025-05-31 11:00:00+00:00,2026-10-24 07:00:00+00:00,245
+islamabad,AirGradient,Low-cost sensor,Park Road F-8/1 Sector Islamabad,33.7102628,73.0312832,2025-06-03 09:00:00+00:00,2026-10-24 07:00:00+00:00,242
+islamabad,AirGradient,Low-cost sensor,District Health Authority,33.6333084,73.0488857,2025-06-04 07:00:00+00:00,2026-10-20 07:00:00+00:00,241
+islamabad,AirGradient,Low-cost sensor,"Govt. Graduate College, Asghar Mall,",33.6291031,73.0559127,2025-06-28 05:00:00+00:00,2026-10-24 07:00:00+00:00,217
+islamabad,AirGradient,Low-cost sensor,NASTP,33.6079232,73.0974891,2025-07-02 19:00:00+00:00,2026-10-24 07:00:00+00:00,213
+islamabad,AirGradient,Low-cost sensor,DC Office Sialkot,33.64338,73.06828,2025-08-05 10:00:00+00:00,2026-10-24 07:00:00+00:00,179
+islamabad,Hawanama,Low-cost sensor,Islamabad Station,33.725614,73.11602,2025-11-18 16:00:00+00:00,2026-02-16 11:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,"Street 8, Sector F-7/3, Islamabad",33.72330703652273,73.06369427797755,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,"Dr Abuzar - Bahria Town, Phase 5",33.56133269087068,73.13082876647323,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,Bahria Town Phase 2,33.5541,73.1214,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,"Mughal Village, Islamabad (Zone 5)",33.5555,73.2535,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,Islamabad H11 A,33.6457,73.005,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,"Street # 1, F-6/3",33.73059733465364,73.0811549096957,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,"F7-2, Street 20",33.71676391147882,73.04410436289685,2025-11-18 14:00:00+00:00,2026-04-17 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,house street22 e7,33.73177792849695,73.04807978323018,2025-11-18 14:00:00+00:00,2026-07-10 22:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,Westridge1,33.610966,73.026855,2025-11-18 14:00:00+00:00,2026-04-15 19:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,Rawalpindi A GT Road,33.5482,73.1017,2025-11-18 16:00:00+00:00,2026-10-24 02:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,Fair Finance Pakistan Islamabad,33.6347,73.0169,2025-11-18 19:00:00+00:00,2026-04-15 10:00:00+00:00,74
+islamabad,Hawanama,Low-cost sensor,NASTP,33.607923,73.097489,2025-11-19 21:00:00+00:00,2026-10-24 00:00:00+00:00,73
+islamabad,Hawanama,Low-cost sensor,PHA Head Office,33.605519,73.061144,2025-11-20 12:00:00+00:00,2026-10-23 23:00:00+00:00,72
+islamabad,Hawanama,Low-cost sensor,Punjab Food Authority,33.630457,73.072969,2025-11-20 13:00:00+00:00,2026-10-24 00:00:00+00:00,72
+islamabad,Hawanama,Low-cost sensor,WASA 2 (Sufaid tanki),33.638625,73.069351,2025-11-25 07:00:00+00:00,2026-10-24 01:00:00+00:00,67
+islamabad,AirGradient,Low-cost sensor,DC office ,33.64336,73.06817,2025-08-09 11:00:00+00:00,2025-08-25 03:00:00+00:00,15
+islamabad,AirGradient,Low-cost sensor,Buraq integrated solutions,33.643208,73.068119,2025-05-06 07:00:00+00:00,2025-05-17 08:00:00+00:00,11
+karachi,AirNow,Reference monitor,Karachi,24.8415,67.0091,2019-05-22 22:00:00+00:00,2025-03-04 12:00:00+00:00,1889
+karachi,AirGradient,Low-cost sensor,Urban Resource Center,24.868,67.081833,2025-06-19 08:00:00+00:00,2026-10-24 07:00:00+00:00,226
+karachi,AirGradient,Low-cost sensor,NED University City Campus,24.85402121622299,67.01483943786194,2025-06-19 11:00:00+00:00,2026-09-15 10:00:00+00:00,226
+karachi,AirGradient,Low-cost sensor,Agha Khan University IED,24.8920539,67.0709382,2025-06-19 13:00:00+00:00,2026-09-23 09:00:00+00:00,226
+karachi,AirGradient,Low-cost sensor,Karachi Zoo,24.8761487,67.0230529,2025-06-20 10:00:00+00:00,2026-07-03 09:00:00+00:00,225
+karachi,AirGradient,Low-cost sensor,Aman Khan kaka khail,24.95317,67.063716,2025-06-20 16:00:00+00:00,2026-09-01 11:00:00+00:00,225
+karachi,AirGradient,Low-cost sensor,Zafar Memon DHA,24.814741,67.067062,2025-06-21 09:00:00+00:00,2026-09-01 10:00:00+00:00,224
+karachi,AirGradient,Low-cost sensor,DG House DHA 5,24.795611,67.04812,2025-06-21 10:00:00+00:00,2026-04-14 13:00:00+00:00,224
+karachi,AirGradient,Low-cost sensor,Aga khan University Main Campus,24.892402,67.074663,2025-06-23 09:00:00+00:00,2026-10-24 07:00:00+00:00,222
+karachi,AirGradient,Low-cost sensor,NED Main Campus,24.9337634173323,67.11354155158995,2025-06-23 11:00:00+00:00,2026-10-24 07:00:00+00:00,222
+karachi,AirGradient,Low-cost sensor,Urban Unit Karachi,24.86414,67.07087,2025-06-23 13:00:00+00:00,2026-03-26 07:00:00+00:00,222
+karachi,AirGradient,Low-cost sensor,Asif Gulistan-e-Johar,24.916229,67.131546,2025-06-23 16:00:00+00:00,2026-10-24 07:00:00+00:00,222
+karachi,AirGradient,Low-cost sensor,"Engr Muzaffar Malir Cantonment, Askari 5",24.939636,67.180983,2025-06-23 18:00:00+00:00,2026-10-24 06:00:00+00:00,222
+karachi,AirGradient,Low-cost sensor,Orangi Pilot Project,24.9373111,67.0189743,2025-06-24 07:00:00+00:00,2026-10-21 12:00:00+00:00,221
+karachi,AirGradient,Low-cost sensor,Climate Action Center,24.86377,67.056642,2025-07-02 12:00:00+00:00,2026-10-24 07:00:00+00:00,213
+karachi,AirGradient,Low-cost sensor,G3 Engineering Consultants karachi,24.80697,67.03319,2025-07-07 05:00:00+00:00,2026-10-24 07:00:00+00:00,208
+karachi,AirGradient,Low-cost sensor,Lyari Dream House,24.866596,66.99636,2025-07-24 10:00:00+00:00,2026-10-03 00:00:00+00:00,191
+karachi,AirGradient,Low-cost sensor,Solid waste Management ,24.851826700159624,67.00896024947859,2025-08-13 12:00:00+00:00,2026-10-24 07:00:00+00:00,171
+karachi,AirGradient,Low-cost sensor,Karachi Metropolitan corporation ,24.855514,66.9252887,2025-06-20 07:00:00+00:00,2025-10-14 14:00:00+00:00,116
+karachi,Clarity,Low-cost sensor,"Karachi, Pakistan",24.811053632574033,67.05825434267292,2023-11-28 16:58:32+00:00,2024-02-28 12:42:56+00:00,91
+karachi,Hawanama,Low-cost sensor,WWF-Pakistan Karachi Office,24.8654,67.0745,2025-11-18 15:00:00+00:00,2026-10-24 02:00:00+00:00,74
+karachi,Hawanama,Low-cost sensor,Korangi Sector 15,24.835349273134295,67.1020030975342,2025-11-18 15:00:00+00:00,2026-10-24 02:00:00+00:00,74
+karachi,Hawanama,Low-cost sensor,NED University City Campus,24.853927,67.014382,2025-11-18 15:00:00+00:00,2026-08-17 11:00:00+00:00,74
+karachi,Hawanama,Low-cost sensor,Dawlance Pvt Ltd,24.8543,67.2237,2025-11-18 15:00:00+00:00,2026-10-24 02:00:00+00:00,74
+karachi,Hawanama,Low-cost sensor,TPL Insurance,24.8577,67.0541,2025-11-18 15:00:00+00:00,2026-08-31 11:00:00+00:00,74
+karachi,Hawanama,Low-cost sensor,Urban Unit Karachi,24.86414,67.07087,2025-11-20 12:00:00+00:00,2026-03-18 19:00:00+00:00,72
+karachi,Hawanama,Low-cost sensor,Asif Gulistan-e-Johar,24.916229,67.131546,2025-11-20 12:00:00+00:00,2026-10-24 00:00:00+00:00,72
+karachi,Hawanama,Low-cost sensor,Engr Muzaffar Sir,24.939636,67.180983,2025-11-25 08:00:00+00:00,2026-09-15 20:00:00+00:00,67
+karachi,Hawanama,Low-cost sensor,DG House DHA 5,24.795611,67.04812,2025-11-25 06:00:00+00:00,2026-03-19 09:00:00+00:00,67
+karachi,Hawanama,Low-cost sensor,Climate Action Center,24.86377,67.056642,2025-11-25 12:00:00+00:00,2026-10-24 01:00:00+00:00,67
+karachi,Hawanama,Low-cost sensor,Aga khan University Main Campus,24.892402,67.074663,2025-11-28 06:00:00+00:00,2026-10-24 00:00:00+00:00,64
+karachi,Hawanama,Low-cost sensor,Kerry Freight Pakistan Pvt Ltd,24.88964636103564,67.08061342550339,2025-11-18 15:00:00+00:00,2025-12-12 06:00:00+00:00,23
+karachi,AirGradient,Low-cost sensor,"Soomra Society, Scheme 33, Karachi",24.960929,67.161759,2024-10-02 17:00:00+00:00,2024-10-25 16:00:00+00:00,22
+karachi,AirGradient,Low-cost sensor,"CHS, Aga Khan University",24.891757,67.07182,2025-06-30 07:00:00+00:00,2025-07-22 11:00:00+00:00,22
+karachi,AirGradient,Low-cost sensor,G3 Engineering Consultants,24.806776,67.0332484,2025-06-21 08:00:00+00:00,2025-07-04 05:00:00+00:00,12
+karachi,AirGradient,Low-cost sensor,"Soomra Society, Scheme 33, Karachi",24.960929,67.161759,2024-11-01 19:00:00+00:00,2024-11-07 13:00:00+00:00,5
+karachi,Hawanama,Low-cost sensor,Agha Khan University,24.892054,67.070938,2025-11-20 12:00:00+00:00,2025-11-24 14:00:00+00:00,4
+karachi,AirGradient,Low-cost sensor,"Soomra Society, Scheme 33, Karachi",24.960929,67.161759,2024-10-25 18:00:00+00:00,2024-10-28 05:00:00+00:00,2
+lahore,StateAir Lahore,Reference monitor,US Diplomatic Post: Lahore,31.560078,74.33589,2019-05-22 22:00:00+00:00,2025-03-04 12:00:00+00:00,1889
+lahore,Clarity,Low-cost sensor,Lahore,31.54815,74.34396,2023-11-28 16:58:05+00:00,2026-08-31 20:03:02+00:00,795
+lahore,AirGradient,Low-cost sensor,"Barki, Lahore",31.4591591,74.5396309,2025-05-24 17:00:00+00:00,2026-10-24 07:00:00+00:00,252
+lahore,AirGradient,Low-cost sensor,Civil Secretariat,31.565942,74.2993626,2025-05-26 07:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,AirGradient,Low-cost sensor,Learning Alliance Intl. DHA,31.525621,74.436078,2025-05-26 09:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,AirGradient,Low-cost sensor,FOOT & MOUTH DISEASE RESEARCH CENTRE,31.53574,74.43538,2025-05-26 11:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,AirGradient,Low-cost sensor,"HBFC Society, DHA Phase 5 (Hussainy House)",31.4571645,74.4106586,2025-05-26 13:00:00+00:00,2026-10-24 07:00:00+00:00,250
+lahore,AirGradient,Low-cost sensor,Gajju Matta (Kahna),31.377378,74.350574,2025-05-27 07:00:00+00:00,2026-10-06 07:00:00+00:00,249
+lahore,AirGradient,Low-cost sensor,Sandha Road,31.562302,74.3027031,2025-05-29 08:00:00+00:00,2026-10-24 07:00:00+00:00,247
+lahore,AirGradient,Low-cost sensor,Ravi Road,31.602875,74.300927,2025-05-29 11:00:00+00:00,2026-10-24 07:00:00+00:00,247
+lahore,AirGradient,Low-cost sensor,Shalimar Town,31.574289,74.447898,2025-05-29 13:00:00+00:00,2026-10-24 07:00:00+00:00,247
+lahore,AirGradient,Low-cost sensor,"IEEE, Punjab University, LHR",31.495322,74.295056,2025-05-30 07:00:00+00:00,2026-10-24 07:00:00+00:00,246
+lahore,AirGradient,Low-cost sensor,Model Town,31.491676,74.313288,2025-05-30 12:00:00+00:00,2026-10-24 07:00:00+00:00,246
+lahore,AirGradient,Low-cost sensor,College Road,31.421799,74.274837,2025-06-02 18:00:00+00:00,2026-10-24 07:00:00+00:00,243
+lahore,AirGradient,Low-cost sensor,Kahna Hospital ,31.371023502439286,74.36487268127355,2025-06-03 14:00:00+00:00,2026-10-24 07:00:00+00:00,242
+lahore,AirGradient,Low-cost sensor,Gulberg III,31.508051,74.337544,2025-06-04 12:00:00+00:00,2026-10-24 07:00:00+00:00,241
+lahore,AirGradient,Low-cost sensor,Cantonment,31.539422,74.413792,2025-06-11 08:00:00+00:00,2026-10-24 07:00:00+00:00,234
+lahore,AirGradient,Low-cost sensor,Samanabad,31.541983,74.298065,2025-06-11 14:00:00+00:00,2026-10-24 07:00:00+00:00,234
+lahore,AirGradient,Low-cost sensor,Forman Christian College & Chartered University,31.521146,74.333954,2025-06-16 10:00:00+00:00,2026-10-24 07:00:00+00:00,229
+lahore,AirGradient,Low-cost sensor,Johar Town,31.460056,74.280672,2025-05-30 08:00:00+00:00,2026-01-08 05:00:00+00:00,222
+lahore,AirGradient,Low-cost sensor,Thokar Niaz Baig,31.473135638585408,74.23981655978756,2025-08-09 11:00:00+00:00,2026-10-24 07:00:00+00:00,175
+lahore,AirGradient,Low-cost sensor,Pak Arab,31.418387,74.345283,2025-09-19 00:00:00+00:00,2026-10-24 07:00:00+00:00,135
+lahore,AirGradient,Low-cost sensor,"ARC, Lahore",31.522056,74.314944,2025-11-10 12:00:00+00:00,2026-10-24 07:00:00+00:00,82
+lahore,Hawanama,Low-cost sensor,Bedian Thethar Rd LHE,31.4139,74.4581,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,"B Block, Phase 5, DHA",31.4646,74.4204,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Pakistan Engineering Services (Pvt) Ltd.,31.4671,74.4169,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Yani Home,31.4788,74.4726,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Grand Charter School,31.4721,74.3192,2025-11-18 14:00:00+00:00,2026-08-05 09:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Askari 10,31.5353,74.4172,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Scarsdale International School,31.4637,74.3749,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Ghazi Road Interchange,31.489402,74.4176706,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,FF Pakistan,31.4714,74.2879,2025-11-18 15:00:00+00:00,2026-03-04 23:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,WWF-PAKISTAN,31.4853,74.3415,2025-11-18 14:00:00+00:00,2026-07-31 11:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Revenue Employees Coop Housing Society,31.4485,74.288,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Model Town A LHE,31.4784,74.3238,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Gurumangat Rd B LHE,31.5047,74.358,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Shadman Market B LHE,31.5406,74.331,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Ferozepur Rd A LHE,31.4766,74.344,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Honda Gateway,31.4515,74.2098,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,LAS Lahore,31.5466,74.3538,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,University of Central Punjab,31.4469,74.2677,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Trinity School Lahore,31.4746,74.2786,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Syed Maratib Ali Road,31.5287712,74.3454402,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Tufail Road near Rahat Bakery,31.5298,74.3776,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Powerzone head office,31.393,74.2408,2025-11-18 14:00:00+00:00,2026-04-28 00:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Kickstart MM Alam,31.5051,74.3486,2025-11-18 14:00:00+00:00,2026-10-06 18:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,HC - Askari 10,31.5307,74.4115,2025-11-18 14:00:00+00:00,2026-10-23 06:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Diamond Paint industries PVT LTD.,31.4598,74.329,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,NPPMCL,31.5182,74.3508,2025-11-18 14:00:00+00:00,2026-10-15 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Hiking & Mountaineering Club GCU Lahore,31.5741,74.308,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,The University of Lahore,31.3912,74.2414,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,W.R,31.4761,74.405,2025-11-18 14:00:00+00:00,2026-05-07 14:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,VTS,31.5083,74.321,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Allama Iqbal Town B LHE,31.5169,74.2849,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,CERP Office,31.5236,74.3524,2025-11-18 14:00:00+00:00,2026-10-20 11:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Phase8-DHA,31.52903121887204,74.4381257796822,2025-11-18 14:00:00+00:00,2026-08-08 05:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,FF Pakistan - 1,31.4551,74.437,2025-11-18 14:00:00+00:00,2026-08-26 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Burki Rd B LHE,31.5332,74.4504,2025-11-18 14:00:00+00:00,2026-04-14 05:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,"Near Ada Plot, Raiwind Road",31.3766,74.2379,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Johar Town B LHE,31.47,74.2611,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+lahore,Hawanama,Low-cost sensor,Model Town B LHE,31.4824,74.308,2025-11-19 08:00:00+00:00,2026-10-23 10:00:00+00:00,73
+lahore,Hawanama,Low-cost sensor,GENERATION Pvt ltd,31.4081,74.3584,2025-11-19 06:00:00+00:00,2026-10-24 02:00:00+00:00,73
+lahore,Hawanama,Low-cost sensor,Samanabad,31.541983,74.298065,2025-11-20 12:00:00+00:00,2026-10-24 01:00:00+00:00,72
+lahore,Hawanama,Low-cost sensor,"Model Town, CD Ground",31.491676,74.313288,2025-11-20 12:00:00+00:00,2026-10-24 01:00:00+00:00,72
+lahore,Hawanama,Low-cost sensor,Valancia Town Lahore,31.4096,74.2617,2025-11-25 13:00:00+00:00,2026-06-13 14:00:00+00:00,67
+lahore,AirGradient,Low-cost sensor,"Assistant Commissioner Office, Allama Iqbal ",31.47188,74.239512,2025-06-03 09:00:00+00:00,2025-08-01 10:00:00+00:00,59
+lahore,Hawanama,Low-cost sensor,University of Management and Technology,31.4515,74.2943,2025-12-07 23:00:00+00:00,2026-09-13 11:00:00+00:00,55
+lahore,Hawanama,Low-cost sensor,"Abdullah Khokhar, House Johar Town",31.460056,74.280672,2025-11-20 12:00:00+00:00,2025-12-25 04:00:00+00:00,34
+lahore,Hawanama,Low-cost sensor,"BAM,  Civil Secretariat",31.565942,74.299363,2025-11-20 12:00:00+00:00,2025-12-23 08:00:00+00:00,32
+lahore,Hawanama,Low-cost sensor,Climate Finance Pakistan (PakAirQuality),31.5378,74.3441,2025-11-18 14:00:00+00:00,2025-12-09 08:00:00+00:00,20
+lahore,Hawanama,Low-cost sensor,SOS Johar Town LHR,31.4544,74.2825,2025-12-05 08:00:00+00:00,2025-12-10 12:00:00+00:00,5
+lahore,Hawanama,Low-cost sensor,"The Bank of Punjab, Head Office, BOP Tower, Gulberg III.",31.508051,74.337544,2025-11-20 12:00:00+00:00,2025-11-24 14:00:00+00:00,4
+lahore,Hawanama,Low-cost sensor,"AC OFFICE NISHTAR, GAJUMATA",31.377378,74.350574,2025-11-20 12:00:00+00:00,2025-11-23 19:00:00+00:00,3
+lahore,AirGradient,Low-cost sensor,Test Device,31.485304,74.341333,2025-10-13 07:00:00+00:00,2025-10-14 10:00:00+00:00,1
+multan,AirGradient,Low-cost sensor,Walled cities Authority office ,30.19881,71.46818,2025-06-16 06:00:00+00:00,2026-09-22 11:00:00+00:00,229
+multan,AirGradient,Low-cost sensor,Metropolitan corporation office ,30.17631,71.48861,2025-06-16 17:00:00+00:00,2026-10-24 07:00:00+00:00,229
+multan,AirGradient,Low-cost sensor,women university,30.2515,71.57288,2025-06-17 09:00:00+00:00,2026-10-24 07:00:00+00:00,228
+multan,AirGradient,Low-cost sensor,Muhammad Nawaz Sharif University of  Agriculture,30.1477,71.44326,2025-06-17 13:00:00+00:00,2026-10-24 07:00:00+00:00,228
+multan,AirGradient,Low-cost sensor,Cantt Public School & College,30.1827,71.43621,2025-06-17 14:00:00+00:00,2026-10-24 07:00:00+00:00,228
+multan,AirGradient,Low-cost sensor,District officer Industries / Registrar of Firms,30.207826,71.439894,2025-06-18 06:00:00+00:00,2026-10-24 07:00:00+00:00,227
+multan,AirGradient,Low-cost sensor,"WASA office, Chungi #09",30.20654,71.4762,2025-06-18 07:00:00+00:00,2026-10-24 07:00:00+00:00,227
+multan,AirGradient,Low-cost sensor,"UC office, khushal colony",30.20817,71.49625,2025-06-18 08:00:00+00:00,2026-01-30 10:00:00+00:00,226
+multan,AirGradient,Low-cost sensor,NFC IET Multan,30.22382,71.53613,2025-09-19 00:00:00+00:00,2026-10-24 07:00:00+00:00,135
+multan,AirGradient,Low-cost sensor,Multan Industrial Estate,30.12714,71.38146,2025-09-22 08:00:00+00:00,2026-10-24 03:00:00+00:00,131
+multan,Hawanama,Low-cost sensor,Multan Cantonment,30.17751723817062,71.41959164251618,2025-11-18 14:00:00+00:00,2026-10-24 02:00:00+00:00,74
+multan,Hawanama,Low-cost sensor,Khanewal Road near Shamsabad Colony,30.2093,71.4758,2025-11-18 14:00:00+00:00,2026-10-14 07:00:00+00:00,74
+multan,Hawanama,Low-cost sensor,WWF-Pakistan Multan Office,30.2366,71.4832,2025-11-18 14:00:00+00:00,2026-10-02 15:00:00+00:00,74
+multan,Hawanama,Low-cost sensor,Muhammad Nawaz Sharif University of  Agriculture,30.1477,71.44326,2025-11-18 22:00:00+00:00,2026-10-24 00:00:00+00:00,74
+multan,Hawanama,Low-cost sensor,Walled cities Authority office,30.19881,71.46818,2025-12-04 08:00:00+00:00,2026-09-22 09:00:00+00:00,58
+multan,Hawanama,Low-cost sensor,"UC office, khushal colony",30.20817,71.49625,2025-11-22 07:00:00+00:00,2025-11-26 13:00:00+00:00,4

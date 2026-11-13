@@ -1,0 +1,6 @@
+source,received,after_cleaning,summary,share_kept
+Open-Meteo weather,266760,266760,"all hours kept; 21,840 BLH values imputed",100.0
+OpenAQ PM2.5 sensor-hours,587969,556966,"nulls, invalid values, faults, spikes and dropouts removed",94.7
+OpenAQ PM10 sensor-hours,5904,5903,"nulls, invalid values and stuck runs removed",100.0
+NASA FIRMS detections,1185836,815434,"low confidence, static sources removed; repeat passes merged",68.8
+GDELT headlines,2255,2255,already de-duplicated at download,100.0

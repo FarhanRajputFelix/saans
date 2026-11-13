@@ -1,0 +1,7 @@
+category,category_short,category_order,pm25_range,aqi_range,color,text_color
+Good,Good,0,0-9,0-50,#00e400,#0b0e14
+Moderate,Moderate,1,9.1-35.4,51-100,#ffff00,#0b0e14
+Unhealthy for Sensitive Groups,Unhealthy (sensitive),2,35.5-55.4,101-150,#ff7e00,#0b0e14
+Unhealthy,Unhealthy,3,55.5-125.4,151-200,#ff0000,#ffffff
+Very Unhealthy,Very Unhealthy,4,125.5-225.4,201-300,#8f3f97,#ffffff
+Hazardous,Hazardous,5,225.5+,301+,#7e0023,#ffffff

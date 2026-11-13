@@ -1,0 +1,7 @@
+provider,sensors_received,sensors_kept,sensors_rejected,hours_received,hours_kept
+AirGradient,103,100,3,353065,350469
+AirNow,2,2,0,70305,60040
+Clarity,2,2,0,17723,16125
+Hawanama,91,84,7,67169,66224
+StateAir Islamabad,1,1,0,38403,31787
+StateAir Lahore,1,1,0,41304,32321

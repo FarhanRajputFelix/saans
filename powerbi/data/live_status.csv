@@ -1,0 +1,6 @@
+city,sensors_reporting,sensor_hours_received,sensor_hours_kept,hours_with_pm25_last_24h,result,run_pkt,fire_data,fire_detections
+lahore,10,930,930,22,forecast issued,2026-11-13 18:00,no fresh fire data in this run,0
+faisalabad,8,488,484,22,forecast issued,2026-11-13 18:00,no fresh fire data in this run,0
+multan,10,671,671,22,forecast issued,2026-11-13 18:00,no fresh fire data in this run,0
+islamabad,10,847,847,22,forecast issued,2026-11-13 18:00,no fresh fire data in this run,0
+karachi,10,745,745,22,forecast issued,2026-11-13 18:00,no fresh fire data in this run,0
