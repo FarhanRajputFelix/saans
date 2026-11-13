@@ -1,0 +1,1870 @@
+{
+  "name": "SAANS",
+  "compatibilityLevel": 1567,
+  "model": {
+    "culture": "en-US",
+    "dataAccessOptions": {
+      "fastCombine": true,
+      "legacyRedirects": true,
+      "returnErrorValuesAsNull": true
+    },
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "sourceQueryCulture": "en-US",
+    "tables": [
+      {
+        "name": "Forecasts",
+        "columns": [
+          {
+            "name": "forecast_id",
+            "dataType": "string",
+            "sourceColumn": "forecast_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "issue_key",
+            "dataType": "string",
+            "sourceColumn": "issue_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mode",
+            "dataType": "string",
+            "sourceColumn": "mode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "season",
+            "dataType": "string",
+            "sourceColumn": "season",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy"
+          },
+          {
+            "name": "issued_pkt",
+            "dataType": "dateTime",
+            "sourceColumn": "issued_pkt",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy HH:mm"
+          },
+          {
+            "name": "last_24h",
+            "dataType": "double",
+            "sourceColumn": "last_24h",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "forecast_24h",
+            "dataType": "double",
+            "sourceColumn": "forecast_24h",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "q10",
+            "dataType": "double",
+            "sourceColumn": "q10",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "q90",
+            "dataType": "double",
+            "sourceColumn": "q90",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "aqi",
+            "dataType": "double",
+            "sourceColumn": "aqi",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "category",
+            "dataType": "string",
+            "sourceColumn": "category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_short",
+            "dataType": "string",
+            "sourceColumn": "category_short",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_color",
+            "dataType": "string",
+            "sourceColumn": "category_color",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_text_color",
+            "dataType": "string",
+            "sourceColumn": "category_text_color",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hazard_prob",
+            "dataType": "double",
+            "sourceColumn": "hazard_prob",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "forecast_48h",
+            "dataType": "double",
+            "sourceColumn": "forecast_48h",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "f48_aqi",
+            "dataType": "double",
+            "sourceColumn": "f48_aqi",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "f48_category",
+            "dataType": "string",
+            "sourceColumn": "f48_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "observed_next_24h",
+            "dataType": "double",
+            "sourceColumn": "observed_next_24h",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "observed_aqi",
+            "dataType": "double",
+            "sourceColumn": "observed_aqi",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "observed_category",
+            "dataType": "string",
+            "sourceColumn": "observed_category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "error_24h",
+            "dataType": "double",
+            "sourceColumn": "error_24h",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "typical_level",
+            "dataType": "double",
+            "sourceColumn": "typical_level",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "top_drivers",
+            "dataType": "string",
+            "sourceColumn": "top_drivers",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "advisory_english",
+            "dataType": "string",
+            "sourceColumn": "advisory_english",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "advisory_urdu",
+            "dataType": "string",
+            "sourceColumn": "advisory_urdu",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "advisory_source",
+            "dataType": "string",
+            "sourceColumn": "advisory_source",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Forecasts",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/forecasts.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"forecast_id\", type text}, {\"issue_key\", type text}, {\"mode\", type text}, {\"season\", type text}, {\"city\", type text}, {\"date\", type date}, {\"issued_pkt\", type datetime}, {\"last_24h\", type number}, {\"forecast_24h\", type number}, {\"q10\", type number}, {\"q90\", type number}, {\"aqi\", type number}, {\"category\", type text}, {\"category_short\", type text}, {\"category_color\", type text}, {\"category_text_color\", type text}, {\"hazard_prob\", type number}, {\"forecast_48h\", type number}, {\"f48_aqi\", type number}, {\"f48_category\", type text}, {\"observed_next_24h\", type number}, {\"observed_aqi\", type number}, {\"observed_category\", type text}, {\"error_24h\", type number}, {\"typical_level\", type number}, {\"top_drivers\", type text}, {\"advisory_english\", type text}, {\"advisory_urdu\", type text}, {\"advisory_source\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Forecast next 24 h",
+            "expression": "AVERAGE(Forecasts[forecast_24h])",
+            "formatString": "0"
+          },
+          {
+            "name": "Forecast 24-48 h",
+            "expression": "AVERAGE(Forecasts[forecast_48h])",
+            "formatString": "0"
+          },
+          {
+            "name": "Last 24 h",
+            "expression": "AVERAGE(Forecasts[last_24h])",
+            "formatString": "0"
+          },
+          {
+            "name": "AQI next 24 h",
+            "expression": "AVERAGE(Forecasts[aqi])",
+            "formatString": "0"
+          },
+          {
+            "name": "Risk level",
+            "expression": "SELECTEDVALUE(Forecasts[category_short])"
+          },
+          {
+            "name": "Category colour",
+            "expression": "SELECTEDVALUE(Forecasts[category_color], \"#1b2029\")"
+          },
+          {
+            "name": "Category text colour",
+            "expression": "SELECTEDVALUE(Forecasts[category_text_color], \"#f0efec\")"
+          },
+          {
+            "name": "Chance AQI above 300",
+            "expression": "AVERAGE(Forecasts[hazard_prob])",
+            "formatString": "0%"
+          },
+          {
+            "name": "80% range",
+            "expression": "IF(HASONEVALUE(Forecasts[forecast_id]), FORMAT(AVERAGE(Forecasts[q10]), \"0\") & \" to \" & FORMAT(AVERAGE(Forecasts[q90]), \"0\") & \" µg/m³\")"
+          },
+          {
+            "name": "Typical level",
+            "expression": "AVERAGE(Forecasts[typical_level])",
+            "formatString": "0"
+          },
+          {
+            "name": "Observed next 24 h",
+            "expression": "AVERAGE(Forecasts[observed_next_24h])",
+            "formatString": "0"
+          },
+          {
+            "name": "City headline",
+            "expression": "IF(HASONEVALUE(Forecasts[forecast_id]), SELECTEDVALUE(Cities[City]) & \": \" & FORMAT([Forecast next 24 h], \"0\") & \" µg/m³ next 24 h · US EPA AQI \" & FORMAT([AQI next 24 h], \"0\") & \" · \" & [Risk level] & \" · chance of AQI > 300: \" & FORMAT([Chance AQI above 300], \"0%\"), \"Select one city\")"
+          },
+          {
+            "name": "Forecast details",
+            "expression": "IF(HASONEVALUE(Forecasts[forecast_id]), \"80% range \" & [80% range] & \" · last 24 h \" & FORMAT([Last 24 h], \"0\") & \" · the 24 hours after that: \" & FORMAT([Forecast 24-48 h], \"0\") & \" µg/m³ (\" & SELECTEDVALUE(Forecasts[f48_category]) & \")\")"
+          },
+          {
+            "name": "Why caption",
+            "expression": "IF(HASONEVALUE(Forecasts[forecast_id]), \"Typical level \" & FORMAT([Typical level], \"0\") & \" µg/m³ + driver contributions = \" & FORMAT([Forecast next 24 h], \"0\") & \" µg/m³. Strongest single factors: \" & SELECTEDVALUE(Forecasts[top_drivers]) & \". SHAP shows what the model relied on: statistical, not a chemical source measurement.\")"
+          },
+          {
+            "name": "Replay check",
+            "expression": "IF(HASONEVALUE(Forecasts[forecast_id]), IF(ISBLANK([Observed next 24 h]), \"No complete observation for the next 24 hours.\", \"What actually happened: the next 24 hours averaged \" & FORMAT([Observed next 24 h], \"0\") & \" µg/m³ (AQI \" & FORMAT(AVERAGE(Forecasts[observed_aqi]), \"0\") & \", \" & SELECTEDVALUE(Forecasts[observed_category]) & \"). Forecast error: \" & FORMAT([Forecast next 24 h] - [Observed next 24 h], \"+0;-0;0\") & \" µg/m³.\"))"
+          },
+          {
+            "name": "Advisory English",
+            "expression": "SELECTEDVALUE(Forecasts[advisory_english])"
+          },
+          {
+            "name": "Advisory Urdu",
+            "expression": "SELECTEDVALUE(Forecasts[advisory_urdu])"
+          },
+          {
+            "name": "Advisory source",
+            "expression": "IF(HASONEVALUE(Forecasts[forecast_id]), \"Source: \" & SELECTEDVALUE(Forecasts[advisory_source]))"
+          },
+          {
+            "name": "Mean absolute error",
+            "expression": "AVERAGEX(FILTER(Forecasts, NOT ISBLANK(Forecasts[error_24h])), ABS(Forecasts[error_24h]))",
+            "formatString": "0.0"
+          }
+        ]
+      },
+      {
+        "name": "Issues",
+        "columns": [
+          {
+            "name": "issue_key",
+            "dataType": "string",
+            "sourceColumn": "issue_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "mode",
+            "dataType": "string",
+            "sourceColumn": "mode",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "season",
+            "dataType": "string",
+            "sourceColumn": "season",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy"
+          },
+          {
+            "name": "issued_pkt",
+            "dataType": "dateTime",
+            "sourceColumn": "issued_pkt",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy HH:mm"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Issues",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/issues.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"issue_key\", type text}, {\"mode\", type text}, {\"season\", type text}, {\"date\", type date}, {\"issued_pkt\", type datetime}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Issued",
+            "expression": "\"Issued \" & FORMAT(MAX(Issues[issued_pkt]), \"ddd d mmm yyyy, HH:mm\") & \" PKT\""
+          }
+        ]
+      },
+      {
+        "name": "Cities",
+        "columns": [
+          {
+            "name": "city_key",
+            "dataType": "string",
+            "sourceColumn": "city_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "City",
+            "dataType": "string",
+            "sourceColumn": "City",
+            "summarizeBy": "none",
+            "sortByColumn": "order"
+          },
+          {
+            "name": "latitude",
+            "dataType": "double",
+            "sourceColumn": "latitude",
+            "summarizeBy": "none",
+            "dataCategory": "Latitude"
+          },
+          {
+            "name": "longitude",
+            "dataType": "double",
+            "sourceColumn": "longitude",
+            "summarizeBy": "none",
+            "dataCategory": "Longitude"
+          },
+          {
+            "name": "in_training",
+            "dataType": "string",
+            "sourceColumn": "in_training",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "order",
+            "dataType": "int64",
+            "type": "calculated",
+            "summarizeBy": "none",
+            "isHidden": true,
+            "expression": "SWITCH(Cities[city_key], \"lahore\", 1, \"faisalabad\", 2, \"multan\", 3, \"islamabad\", 4, 5)"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Cities",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/cities.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"city_key\", type text}, {\"City\", type text}, {\"latitude\", type number}, {\"longitude\", type number}, {\"in_training\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "columns": [
+          {
+            "name": "forecast_id",
+            "dataType": "string",
+            "sourceColumn": "forecast_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "driver_group",
+            "dataType": "string",
+            "sourceColumn": "driver_group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "ug_m3",
+            "dataType": "double",
+            "sourceColumn": "ug_m3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "group_order",
+            "dataType": "int64",
+            "sourceColumn": "group_order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "group_color",
+            "dataType": "string",
+            "sourceColumn": "group_color",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Drivers",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/drivers.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"forecast_id\", type text}, {\"driver_group\", type text}, {\"ug_m3\", type number}, {\"group_order\", Int64.Type}, {\"group_color\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Driver contribution",
+            "expression": "SUM(Drivers[ug_m3])",
+            "formatString": "+0;-0;0"
+          }
+        ]
+      },
+      {
+        "name": "WhatIf",
+        "columns": [
+          {
+            "name": "forecast_id",
+            "dataType": "string",
+            "sourceColumn": "forecast_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fire_reduction_pct",
+            "dataType": "int64",
+            "sourceColumn": "fire_reduction_pct",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "forecast_ug_m3",
+            "dataType": "double",
+            "sourceColumn": "forecast_ug_m3",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "aqi",
+            "dataType": "double",
+            "sourceColumn": "aqi",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "category",
+            "dataType": "string",
+            "sourceColumn": "category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_color",
+            "dataType": "string",
+            "sourceColumn": "category_color",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "WhatIf",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/whatif.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"forecast_id\", type text}, {\"fire_reduction_pct\", Int64.Type}, {\"forecast_ug_m3\", type number}, {\"aqi\", type number}, {\"category\", type text}, {\"category_color\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "What-if forecast",
+            "expression": "VAR r = [Fire reduction value] RETURN CALCULATE(AVERAGE(WhatIf[forecast_ug_m3]), WhatIf[fire_reduction_pct] = r)",
+            "formatString": "0"
+          },
+          {
+            "name": "What-if AQI",
+            "expression": "VAR r = [Fire reduction value] RETURN CALCULATE(AVERAGE(WhatIf[aqi]), WhatIf[fire_reduction_pct] = r)",
+            "formatString": "0"
+          },
+          {
+            "name": "What-if text",
+            "expression": "VAR r = [Fire reduction value] VAR f = [What-if forecast] RETURN IF(HASONEVALUE(Forecasts[forecast_id]), \"With \" & r & \"% fewer upwind crop fires: \" & FORMAT(f, \"0\") & \" µg/m³, AQI \" & FORMAT([What-if AQI], \"0\") & \" (\" & CALCULATE(SELECTEDVALUE(WhatIf[category]), WhatIf[fire_reduction_pct] = r) & \"), \" & FORMAT(f - [Forecast next 24 h], \"+0;-0;0\") & \" µg/m³ against the forecast. A model-based estimate: fire features are \" & \"scaled down and the forecast recomputed, everything else fixed; fewer fires can never raise a forecast.\")"
+          },
+          {
+            "name": "What-if colour",
+            "expression": "VAR r = [Fire reduction value] RETURN CALCULATE(SELECTEDVALUE(WhatIf[category_color], \"#1b2029\"), WhatIf[fire_reduction_pct] = r)"
+          }
+        ]
+      },
+      {
+        "name": "Chart",
+        "columns": [
+          {
+            "name": "forecast_id",
+            "dataType": "string",
+            "sourceColumn": "forecast_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hours_from_issue",
+            "dataType": "int64",
+            "sourceColumn": "hours_from_issue",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "time_pkt",
+            "dataType": "dateTime",
+            "sourceColumn": "time_pkt",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy HH:mm"
+          },
+          {
+            "name": "observed",
+            "dataType": "double",
+            "sourceColumn": "observed",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "actual_after",
+            "dataType": "double",
+            "sourceColumn": "actual_after",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "forecast",
+            "dataType": "double",
+            "sourceColumn": "forecast",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "band_low",
+            "dataType": "double",
+            "sourceColumn": "band_low",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "band_high",
+            "dataType": "double",
+            "sourceColumn": "band_high",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Chart",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/chart_hourly.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"forecast_id\", type text}, {\"hours_from_issue\", Int64.Type}, {\"time_pkt\", type datetime}, {\"observed\", type number}, {\"actual_after\", type number}, {\"forecast\", type number}, {\"band_low\", type number}, {\"band_high\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Observed (hourly)",
+            "expression": "AVERAGE(Chart[observed])",
+            "formatString": "0"
+          },
+          {
+            "name": "What actually happened",
+            "expression": "AVERAGE(Chart[actual_after])",
+            "formatString": "0"
+          },
+          {
+            "name": "Forecast (next 48 h)",
+            "expression": "AVERAGE(Chart[forecast])",
+            "formatString": "0"
+          },
+          {
+            "name": "80% range low",
+            "expression": "AVERAGE(Chart[band_low])",
+            "formatString": "0"
+          },
+          {
+            "name": "80% range high",
+            "expression": "AVERAGE(Chart[band_high])",
+            "formatString": "0"
+          },
+          {
+            "name": "Hazardous (AQI 300)",
+            "expression": "IF(NOT ISEMPTY(Chart), 225.5)",
+            "formatString": "0"
+          }
+        ]
+      },
+      {
+        "name": "MapPoints",
+        "columns": [
+          {
+            "name": "issue_key",
+            "dataType": "string",
+            "sourceColumn": "issue_key",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "kind",
+            "dataType": "string",
+            "sourceColumn": "kind",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "point_id",
+            "dataType": "string",
+            "sourceColumn": "point_id",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "label",
+            "dataType": "string",
+            "sourceColumn": "label",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "latitude",
+            "dataType": "double",
+            "sourceColumn": "latitude",
+            "summarizeBy": "none",
+            "dataCategory": "Latitude"
+          },
+          {
+            "name": "longitude",
+            "dataType": "double",
+            "sourceColumn": "longitude",
+            "summarizeBy": "none",
+            "dataCategory": "Longitude"
+          },
+          {
+            "name": "size",
+            "dataType": "double",
+            "sourceColumn": "size",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "legend",
+            "dataType": "string",
+            "sourceColumn": "legend",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "detections",
+            "dataType": "double",
+            "sourceColumn": "detections",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "MapPoints",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/map_points.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"issue_key\", type text}, {\"kind\", type text}, {\"city\", type text}, {\"point_id\", type text}, {\"label\", type text}, {\"latitude\", type number}, {\"longitude\", type number}, {\"size\", type number}, {\"legend\", type text}, {\"detections\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Categories",
+        "columns": [
+          {
+            "name": "category",
+            "dataType": "string",
+            "sourceColumn": "category",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_short",
+            "dataType": "string",
+            "sourceColumn": "category_short",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "category_order",
+            "dataType": "int64",
+            "sourceColumn": "category_order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pm25_range",
+            "dataType": "string",
+            "sourceColumn": "pm25_range",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "aqi_range",
+            "dataType": "string",
+            "sourceColumn": "aqi_range",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "color",
+            "dataType": "string",
+            "sourceColumn": "color",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "text_color",
+            "dataType": "string",
+            "sourceColumn": "text_color",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Categories",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/categories.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"category\", type text}, {\"category_short\", type text}, {\"category_order\", Int64.Type}, {\"pm25_range\", type text}, {\"aqi_range\", type text}, {\"color\", type text}, {\"text_color\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Model accuracy",
+        "columns": [
+          {
+            "name": "season",
+            "dataType": "string",
+            "sourceColumn": "season",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "horizon",
+            "dataType": "string",
+            "sourceColumn": "horizon",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "unseen_city",
+            "dataType": "string",
+            "sourceColumn": "unseen_city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hours",
+            "dataType": "int64",
+            "sourceColumn": "hours",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "mean_pm25",
+            "dataType": "double",
+            "sourceColumn": "mean_pm25",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "MAE_model",
+            "dataType": "double",
+            "sourceColumn": "MAE_model",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "RMSE_model",
+            "dataType": "double",
+            "sourceColumn": "RMSE_model",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "MAE_persistence",
+            "dataType": "double",
+            "sourceColumn": "MAE_persistence",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "RMSE_persistence",
+            "dataType": "double",
+            "sourceColumn": "RMSE_persistence",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "MAE_seasonal",
+            "dataType": "double",
+            "sourceColumn": "MAE_seasonal",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "RMSE_seasonal",
+            "dataType": "double",
+            "sourceColumn": "RMSE_seasonal",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "skill_vs_persistence",
+            "dataType": "double",
+            "sourceColumn": "skill_vs_persistence",
+            "summarizeBy": "sum",
+            "formatString": "+0.0%;-0.0%;0.0%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Model accuracy",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/evaluation_regression.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"season\", type text}, {\"horizon\", type text}, {\"city\", type text}, {\"unseen_city\", type text}, {\"hours\", Int64.Type}, {\"mean_pm25\", type number}, {\"MAE_model\", type number}, {\"RMSE_model\", type number}, {\"MAE_persistence\", type number}, {\"RMSE_persistence\", type number}, {\"MAE_seasonal\", type number}, {\"RMSE_seasonal\", type number}, {\"skill_vs_persistence\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Skill vs persistence",
+            "expression": "AVERAGE('Model accuracy'[skill_vs_persistence])",
+            "formatString": "+0.0%;-0.0%;0.0%"
+          }
+        ]
+      },
+      {
+        "name": "Hazard warnings",
+        "columns": [
+          {
+            "name": "season",
+            "dataType": "string",
+            "sourceColumn": "season",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "method",
+            "dataType": "string",
+            "sourceColumn": "method",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hazardous_hours",
+            "dataType": "int64",
+            "sourceColumn": "hazardous_hours",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "hit_rate",
+            "dataType": "double",
+            "sourceColumn": "hit_rate",
+            "summarizeBy": "sum",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "false_alarm_ratio",
+            "dataType": "double",
+            "sourceColumn": "false_alarm_ratio",
+            "summarizeBy": "sum",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "false_alarm_rate",
+            "dataType": "double",
+            "sourceColumn": "false_alarm_rate",
+            "summarizeBy": "sum",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "F1",
+            "dataType": "double",
+            "sourceColumn": "F1",
+            "summarizeBy": "sum",
+            "formatString": "0.000"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Hazard warnings",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/evaluation_classifier.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"season\", type text}, {\"method\", type text}, {\"hazardous_hours\", Int64.Type}, {\"hit_rate\", type number}, {\"false_alarm_ratio\", type number}, {\"false_alarm_rate\", type number}, {\"F1\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Fire ablation",
+        "columns": [
+          {
+            "name": "season",
+            "dataType": "string",
+            "sourceColumn": "season",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "subset",
+            "dataType": "string",
+            "sourceColumn": "subset",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "hours",
+            "dataType": "int64",
+            "sourceColumn": "hours",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "MAE_with_fires",
+            "dataType": "double",
+            "sourceColumn": "MAE_with_fires",
+            "summarizeBy": "sum",
+            "formatString": "0.00"
+          },
+          {
+            "name": "MAE_without_fires",
+            "dataType": "double",
+            "sourceColumn": "MAE_without_fires",
+            "summarizeBy": "sum",
+            "formatString": "0.00"
+          },
+          {
+            "name": "RMSE_with_fires",
+            "dataType": "double",
+            "sourceColumn": "RMSE_with_fires",
+            "summarizeBy": "sum",
+            "formatString": "0.00"
+          },
+          {
+            "name": "RMSE_without_fires",
+            "dataType": "double",
+            "sourceColumn": "RMSE_without_fires",
+            "summarizeBy": "sum",
+            "formatString": "0.00"
+          },
+          {
+            "name": "MAE_change_from_fires",
+            "dataType": "double",
+            "sourceColumn": "MAE_change_from_fires",
+            "summarizeBy": "sum",
+            "formatString": "+0.00;-0.00;0.00"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Fire ablation",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/ablation_fire_features.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"season\", type text}, {\"subset\", type text}, {\"hours\", Int64.Type}, {\"MAE_with_fires\", type number}, {\"MAE_without_fires\", type number}, {\"RMSE_with_fires\", type number}, {\"RMSE_without_fires\", type number}, {\"MAE_change_from_fires\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "SHAP shares",
+        "columns": [
+          {
+            "name": "driver_group",
+            "dataType": "string",
+            "sourceColumn": "driver_group",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "share_of",
+            "dataType": "string",
+            "sourceColumn": "share_of",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "percent",
+            "dataType": "double",
+            "sourceColumn": "percent",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "SHAP shares",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/shap_group_shares.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"driver_group\", type text}, {\"share_of\", type text}, {\"percent\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Data received",
+        "columns": [
+          {
+            "name": "source",
+            "dataType": "string",
+            "sourceColumn": "source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "received",
+            "dataType": "int64",
+            "sourceColumn": "received",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "after_cleaning",
+            "dataType": "int64",
+            "sourceColumn": "after_cleaning",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "summary",
+            "dataType": "string",
+            "sourceColumn": "summary",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "share_kept",
+            "dataType": "double",
+            "sourceColumn": "share_kept",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Data received",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/dq_totals.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"source\", type text}, {\"received\", Int64.Type}, {\"after_cleaning\", Int64.Type}, {\"summary\", type text}, {\"share_kept\", type number}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Cleaning steps",
+        "columns": [
+          {
+            "name": "order",
+            "dataType": "int64",
+            "sourceColumn": "order",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "step",
+            "dataType": "int64",
+            "sourceColumn": "step",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "source",
+            "dataType": "string",
+            "sourceColumn": "source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "action",
+            "dataType": "string",
+            "sourceColumn": "action",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "rows_before",
+            "dataType": "int64",
+            "sourceColumn": "rows_before",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "rows_after",
+            "dataType": "int64",
+            "sourceColumn": "rows_after",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "removed",
+            "dataType": "int64",
+            "sourceColumn": "removed",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "note",
+            "dataType": "string",
+            "sourceColumn": "note",
+            "summarizeBy": "none"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Cleaning steps",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/dq_cleaning_steps.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"order\", Int64.Type}, {\"step\", Int64.Type}, {\"source\", type text}, {\"action\", type text}, {\"rows_before\", Int64.Type}, {\"rows_after\", Int64.Type}, {\"removed\", Int64.Type}, {\"note\", type text}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Sensors",
+        "columns": [
+          {
+            "name": "provider",
+            "dataType": "string",
+            "sourceColumn": "provider",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sensors_received",
+            "dataType": "int64",
+            "sourceColumn": "sensors_received",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "sensors_kept",
+            "dataType": "int64",
+            "sourceColumn": "sensors_kept",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "sensors_rejected",
+            "dataType": "int64",
+            "sourceColumn": "sensors_rejected",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "hours_received",
+            "dataType": "int64",
+            "sourceColumn": "hours_received",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "hours_kept",
+            "dataType": "int64",
+            "sourceColumn": "hours_kept",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sensors",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/dq_sensors.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"provider\", type text}, {\"sensors_received\", Int64.Type}, {\"sensors_kept\", Int64.Type}, {\"sensors_rejected\", Int64.Type}, {\"hours_received\", Int64.Type}, {\"hours_kept\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Raw records",
+        "columns": [
+          {
+            "name": "source",
+            "dataType": "string",
+            "sourceColumn": "source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "raw_records",
+            "dataType": "int64",
+            "sourceColumn": "raw_records",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Raw records",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/dq_raw_records.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"source\", type text}, {\"raw_records\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Sensor map",
+        "columns": [
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "provider",
+            "dataType": "string",
+            "sourceColumn": "provider",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "type",
+            "dataType": "string",
+            "sourceColumn": "type",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "location",
+            "dataType": "string",
+            "sourceColumn": "location",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "lat",
+            "dataType": "double",
+            "sourceColumn": "lat",
+            "summarizeBy": "none",
+            "dataCategory": "Latitude"
+          },
+          {
+            "name": "lon",
+            "dataType": "double",
+            "sourceColumn": "lon",
+            "summarizeBy": "none",
+            "dataCategory": "Longitude"
+          },
+          {
+            "name": "first_utc",
+            "dataType": "string",
+            "sourceColumn": "first_utc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "last_utc",
+            "dataType": "string",
+            "sourceColumn": "last_utc",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "days_in_period",
+            "dataType": "int64",
+            "sourceColumn": "days_in_period",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sensor map",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/dq_sensor_map.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"city\", type text}, {\"provider\", type text}, {\"type\", type text}, {\"location\", type text}, {\"lat\", type number}, {\"lon\", type number}, {\"first_utc\", type text}, {\"last_utc\", type text}, {\"days_in_period\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Live status",
+        "columns": [
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "sensors_reporting",
+            "dataType": "int64",
+            "sourceColumn": "sensors_reporting",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sensor_hours_received",
+            "dataType": "int64",
+            "sourceColumn": "sensor_hours_received",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "sensor_hours_kept",
+            "dataType": "int64",
+            "sourceColumn": "sensor_hours_kept",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "hours_with_pm25_last_24h",
+            "dataType": "int64",
+            "sourceColumn": "hours_with_pm25_last_24h",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "result",
+            "dataType": "string",
+            "sourceColumn": "result",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "run_pkt",
+            "dataType": "dateTime",
+            "sourceColumn": "run_pkt",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy HH:mm"
+          },
+          {
+            "name": "fire_data",
+            "dataType": "string",
+            "sourceColumn": "fire_data",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fire_detections",
+            "dataType": "int64",
+            "sourceColumn": "fire_detections",
+            "summarizeBy": "sum"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Live status",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    Source = Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"powerbi/data/live_status.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),",
+                "    Headers = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),",
+                "    Typed = Table.TransformColumnTypes(Headers, {{\"city\", type text}, {\"sensors_reporting\", Int64.Type}, {\"sensor_hours_received\", Int64.Type}, {\"sensor_hours_kept\", Int64.Type}, {\"hours_with_pm25_last_24h\", Int64.Type}, {\"result\", type text}, {\"run_pkt\", type datetime}, {\"fire_data\", type text}, {\"fire_detections\", Int64.Type}}, \"en-US\")",
+                "in",
+                "    Typed"
+              ]
+            }
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ],
+        "measures": [
+          {
+            "name": "Live status text",
+            "expression": "\"Latest live snapshot: run \" & FORMAT(MAX('Live status'[run_pkt]), \"d mmm yyyy, HH:mm\") & \" PKT · \" & FORMAT(SUM('Live status'[sensors_reporting]), \"0\") & \" sensors across 5 cities · \" & MAX('Live status'[fire_data]) & \". Refresh this report to load the newest snapshot from GitHub.\""
+          }
+        ]
+      },
+      {
+        "name": "Cleaned hourly",
+        "columns": [
+          {
+            "name": "city",
+            "dataType": "string",
+            "sourceColumn": "city",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "time_pkt",
+            "dataType": "dateTime",
+            "sourceColumn": "time_pkt",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy HH:mm"
+          },
+          {
+            "name": "pm25",
+            "dataType": "double",
+            "sourceColumn": "pm25",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "pm25_source",
+            "dataType": "string",
+            "sourceColumn": "pm25_source",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pm25_interpolated",
+            "dataType": "string",
+            "sourceColumn": "pm25_interpolated",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "long_gap",
+            "dataType": "string",
+            "sourceColumn": "long_gap",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "pm10",
+            "dataType": "double",
+            "sourceColumn": "pm10",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "temperature_2m",
+            "dataType": "double",
+            "sourceColumn": "temperature_2m",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "relative_humidity_2m",
+            "dataType": "double",
+            "sourceColumn": "relative_humidity_2m",
+            "summarizeBy": "sum",
+            "formatString": "0"
+          },
+          {
+            "name": "wind_speed_10m",
+            "dataType": "double",
+            "sourceColumn": "wind_speed_10m",
+            "summarizeBy": "sum",
+            "formatString": "0.0"
+          },
+          {
+            "name": "wind_direction_10m",
+            "dataType": "double",
+            "sourceColumn": "wind_direction_10m",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "boundary_layer_height",
+            "dataType": "double",
+            "sourceColumn": "boundary_layer_height",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "blh_imputed",
+            "dataType": "string",
+            "sourceColumn": "blh_imputed",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "precipitation",
+            "dataType": "double",
+            "sourceColumn": "precipitation",
+            "summarizeBy": "sum"
+          },
+          {
+            "name": "fires_300km",
+            "dataType": "double",
+            "sourceColumn": "fires_300km",
+            "summarizeBy": "sum",
+            "formatString": "#,0"
+          },
+          {
+            "name": "is_test_season",
+            "dataType": "string",
+            "sourceColumn": "is_test_season",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "extreme_event",
+            "dataType": "string",
+            "sourceColumn": "extreme_event",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "fireworks_night",
+            "dataType": "string",
+            "sourceColumn": "fireworks_night",
+            "summarizeBy": "none"
+          },
+          {
+            "name": "date",
+            "dataType": "dateTime",
+            "sourceColumn": "date",
+            "summarizeBy": "none",
+            "formatString": "d mmm yyyy"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Cleaned hourly",
+            "mode": "import",
+            "source": {
+              "type": "m",
+              "expression": [
+                "let",
+                "    lahore = Table.SelectColumns(Table.PromoteHeaders(Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"data/processed/csv/master_hourly_lahore.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]), {\"city\", \"time_pkt\", \"pm25\", \"pm25_source\", \"pm25_interpolated\", \"long_gap\", \"pm10\", \"temperature_2m\", \"relative_humidity_2m\", \"wind_speed_10m\", \"wind_direction_10m\", \"boundary_layer_height\", \"blh_imputed\", \"precipitation\", \"fires_300km\", \"is_test_season\", \"extreme_event\", \"fireworks_night\"}),",
+                "    faisalabad = Table.SelectColumns(Table.PromoteHeaders(Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"data/processed/csv/master_hourly_faisalabad.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]), {\"city\", \"time_pkt\", \"pm25\", \"pm25_source\", \"pm25_interpolated\", \"long_gap\", \"pm10\", \"temperature_2m\", \"relative_humidity_2m\", \"wind_speed_10m\", \"wind_direction_10m\", \"boundary_layer_height\", \"blh_imputed\", \"precipitation\", \"fires_300km\", \"is_test_season\", \"extreme_event\", \"fireworks_night\"}),",
+                "    multan = Table.SelectColumns(Table.PromoteHeaders(Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"data/processed/csv/master_hourly_multan.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]), {\"city\", \"time_pkt\", \"pm25\", \"pm25_source\", \"pm25_interpolated\", \"long_gap\", \"pm10\", \"temperature_2m\", \"relative_humidity_2m\", \"wind_speed_10m\", \"wind_direction_10m\", \"boundary_layer_height\", \"blh_imputed\", \"precipitation\", \"fires_300km\", \"is_test_season\", \"extreme_event\", \"fireworks_night\"}),",
+                "    islamabad = Table.SelectColumns(Table.PromoteHeaders(Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"data/processed/csv/master_hourly_islamabad.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]), {\"city\", \"time_pkt\", \"pm25\", \"pm25_source\", \"pm25_interpolated\", \"long_gap\", \"pm10\", \"temperature_2m\", \"relative_humidity_2m\", \"wind_speed_10m\", \"wind_direction_10m\", \"boundary_layer_height\", \"blh_imputed\", \"precipitation\", \"fires_300km\", \"is_test_season\", \"extreme_event\", \"fireworks_night\"}),",
+                "    karachi = Table.SelectColumns(Table.PromoteHeaders(Csv.Document(Web.Contents(\"https://raw.githubusercontent.com/FarhanRajputFelix/saans/main/\", [RelativePath = \"data/processed/csv/master_hourly_karachi.csv\"]), [Delimiter = \",\", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]), [PromoteAllScalars = true]), {\"city\", \"time_pkt\", \"pm25\", \"pm25_source\", \"pm25_interpolated\", \"long_gap\", \"pm10\", \"temperature_2m\", \"relative_humidity_2m\", \"wind_speed_10m\", \"wind_direction_10m\", \"boundary_layer_height\", \"blh_imputed\", \"precipitation\", \"fires_300km\", \"is_test_season\", \"extreme_event\", \"fireworks_night\"}),",
+                "    Combined = Table.Combine({lahore, faisalabad, multan, islamabad, karachi}),",
+                "    Typed = Table.TransformColumnTypes(Combined, {{\"city\", type text}, {\"time_pkt\", type datetime}, {\"pm25\", type number}, {\"pm25_source\", type text}, {\"pm25_interpolated\", type text}, {\"long_gap\", type text}, {\"pm10\", type number}, {\"temperature_2m\", type number}, {\"relative_humidity_2m\", type number}, {\"wind_speed_10m\", type number}, {\"wind_direction_10m\", type number}, {\"boundary_layer_height\", type number}, {\"blh_imputed\", type text}, {\"precipitation\", type number}, {\"fires_300km\", type number}, {\"is_test_season\", type text}, {\"extreme_event\", type text}, {\"fireworks_night\", type text}}, \"en-US\"),",
+                "    Proper = Table.TransformColumns(Typed, {{\"city\", Text.Proper, type text}}),",
+                "    WithDate = Table.AddColumn(Proper, \"date\", each DateTime.Date([time_pkt]), type date)",
+                "in",
+                "    WithDate"
+              ]
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Average PM2.5",
+            "expression": "AVERAGE('Cleaned hourly'[pm25])",
+            "formatString": "0"
+          }
+        ],
+        "annotations": [
+          {
+            "name": "PBI_ResultType",
+            "value": "Table"
+          }
+        ]
+      },
+      {
+        "name": "Fire reduction",
+        "columns": [
+          {
+            "name": "Fire reduction",
+            "dataType": "int64",
+            "sourceColumn": "[Value]",
+            "type": "calculatedTableColumn",
+            "isNameInferred": false,
+            "formatString": "0\\%",
+            "summarizeBy": "none",
+            "extendedProperties": [
+              {
+                "type": "json",
+                "name": "ParameterMetadata",
+                "value": {
+                  "version": 0
+                }
+              }
+            ]
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Fire reduction",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "GENERATESERIES(0, 100, 10)"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Fire reduction value",
+            "expression": "SELECTEDVALUE('Fire reduction'[Fire reduction], 0)",
+            "formatString": "0"
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "d00cc061-97c7-5ebb-b03b-140d10152896",
+        "fromTable": "Forecasts",
+        "fromColumn": "issue_key",
+        "toTable": "Issues",
+        "toColumn": "issue_key"
+      },
+      {
+        "name": "ddf58937-95d8-5daa-8e6f-1771dd14aefd",
+        "fromTable": "Forecasts",
+        "fromColumn": "city",
+        "toTable": "Cities",
+        "toColumn": "city_key"
+      },
+      {
+        "name": "9cbea141-22dc-59b3-803a-52f0a726f301",
+        "fromTable": "Drivers",
+        "fromColumn": "forecast_id",
+        "toTable": "Forecasts",
+        "toColumn": "forecast_id"
+      },
+      {
+        "name": "6522162f-6f74-5fcc-8685-47fe49dd5d46",
+        "fromTable": "WhatIf",
+        "fromColumn": "forecast_id",
+        "toTable": "Forecasts",
+        "toColumn": "forecast_id"
+      },
+      {
+        "name": "63e118b1-89eb-53ea-8667-3531008d236b",
+        "fromTable": "Chart",
+        "fromColumn": "forecast_id",
+        "toTable": "Forecasts",
+        "toColumn": "forecast_id"
+      },
+      {
+        "name": "26deb8ae-9659-56ec-a01e-928198ffd2fc",
+        "fromTable": "MapPoints",
+        "fromColumn": "issue_key",
+        "toTable": "Issues",
+        "toColumn": "issue_key"
+      }
+    ],
+    "annotations": [
+      {
+        "name": "__PBI_TimeIntelligenceEnabled",
+        "value": "0"
+      },
+      {
+        "name": "PBI_QueryOrder",
+        "value": "[\"Forecasts\", \"Issues\", \"Cities\", \"Drivers\", \"WhatIf\", \"Chart\", \"MapPoints\", \"Categories\", \"Model accuracy\", \"Hazard warnings\", \"Fire ablation\", \"SHAP shares\", \"Data received\", \"Cleaning steps\", \"Sensors\", \"Raw records\", \"Sensor map\", \"Live status\", \"Cleaned hourly\"]"
+      }
+    ]
+  }
+}

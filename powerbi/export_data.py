@@ -134,7 +134,8 @@ def map_table(df):
     """Points for the map of each issue: the five cities (sized by forecast) and the fires seen in the 72 hours before."""
     cities = pd.DataFrame([{"city": k, "latitude": v.lat, "longitude": v.lon} for k, v in CITIES.items()])
     pts = df.merge(cities, on="city")[["issue_key", "city", "latitude", "longitude", "forecast_24h", "category"]]
-    pts = pts.assign(kind="City", label=pts.city.str.title() + " " + pts.forecast_24h.round(0).astype(int).astype(str) + " µg/m³",
+    pts = pts.assign(kind="City", point_id=pts.city.str.title(),
+                     label=pts.city.str.title() + " " + pts.forecast_24h.round(0).astype(int).astype(str) + " µg/m³ (" + pts.category + ")",
                      size=pts.forecast_24h, legend=pts.category, detections=np.nan)
     fires = []
     issue_times = df.groupby("issue_key").time_utc.first()
@@ -149,9 +150,10 @@ def map_table(df):
         g = f.assign(latitude=f.latitude.round(1), longitude=f.longitude.round(1)).groupby(["latitude", "longitude"]).size()
         fires.append(g.rename("detections").reset_index().assign(issue_key=key))
     fires = pd.concat(fires, ignore_index=True) if fires else pd.DataFrame(columns=["latitude", "longitude", "detections", "issue_key"])
-    fires = fires.assign(kind="Fire", city="", label="Fire detections",
-                         size=1.0, legend="Fire detections, last 72 h", forecast_24h=np.nan, category="")
-    cols = ["issue_key", "kind", "city", "label", "latitude", "longitude", "size", "legend", "detections"]
+    fires = fires.assign(kind="Fire", city="", point_id=fires.latitude.map("{:.1f}".format) + ", " + fires.longitude.map("{:.1f}".format),
+                         label=fires.detections.astype(str) + " fire detections (72 h)",
+                         size=6.0, legend="Fire detections, last 72 h", forecast_24h=np.nan, category="")
+    cols = ["issue_key", "kind", "city", "point_id", "label", "latitude", "longitude", "size", "legend", "detections"]
     return pd.concat([pts[cols], fires[cols]], ignore_index=True)
 
 

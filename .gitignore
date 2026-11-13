@@ -21,3 +21,7 @@ desktop.ini
 # personal study notes and presentation slides: kept locally, not published
 docs/lessons/
 reports/*.pptx
+
+# Power BI project: local cache and per-user settings
+**/.pbi/localSettings.json
+**/.pbi/cache.abf
