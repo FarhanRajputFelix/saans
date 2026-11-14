@@ -144,12 +144,17 @@ def fetch_fires() -> tuple[pd.DataFrame, dict]:
             errors.append(f"{src}: no answer" if r is None else f"{src}: {_scrub(r.text[:80])}")
             continue
         df = pd.read_csv(io.StringIO(r.text))
+        ok.append(src)
+        if df.empty:  # a satellite with no detections answers with a header only, whose columns carry no type
+            continue
         df["source"] = src
         frames.append(df)
-        ok.append(src)
     if not frames:
-        return EMPTY_FIRES, {"fresh": False, "sources": [], "errors": errors, "detections": 0}
+        return EMPTY_FIRES, {"fresh": bool(ok), "sources": ok, "errors": errors, "detections": 0}
     f = pd.concat(frames, ignore_index=True)
+    for c in ("latitude", "longitude", "frp"):
+        f[c] = pd.to_numeric(f[c], errors="coerce")
+    f = f.dropna(subset=["latitude", "longitude"])
     raw = len(f)
     hhmm = f.acq_time.astype(int).astype(str).str.zfill(4)
     f["time_utc"] = pd.to_datetime(f.acq_date + " " + hhmm, format="%Y-%m-%d %H%M", utc=True)

@@ -1,54 +1,55 @@
 {
- "run_utc": "2026-11-13 13:00:00+00:00",
+ "run_utc": "2026-11-14 01:00:00+00:00",
  "cities": {
   "lahore": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 930,
-   "sensor_hours_kept": 930,
-   "hours_with_pm25_last_24h": 22,
+   "sensor_hours_received": 952,
+   "sensor_hours_kept": 952,
+   "hours_with_pm25_last_24h": 23,
    "result": "forecast issued",
-   "issued_at_utc": "2026-11-13 13:00:00+00:00"
+   "issued_at_utc": "2026-11-14 01:00:00+00:00"
   },
   "faisalabad": {
    "sensors_reporting": 8,
-   "sensor_hours_received": 488,
-   "sensor_hours_kept": 484,
-   "hours_with_pm25_last_24h": 22,
+   "sensor_hours_received": 509,
+   "sensor_hours_kept": 505,
+   "hours_with_pm25_last_24h": 23,
    "result": "forecast issued",
-   "issued_at_utc": "2026-11-13 13:00:00+00:00"
+   "issued_at_utc": "2026-11-14 01:00:00+00:00"
   },
   "multan": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 671,
-   "sensor_hours_kept": 671,
-   "hours_with_pm25_last_24h": 22,
+   "sensor_hours_received": 703,
+   "sensor_hours_kept": 703,
+   "hours_with_pm25_last_24h": 23,
    "result": "forecast issued",
-   "issued_at_utc": "2026-11-13 13:00:00+00:00"
+   "issued_at_utc": "2026-11-14 01:00:00+00:00"
   },
   "islamabad": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 847,
-   "sensor_hours_kept": 847,
-   "hours_with_pm25_last_24h": 22,
+   "sensor_hours_received": 792,
+   "sensor_hours_kept": 792,
+   "hours_with_pm25_last_24h": 23,
    "result": "forecast issued",
-   "issued_at_utc": "2026-11-13 13:00:00+00:00"
+   "issued_at_utc": "2026-11-14 01:00:00+00:00"
   },
   "karachi": {
    "sensors_reporting": 10,
-   "sensor_hours_received": 745,
-   "sensor_hours_kept": 745,
-   "hours_with_pm25_last_24h": 22,
+   "sensor_hours_received": 806,
+   "sensor_hours_kept": 805,
+   "hours_with_pm25_last_24h": 23,
    "result": "forecast issued",
-   "issued_at_utc": "2026-11-13 13:00:00+00:00"
+   "issued_at_utc": "2026-11-14 01:00:00+00:00"
   }
  },
  "fires": {
-  "fresh": false,
-  "sources": [],
-  "errors": [
-   "VIIRS_SNPP_NRT: no answer",
-   "MODIS_NRT: no answer"
+  "fresh": true,
+  "sources": [
+   "VIIRS_SNPP_NRT",
+   "MODIS_NRT"
   ],
-  "detections": 0
+  "errors": [],
+  "detections_raw": 1301,
+  "detections": 1214
  }
 }

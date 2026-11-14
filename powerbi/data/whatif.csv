@@ -929,11 +929,11 @@ Replay|2026-01-28|multan,0,91.22854157959952,176.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,0,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,0,131.94252401072796,207.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,0,181.71299008711244,257.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,0,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,0,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,0,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,0,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,0,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,0,110.37954135048908,189.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,0,88.03324321837881,174.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,0,196.8129172697277,272.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,0,64.97427053578004,158.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,0,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,10,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,10,36.434025043928486,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,10,42.601033919691915,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -1864,11 +1864,11 @@ Replay|2026-01-28|multan,10,91.22854157959952,176.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,10,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,10,131.67013890487394,207.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,10,178.44948875577523,253.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,10,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,10,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,10,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,10,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,10,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,10,109.15529780905383,189.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,10,87.50831613418423,173.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,10,196.8129172697277,272.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,10,64.87677455510004,158.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,10,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,20,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,20,36.434025043928486,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,20,42.601033919691915,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -2799,11 +2799,11 @@ Replay|2026-01-28|multan,20,91.22854157959952,176.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,20,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,20,131.67013890487394,207.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,20,176.2166624891188,251.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,20,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,20,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,20,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,20,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,20,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,20,107.72937423362704,188.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,20,87.50831613418423,173.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,20,193.4937532701227,268.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,20,64.87677455510004,158.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,20,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,30,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,30,36.434025043928486,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,30,42.601033919691915,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -3734,11 +3734,11 @@ Replay|2026-01-28|multan,30,91.22854157959952,176.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,30,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,30,131.64492851783484,207.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,30,175.67713708828893,251.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,30,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,30,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,30,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,30,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,30,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,30,107.72937423362704,188.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,30,87.50831613418423,173.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,30,191.58897675514467,266.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,30,64.2731260561105,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,30,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,40,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,40,36.434025043928486,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,40,42.601033919691915,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -4669,11 +4669,11 @@ Replay|2026-01-28|multan,40,90.98179669304878,176.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,40,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,40,131.5020229801667,207.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,40,173.29303078883444,248.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,40,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,40,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,40,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,40,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,40,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,40,107.72937423362704,188.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,40,87.50831613418423,173.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,40,183.55342656635958,258.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,40,64.2731260561105,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,40,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,50,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,50,36.434025043928486,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,50,42.601033919691915,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -5604,11 +5604,11 @@ Replay|2026-01-28|multan,50,90.98179669304878,176.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,50,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,50,128.61424939034043,204.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,50,172.72190812838898,248.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,50,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,50,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,50,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,50,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,50,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,50,107.72937423362704,188.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,50,87.50831613418423,173.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,50,183.1770226082582,258.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,50,64.2731260561105,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,50,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,60,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,60,36.374723236450976,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,60,42.601033919691915,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -6539,11 +6539,11 @@ Replay|2026-01-28|multan,60,90.32102199598387,175.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,60,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,60,128.57217249807795,204.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,60,166.1193164738643,241.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,60,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,60,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,60,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,60,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,60,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,60,107.5495943190243,187.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,60,84.96361315009158,172.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,60,180.029389411213,255.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,60,64.2731260561105,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,60,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,70,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,70,36.374723236450976,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,70,42.54173211221441,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -7474,11 +7474,11 @@ Replay|2026-01-28|multan,70,90.32102199598387,175.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,70,113.4433413494593,192.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,70,128.57217249807795,204.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,70,166.1193164738643,241.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,70,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,70,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,70,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,70,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,70,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,70,107.5495943190243,187.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,70,84.96361315009158,172.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,70,179.08703117078747,254.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,70,64.2731260561105,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,70,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,80,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,80,36.374723236450976,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,80,42.54173211221441,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -8409,11 +8409,11 @@ Replay|2026-01-28|multan,80,88.661811986761,174.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,80,110.22801412347086,189.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,80,128.4749837301621,204.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,80,164.8108304771516,240.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,80,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,80,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,80,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,80,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,80,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,80,103.0988919544362,184.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,80,84.65608470569532,171.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,80,179.08703117078747,254.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,80,64.23258948129835,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,80,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,90,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,90,36.374723236450976,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,90,42.54173211221441,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -9344,11 +9344,11 @@ Replay|2026-01-28|multan,90,88.29620094883121,174.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,90,109.49144120519856,189.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,90,127.1208268923186,203.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,90,157.44709514015133,233.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,90,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,90,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,90,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,90,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,90,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,90,100.26954265445806,182.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,90,83.70441055606358,171.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,90,178.531326498464,254.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,90,64.04722542897376,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,90,59.9903686406127,154.0,Unhealthy,#ff0000
 Replay|2024-10-01|islamabad,100,40.5099437800254,113.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-02|islamabad,100,36.374723236450976,103.0,Unhealthy for Sensitive Groups,#ff7e00
 Replay|2024-10-03|islamabad,100,42.54173211221441,118.0,Unhealthy for Sensitive Groups,#ff7e00
@@ -10279,8 +10279,8 @@ Replay|2026-01-28|multan,100,88.29620094883121,174.0,Unhealthy,#ff0000
 Replay|2026-01-29|multan,100,106.83408150205688,187.0,Unhealthy,#ff0000
 Replay|2026-01-30|multan,100,126.20904263161829,202.0,Very Unhealthy,#8f3f97
 Replay|2026-01-31|multan,100,154.25071055980735,229.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|lahore,100,106.0078532302046,186.0,Unhealthy,#ff0000
-Live|2026-11-13|faisalabad,100,83.65087957113805,171.0,Unhealthy,#ff0000
-Live|2026-11-13|multan,100,204.44301824345462,279.0,Very Unhealthy,#8f3f97
-Live|2026-11-13|islamabad,100,54.665290155595365,148.0,Unhealthy for Sensitive Groups,#ff7e00
-Live|2026-11-13|karachi,100,58.239154893113046,153.0,Unhealthy,#ff0000
+Live|2026-11-14|lahore,100,94.253289220144,178.0,Unhealthy,#ff0000
+Live|2026-11-14|faisalabad,100,77.58624583015998,166.0,Unhealthy,#ff0000
+Live|2026-11-14|multan,100,174.4433435729799,249.0,Very Unhealthy,#8f3f97
+Live|2026-11-14|islamabad,100,64.04722542897376,157.0,Unhealthy,#ff0000
+Live|2026-11-14|karachi,100,59.9903686406127,154.0,Unhealthy,#ff0000

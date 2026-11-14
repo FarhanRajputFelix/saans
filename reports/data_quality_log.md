@@ -34,6 +34,7 @@ The numeric before/after statistics for every cleaning step are in the generated
 | F3 | FIRMS answers "Invalid MAP_KEY" when the 5,000-per-10-minutes quota is used up | Key status read 4,886/5,000 at the time of the error | Downloader waits and retries instead of stopping |
 | F5 | One month of VIIRS (Aug 2023, 1,019 detections) finished downloading after the fire table was first built | Raw file on disk, absent from the first `firms_fires.parquet` (1,184,817 rows) | Fixed in the re-evaluation: table rebuilt (1,185,836 detections) and the whole pipeline re-run |
 | F6 | NASA FIRMS stopped accepting connections from the development machine on 24 Oct 2026, after the archive downloads | Connection timeouts on every FIRMS URL while other NASA sites answered | The live forecast reports "no fresh fire data" on screen instead of silently assuming no fires; the deployed app runs from a different network |
+| F7 | The live forecast failed whenever one satellite had no detections | 14 Nov 2026: VIIRS returned a header only, MODIS 1,301 detections; the empty table's untyped columns turned every coordinate into text and the fire-direction calculation failed for all five cities (the previous snapshot was kept) | Empty answers are skipped and still count as answered; coordinates and FRP are converted to numbers before use (`saans/live.py`) |
 | F4 | VIIRS on NOAA-20 was ~3x slower to download (an estimated 5 hours) | 7 months in 30 minutes | Dropped; VIIRS S-NPP + MODIS kept (as in the proposal). A partial year would have biased the fire index |
 
 ## News and LLM

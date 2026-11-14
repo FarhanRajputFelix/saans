@@ -929,11 +929,11 @@ Replay|2026-01-28|multan,Recent pollution,7.177629079379049,0,#2a78d6
 Replay|2026-01-29|multan,Recent pollution,30.065966014224795,0,#2a78d6
 Replay|2026-01-30|multan,Recent pollution,49.47189251018387,0,#2a78d6
 Replay|2026-01-31|multan,Recent pollution,86.69672791896191,0,#2a78d6
-Live|2026-11-13|lahore,Recent pollution,29.82722695535542,0,#2a78d6
-Live|2026-11-13|faisalabad,Recent pollution,4.41855935814888,0,#2a78d6
-Live|2026-11-13|multan,Recent pollution,128.85944332711082,0,#2a78d6
-Live|2026-11-13|islamabad,Recent pollution,-11.54375606538696,0,#2a78d6
-Live|2026-11-13|karachi,Recent pollution,-15.812964876284902,0,#2a78d6
+Live|2026-11-14|lahore,Recent pollution,19.087259621466714,0,#2a78d6
+Live|2026-11-14|faisalabad,Recent pollution,2.378988697483482,0,#2a78d6
+Live|2026-11-14|multan,Recent pollution,116.69674643939699,0,#2a78d6
+Live|2026-11-14|islamabad,Recent pollution,-4.8657057398750165,0,#2a78d6
+Live|2026-11-14|karachi,Recent pollution,-18.50079632862417,0,#2a78d6
 Replay|2024-10-01|islamabad,Weather,-1.3697506832495607,1,#eb6834
 Replay|2024-10-02|islamabad,Weather,-1.9668134337391965,1,#eb6834
 Replay|2024-10-03|islamabad,Weather,-2.8370753131052773,1,#eb6834
@@ -1864,11 +1864,11 @@ Replay|2026-01-28|multan,Weather,12.244908680410244,1,#eb6834
 Replay|2026-01-29|multan,Weather,13.592213436372163,1,#eb6834
 Replay|2026-01-30|multan,Weather,14.220713994004,1,#eb6834
 Replay|2026-01-31|multan,Weather,23.04430158771988,1,#eb6834
-Live|2026-11-13|lahore,Weather,6.8256463089711295,1,#eb6834
-Live|2026-11-13|faisalabad,Weather,5.661524673219523,1,#eb6834
-Live|2026-11-13|multan,Weather,8.078956807795482,1,#eb6834
-Live|2026-11-13|islamabad,Weather,-7.003948306820133,1,#eb6834
-Live|2026-11-13|karachi,Weather,-2.5922263657925244,1,#eb6834
+Live|2026-11-14|lahore,Weather,10.276876522224548,1,#eb6834
+Live|2026-11-14|faisalabad,Weather,6.257875654580487,1,#eb6834
+Live|2026-11-14|multan,Weather,3.7375653851111874,1,#eb6834
+Live|2026-11-14|islamabad,Weather,-3.7125706307840654,1,#eb6834
+Live|2026-11-14|karachi,Weather,2.5976806398481775,1,#eb6834
 Replay|2024-10-01|islamabad,Upwind fires,-1.246950084444678,2,#1baf7a
 Replay|2024-10-02|islamabad,Upwind fires,-1.0762640885190042,2,#1baf7a
 Replay|2024-10-03|islamabad,Upwind fires,-0.9213139182263347,2,#1baf7a
@@ -2799,11 +2799,11 @@ Replay|2026-01-28|multan,Upwind fires,-1.0557143268845213,2,#1baf7a
 Replay|2026-01-29|multan,Upwind fires,-1.3807768809046408,2,#1baf7a
 Replay|2026-01-30|multan,Upwind fires,-0.9143893513680047,2,#1baf7a
 Replay|2026-01-31|multan,Upwind fires,5.072659877360925,2,#1baf7a
-Live|2026-11-13|lahore,Upwind fires,-6.829642753059371,2,#1baf7a
-Live|2026-11-13|faisalabad,Upwind fires,-2.937832996004677,2,#1baf7a
-Live|2026-11-13|multan,Upwind fires,-8.728422220053076,2,#1baf7a
-Live|2026-11-13|islamabad,Upwind fires,-1.7699584081178446,2,#1baf7a
-Live|2026-11-13|karachi,Upwind fires,-1.9065608482668943,2,#1baf7a
+Live|2026-11-14|lahore,Upwind fires,5.996164891465729,2,#1baf7a
+Live|2026-11-14|faisalabad,Upwind fires,4.0331734357138265,2,#1baf7a
+Live|2026-11-14|multan,Upwind fires,1.9006155169070378,2,#1baf7a
+Live|2026-11-14|islamabad,Upwind fires,-1.4454979627107547,2,#1baf7a
+Live|2026-11-14|karachi,Upwind fires,-2.1386745884720986,2,#1baf7a
 Replay|2024-10-01|islamabad,Calendar,-0.7913960706415328,3,#eda100
 Replay|2024-10-02|islamabad,Calendar,-1.0202449557394468,3,#eda100
 Replay|2024-10-03|islamabad,Calendar,-0.8886271215299905,3,#eda100
@@ -3734,8 +3734,8 @@ Replay|2026-01-28|multan,Calendar,2.5642534285006695,3,#eda100
 Replay|2026-01-29|multan,Calendar,0.8684740615729357,3,#eda100
 Replay|2026-01-30|multan,Calendar,-1.1331578602859678,3,#eda100
 Replay|2026-01-31|multan,Calendar,-3.3981640151243124,3,#eda100
-Live|2026-11-13|lahore,Calendar,5.887158000743385,3,#eda100
-Live|2026-11-13|faisalabad,Calendar,6.211163817580292,3,#eda100
-Live|2026-11-13|multan,Calendar,5.935575610407292,3,#eda100
-Live|2026-11-13|islamabad,Calendar,4.685488217726253,3,#eda100
-Live|2026-11-13|karachi,Calendar,8.253442265263292,3,#eda100
+Live|2026-11-14|lahore,Calendar,4.721775597138044,3,#eda100
+Live|2026-11-14|faisalabad,Calendar,5.065740712406986,3,#eda100
+Live|2026-11-14|multan,Calendar,4.180525210118436,3,#eda100
+Live|2026-11-14|islamabad,Calendar,4.700580150955839,3,#eda100
+Live|2026-11-14|karachi,Calendar,7.734694199666691,3,#eda100
