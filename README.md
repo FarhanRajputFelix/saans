@@ -6,7 +6,7 @@ SAANS forecasts PM2.5 for the next 24 and 48 hours in Lahore, Faisalabad, Multan
 
 Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407). Submitted to Sir Ahsan Nisar.
 
-**Live dashboard:** https://saansgit-uhebsjzld3rfqxupnygsop.streamlit.app/ · **Final report:** [SAANS_Final_Report.docx](reports/SAANS_Final_Report.docx)
+**Live dashboard:** https://saansgit-uhebsjzld3rfqxupnygsop.streamlit.app/ · **Power BI version:** [powerbi/SAANS.pbix](powerbi/SAANS.pbix) ([how to open it](powerbi/README.md)) · **Final report:** [SAANS_Final_Report.docx](reports/SAANS_Final_Report.docx)
 
 ![SAANS dashboard](reports/figures/dashboard_top.png)
 
@@ -17,6 +17,7 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 | You are looking for | It is here |
 |---|---|
 | **Today's forecast** | Dashboard, tab **Live forecast** (from data fetched now); how it works: [notebook 07](notebooks/07_live_forecast.ipynb) |
+| **The dashboard in Power BI** | [`powerbi/SAANS.pbix`](powerbi/SAANS.pbix): the same six views (live forecast, replay, model performance, data quality, cleaned data, how it works); see [`powerbi/README.md`](powerbi/README.md) |
 | **The cleaning, step by step** | [notebook 02](notebooks/02_data_cleaning.ipynb): nine steps, each with its reason, rule and before/after counts |
 | **The cleaned dataset** | [`data/processed/csv/`](data/processed/csv/): one CSV per city (opens in Excel); [`master_hourly.parquet`](data/processed/master_hourly.parquet); a one-week sample GitHub shows as a table: [`sample_lahore_1-7_nov_2024.csv`](data/processed/sample_lahore_1-7_nov_2024.csv); dashboard tab **Cleaned data** (filter and download) |
 | **What every column means** | [`data/README.md`](data/README.md) |
@@ -41,7 +42,7 @@ Data Science course project, SZABIST University Karachi. Farhan Bashir (2312407)
 | SHAP grouped into four driver categories | Yes | notebook 05; dashboard "Why this forecast?" |
 | LLM event extraction, 20-record manual check | Yes, enlarged to 50: 387 events from 2,255 headlines; 76% fully correct on a random 50 (95% interval 64-88%) | notebook 03 |
 | AI Smog Explainer, English and Urdu, guardrails, cached | Yes: number check, template fallback, cache | notebook 06, `saans/advisory.py` |
-| Streamlit dashboard: map, 48 h chart with band, "Why today?", what-if, advisory, data-quality tab | Yes, plus live mode and a cleaned-data browser | `app/streamlit_app.py` |
+| Streamlit dashboard: map, 48 h chart with band, "Why today?", what-if, advisory, data-quality tab | Yes, plus live mode and a cleaned-data browser; also as a Power BI report | `app/streamlit_app.py`, `powerbi/` |
 | Coverage map (uneven sensors, data equity) | Yes | notebook 01 `sensor_map.png`; dashboard Data quality tab |
 | Final report and slides | Yes (the slides are submitted separately) | `reports/SAANS_Final_Report.docx` |
 | Publish the cleaned dataset on Kaggle | Not done (needs the author's Kaggle account); the CSVs are ready in `data/processed/csv/` | |
@@ -120,6 +121,7 @@ python -m saans.ingest.news
 notebooks/        01-07, with outputs saved
 saans/            ingest/ (downloaders), features.py, live.py, advisory.py, llm.py, aqi.py, viz.py, config.py
 app/              Streamlit dashboard + its data (daily forecasts, advisories, live snapshot)
+powerbi/          Power BI version of the dashboard (SAANS.pbix, the PBIP project, its tables and build scripts)
 data/             interim/ parsed sources, processed/ cleaned data + CSVs, llm_cache/ (see data/README.md)
 models/           trained LightGBM models and model card
 reports/          Data Quality Report, findings log, evaluation tables, figures, final report

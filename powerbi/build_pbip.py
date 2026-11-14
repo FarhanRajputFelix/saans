@@ -436,7 +436,7 @@ def title_block(p, subtitle):
 
 def forecast_panels(p, mode):
     """Everything below the slicers on the Live and Replay pages (the web dashboard's forecast view)."""
-    top = 175
+    top = 192
     # overview: all five cities for the chosen time, coloured by US EPA category (not filtered by the city slicer)
     q = Query()
     city = q.col("Cities", "City")
@@ -498,19 +498,19 @@ def forecast_panels(p, mode):
     y3 = y2 + 410
     p.text_card(20, y3, 620, 245, "Forecasts", "Advisory English", size=12, title="Health advisory (English)")
     p.text_card(660, y3, 600, 245, "Forecasts", "Advisory Urdu", size=14, title="صحت سے متعلق ہدایات (Urdu)")
-    p.text_card(20, y3 + 253, 1240, 45, "Forecasts", "Advisory source", size=9, ink=MUTED)
+    p.card(20, y3 + 253, 1240, 45, "Forecasts", "Advisory source", size=9, value_color=color(MUTED))
     return overview, mp, y3 + 310
 
 
 def build_report():
     pages = []
     # ---------------------------------------------------------------- 1. Live forecast
-    p = Page("Live forecast", height=1720)
+    p = Page("Live forecast", height=1740)
     title_block(p, "Next 24 and 48 hours of PM2.5 for Lahore, Faisalabad, Multan, Islamabad and Karachi, explained with SHAP and "
                    "turned into English and Urdu advice. Built from OpenAQ sensors, NASA FIRMS fires, ERA5/Open-Meteo weather and an LLM news calendar.")
     p.card(900, 14, 360, 70, "Issues", "Issued", size=12, value_color=color("#8be38b"))
-    p.text_card(20, 100, 1240, 36, "Live status", "Live status text", size=9, ink=INK_2)
-    city = p.slicer(20, 138, 1240, 32, "Cities", "City", mode="Basic", default="Lahore", horizontal=True, name="citySlicerLive")
+    p.card(20, 100, 1240, 46, "Live status", "Live status text", size=10, value_color=color(INK_2))
+    city = p.slicer(20, 152, 1240, 34, "Cities", "City", mode="Basic", default="Lahore", horizontal=True, name="citySlicerLive")
     p.filters.append(in_filter("Issues", "mode", ["Live"], name="modeLive"))
     overview, mp, bottom = forecast_panels(p, "Live")
     p.no_filter += [(city, overview), (city, mp)]
@@ -520,7 +520,7 @@ def build_report():
                                     {"fontSize": "9pt", "color": MUTED})]])
     pages.append(p)
     # ---------------------------------------------------------------- 2. Replay
-    p = Page("Replay: test seasons", height=1720)
+    p = Page("Replay: test seasons", height=1740)
     title_block(p, "Replays the forecasts issued at 08:00 every day of the two held-out smog seasons, which the models never saw, so each "
                    "forecast can be compared with what actually happened.")
     p.card(900, 14, 360, 70, "Issues", "Issued", size=12, value_color=color(INK_2))
@@ -530,7 +530,7 @@ def build_report():
     p.filters.append(in_filter("Issues", "mode", ["Replay"], name="modeReplay"))
     overview, mp, bottom = forecast_panels(p, "Replay")
     p.no_filter += [(city, overview), (city, mp)]
-    p.text_card(20, bottom, 1240, 60, "Forecasts", "Replay check", size=12, ink="#8be38b")
+    p.card(20, bottom, 1240, 60, "Forecasts", "Replay check", size=12, value_color=color("#8be38b"))
     pages.append(p)
     # ---------------------------------------------------------------- 3. Model performance
     p = Page("Model performance", height=1200)
